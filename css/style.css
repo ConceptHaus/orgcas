@@ -514,7 +514,7 @@ text-align: center;}
 }
 
 footer {
-    background: #CA6D4F;
+    background: #562745;
 }
 
 footer .footer-top {
@@ -583,4 +583,195 @@ input.form-control {
 .form-control:focus {
     box-shadow: none;
     border-color: var(--brand);
+}
+
+.init{
+    background-position: 50% !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    overflow: hidden;
+    padding: 25px 0 250px;
+    position: relative;
+}
+
+.lp-form-container {
+    justify-content: center !important;
+    position: relative;
+    text-align: center;
+}
+.hero-content {
+  -ms-flex-pack: center !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-direction: column !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  position: relative;
+  text-align: center;
+}
+.hero-content {
+  margin: 0 auto;
+  max-width: fit-content;
+  z-index: 10;
+}
+h1.mobile-title {
+  display: block;
+}
+.hero-section-background-container {
+  overflow: hidden;
+}
+.hero-section-background-container, .hero-section-overlay::after {
+  bottom: 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.section-background-container-map-desc {
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+.hero-section-jobbies-3 {
+  bottom: -80px;
+  height: auto;
+  width: 100%;
+}
+.hero-section-jobbies-3 {
+  left: 0;
+  pointer-events: none;
+  position: relative;
+  right: 0;
+  z-index: 9;
+  max-width: 65%;
+}
+
+.hero-section-jobbies-4 {
+  bottom: -80px;
+  height: auto;
+  width: 100%;
+}
+.hero-section-jobbies-4 {
+  left: 0;
+  pointer-events: none;
+  position: relative;
+  right: 0;
+  z-index: 9;
+  max-width: 80%;
+}
+
+.scene {
+    position: initial;
+    width: 100%;
+    transform: translateY(var(--translateY));
+    will-change: transform;
+}
+
+.text-map-desc{
+    color: var(--text, #323232);
+    font-family: Proxima Nova;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%; 
+    float: inline-end;
+}
+.title-where-work{
+    color: var(--orgcas-baja-beach, #007078);
+    font-family: Bw Aleta No 20;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 115%;
+    letter-spacing: -0.6px; 
+}
+
+.text-where-work{
+    color: #323232;
+    font-family: Proxima Nova;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    padding: 0px 80px;
+}
+
+.text-see-delfin{
+    border-radius: 70px;
+    background: var(--ultra-light-gray, #F6F6F6);
+    margin: 0px 80px;
+}
+
+.text-asks{
+    color: #003B4D;
+    font-family: Proxima Nova;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 136.5%;
+    padding: 99px 81px;
+}
+
+.card-item{
+    max-width: 570px;
+}
+.the-orgcas{
+    padding-top: 100px;
+    background-image: url('images/background-theorgcas.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title-orgcas{
+    color: var(--orgcas-baja-beach, #007078);
+    font-family: Bw Aleta No 20;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33.5%;/* 20.1px */
+    letter-spacing: -0.6px;
+}
+.card-item .card{
+    border-radius: 69px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.qb-title {
+    color: var(--orgcas-deep-blue, #000E27);
+    text-align: center;
+    font-family: Bw Aleta No 20;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33.5%;
+    letter-spacing: -0.6px;
+}
+
+.qb-card{
+    border-radius: 50px;
+    background: var(--ultra-light-gray, #F6F6F6);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+    max-width: 396px;
+}
+
+.qb-card-img{
+    max-width: 236px; border-radius: 50%;
+}
+
+.qb-card-dec{
+    color: #323232;
+    font-family: Proxima Nova;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
 }
