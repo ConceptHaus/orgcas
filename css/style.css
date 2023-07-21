@@ -103,21 +103,6 @@ section {
     background-color: var(--brand) !important;
 }
 
-
- /* slide */
- .slide {
-     min-height: 100vh;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     position: relative;
-}
-
-.slide .display-3 {
-    text-transform: uppercase;
-    color: #fff;
-}
-
 /* navbar */
 .top-nav {
     background-color: var(--brand);
@@ -725,7 +710,7 @@ h1.mobile-title {
 }
 .the-orgcas{
     padding-top: 100px;
-    background-image: url('images/background-theorgcas.png');
+    background-image: url('../images/background-theorgcas.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -784,4 +769,546 @@ h1.mobile-title {
 }
 .qb-card-img-sec{
     max-width: 200px;
+}
+
+.nav-que-buscamos .qb-icon-nav{
+    max-width: 138px;
+    max-height: 138px;
+    flex-shrink: 0;
+    margin-bottom: 51px;
+}
+
+.qb-icon-nav:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: vibrate 0.5s;
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+  /*transform: scale(1.1) !important;*/
+  /*transform: rotate(45deg) !important;*/
+}
+@keyframes vibrate {
+  0% { transform: rotate(1deg); }
+  10% { transform: rotate(-2deg); }
+  20% { transform: rotate(2deg); }
+  30% { transform: rotate(1deg); }
+  40% { transform: rotate(2deg); }
+  50% { transform: rotate(-2deg); }
+  60% { transform: rotate(1deg); }
+  70% { transform: rotate(-2deg); }
+  80% { transform: rotate(2deg); }
+  90% { transform: rotate(1deg); }
+  100% { transform: rotate(-2deg); }
+}
+.nav-que-buscamos .qb-title-nav{
+    color: var(--orgcas-deep-blue, #000E27);
+    text-align: center;
+    font-family: Bw Aleta No 20;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33.5%; /* 9.38px */
+    letter-spacing: -0.28px;
+}
+
+.nav-que-buscamos .content-science{
+    border-radius: 70px;
+    background: var(--orgcas-deep-blue, #000E27);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.title-science{
+    color: #FFF;
+    font-family: Proxima Nova;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 136.5%; /* 68.25px */
+}
+.text-science{
+    color: #FFF;
+    font-family: Proxima Nova;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%; /* 44px */
+    letter-spacing: -0.33px;
+}
+
+.subtext-science{
+    color: #CA6D4F;
+    font-family: Proxima Nova;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 151%;
+    letter-spacing: -0.48px;
+}
+
+.title-science-2 {
+    color: #FFF;
+    font-family: Proxima Nova;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 171%; /* 54.72px */
+    letter-spacing: -0.48px;
+}
+
+.text-science-2{
+    color: #FFF;
+    font-family: Proxima Nova;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200%; /* 44px */
+}
+
+#carouselScience .carousel-item img{
+    width: 437px;
+    height: 655px; 
+}
+
+.content-education{
+    border-radius: 70px;
+    background: var(--orgcas-baja-blue, #003B4D);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.title-education{
+    color: #FFF;
+    font-family: Proxima Nova;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 136.5%; /* 68.25px */
+}
+.text-education{
+    color: #FFF;
+    font-family: Proxima Nova;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%; /* 44px */
+    letter-spacing: -0.33px;
+}
+.subtext-education{
+    color: var(--orgcas-sand, #F2DAB2);
+    font-family: Proxima Nova;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 151%;
+    letter-spacing: -0.48px;
+}
+.title-education-2{
+    color: #FFF;
+    font-family: Proxima Nova;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 171%; /* 54.72px */
+    letter-spacing: -0.48px;
+}
+.text-education-2{
+    color: #FFF;
+    font-family: Proxima Nova;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%; /* 44px */
+}
+
+
+.content-tourism{
+    border-radius: 70px;
+    background: var(--orgcas-baja-beach, #007078);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);}
+
+.title-tourism{
+    color: #FFF;
+    font-family: Proxima Nova;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 136.5%; /* 68.25px */
+}
+.text-tourism{
+    color: #FFF;
+    font-family: Proxima Nova;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%; /* 44px */
+    letter-spacing: -0.33px;
+}
+.subtext-tourism{
+    color: var(--orgcas-sand, #F2DAB2);
+    font-family: Proxima Nova;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 151%;
+    letter-spacing: -0.48px;
+}
+.title-tourism-2{
+    color: #FFF;
+    font-family: Proxima Nova;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 171%; /* 54.72px */
+    letter-spacing: -0.48px;
+}
+.text-tourism-2{
+    color: #FFF;
+    font-family: Proxima Nova;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%; /* 44px */
+}
+
+.content-comunication{
+    border-radius: 70px;
+    background: #789CA2;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.title-comunication{
+    color: #FFF;
+    font-family: Proxima Nova;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 136.5%; /* 68.25px */
+}
+.text-comunication{
+    color: #FFF;
+    font-family: Proxima Nova;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%; /* 44px */
+    letter-spacing: -0.33px;
+}
+.subtext-comunication{
+    color: var(--orgcas-deep-blue, #000E27);
+    font-family: Proxima Nova;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 151.5%;
+    letter-spacing: -0.16px;
+}
+.title-comunication-2{
+    color: #FFF;
+    font-family: Proxima Nova;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 171%; /* 54.72px */
+    letter-spacing: -0.48px;
+}
+.text-comunication-2{
+    color: #FFF;
+    font-family: Proxima Nova;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%; /* 44px */
+}
+
+.title-ours-projects{
+    color: var(--orgcas-baja-beach, #007078);
+    font-family: Bw Aleta No 20;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 114%; /* 68.4px */
+    letter-spacing: -0.6px;
+    margin-left: 20px;
+}
+
+.text-ours-projects{
+    color: #323232;
+    font-family: Proxima Nova;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    letter-spacing: -0.33px;
+    margin-left: 20px;
+    max-width: 504px;
+}
+
+.title-our-focus{
+    color: var(--orgcas-baja-beach, #007078);
+    font-family: Bw Aleta No 20;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.6px;
+}
+.text-our-focus{
+    color: #323232;
+    font-family: Proxima Nova;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 45px */
+}
+
+.text-our-focus-color{
+    color: var(--orgcas-terracota, #CA6D4F);
+    font-family: Proxima Nova;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.text-our-focus-2{
+    color: #323232;
+    font-family: Proxima Nova;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+}
+
+.text-our-focus-bold{
+    color: #323232;
+    font-family: Proxima Nova;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 200%;
+}
+
+.container-image-shark{
+    background:linear-gradient(to top, #003B4DDE, #003B4DDE), url('../images/proyecto_tiburon.png') no-repeat top center;
+    max-width: 483px;
+    height: 688px; 
+    overflow: hidden;
+    color: #FFFFFF;
+    background-size: auto;
+    border-radius: 60px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    transform: translate3d(0px, 22px, 0px);
+}
+.title-project-shark{
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: Proxima Nova;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 136.5%;
+}
+
+.btn-project-shark{
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background-color: #7ca7ad;
+    border-radius: 60px;
+
+}
+.container-image-cerralvo{
+    background:linear-gradient(to top, #003B4DDE, #003B4DDE), url('../images/proyecto_cerralvo.png') no-repeat top center;
+    max-width: 431px;
+    height: 611px; 
+    overflow: hidden;
+    color: #FFFFFF;
+    background-size: auto;
+    border-radius: 70px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    transform: translate3d(0px, 22px, 0px);
+}
+.title-project-cerralvo{
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: Proxima Nova;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 136.5%;
+}
+
+.btn-project-cerralvo{
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background-color: #a58ea2;
+    border-radius: 60px;
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .img-map{
+        top: 10px !important;       
+    }
+
+    .container-figure-lr {
+        top: 220px !important;
+    }
+
+    .figure-our-focus-l, .figure-our-focus-r{
+        width: 40px;
+    }
+
+    #container-our-focus {
+      padding: 0px !important;
+    }
+
+    .container-text-our-focus{
+        padding: 0px 48px;
+    }
+
+    .title-our-focus, .qb-title {
+      font-size: 32px;
+      text-align: center;
+    }
+
+    .text-our-focus, .text-our-focus-color,.text-our-focus-2 {
+      font-size: 15px;
+    }
+
+    #qb-nav{
+        margin: 25px;
+    }
+
+    #qb-nav .nav-item{
+        margin-right: 5px !important;
+    }
+
+    .qb-title-nav{
+        font-size: 22px;
+    }
+
+    .nav-que-buscamos .qb-icon-nav{
+        max-width: 108px !important;
+        max-height: 108px !important;
+    }
+
+    .title-science, .title-science-2, .title-education, .title-education-2, .title-tourism, .title-tourism-2, .title-comunication, .title-comunication-2{
+        font-size: 32px !important;
+        text-align: center;
+    }
+
+    .text-science, .text-education, .text-tourism, .text-comunication{
+        font-size: 16px !important; 
+    }
+
+    .subtext-science, .subtext-education, .subtext-tourism, .subtext-comunication{
+        font-size: 22px !important;
+    }
+
+    .text-science-2, .text-education-2, .text-tourism-2, .text-comunication-2{
+        font-size: 16px; 
+    }
+
+    .title-ours-projects{
+        font-size: 32px !important;
+        text-align: center;
+    }
+
+    .text-ours-projects{
+        font-size: 16px; 
+    }
+
+    .container-img-isla img{
+        width: 306.839px;
+        height: 390.936px; 
+    }
+
+    .container-image-shark, .container-image-cerralvo{
+        max-width: 326px !important;
+        height: 464px !important;
+    }
+
+    .container-image-shark {
+        margin-bottom: 20px;
+    }
+
+    .title-project-shark, .title-project-cerralvo{
+        font-size: 32px !important; 
+    }
+
+    .container-cards-wl{
+        display: none !important;
+    }
+
+    .container-carousel-wl{
+        display: block !important;
+    }
+
+    #carouselExampleIndicators .carousel-indicators [data-bs-target]{
+        background-color: #595959 !important;
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .img-map{
+        top: -15px !important;       
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+.container-carousel-wl{
+    display: none;
+}
+
+
+.modal-title-shark{
+    color: var(--orgcas-terracota, #CA6D4F);
+    text-align: center;
+    font-family: Proxima Nova;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.container-text-shark, .container-text-cerralvo{
+    color: var(--text, #323232);
+    text-align: center;
+    font-family: Proxima Nova;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200%; /* 44px */
+    letter-spacing: -0.33px;
+}
+
+.text-shark-color, .text-cerralvo-color{
+    color: var(--orgcas-terracota, #CA6D4F);
+    font-family: Proxima Nova;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 200%;
+    letter-spacing: -0.33px; 
+}
+
+.container-text-shark, .container-text-cerralvo{
+    padding: 50px 160px;
 }
