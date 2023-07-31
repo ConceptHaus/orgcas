@@ -1,0 +1,83 @@
+.galeria-portada{
+
+}
+
+.galeria-portada img{
+
+}
+
+.text-portada{
+	color: #FFF;
+	text-align: center;
+	font-family: Proxima Nova;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 43px;
+	letter-spacing: 1.08px;
+	background: var(--orgcas-baja-blue, #003B4D);
+	height: 50px;
+}
+.title-press{
+	color: var(--orgcas-baja-beach, #007078);
+	text-align: center;
+	font-family: Bw Aleta No 20;
+	font-size: 60px;
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: -0.6px;
+}
+
+.carousel-item img{
+	max-width: 226px;
+	max-height: 149px;
+}
+
+.text-galeria{
+	margin-top:80px ;
+	margin-bottom: 50px;
+}
+
+.text-galeria p{
+	color: var(--orgcas-terracota, #CA6D4F);
+	text-align: center;
+	font-family: Proxima Nova;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 400;
+	max-width: 841px;
+	max-height: 117px;
+}
+
+.carousel-indicators{
+	bottom: -55px !important;
+}
+
+.carousel-indicators button{
+	background-color:#007078 !important;
+}
+
+.carousel-indicators .carousel-control-prev, .carousel-indicators .carousel-control-next{
+	width: 0px;
+	height: 0px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.text-galeria{
+		margin-top: 50px ;
+		margin-bottom: 230px;
+	}
+
+	.carousel-indicators .carousel-control-prev img, .carousel-indicators .carousel-control-next img{
+		width: 30px !important;
+		height: 30px !important;
+	}
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 900px) {
+	.carousel-indicators .carousel-control-prev img, .carousel-indicators .carousel-control-next img{
+		width: 30px !important;
+		height: 30px !important;
+	}
+}

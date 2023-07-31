@@ -1,0 +1,1340 @@
+@font-face {
+  font-display: block;
+  font-family: "Bw Aleta No 20";
+    src: 
+         url('fonts/BW_ALETA/BwAletaNo20-Bold.woff') format('woff'), /* Modern Browsers */
+         url('fonts/BW_ALETA/BwAletaNo20-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('fonts/BW_ALETA/BwAletaNo20-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/*@font-face {
+  font-display: block;
+  font-family: "Proxima Nova";
+  src: url("../fonts/Proxima-Nova-Font/Proxima-Nova-Font.otf") format("opentype");
+}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+@import url('http://fonts.googleapis.com/css?family=Proxima+Nova');
+
+:root {
+    --brand: #ff4d29;
+    --dark: #092032;
+    --body: #516171;
+    --border: rgba(0,0,0,0.08);
+    --shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+    
+}
+
+body {
+    font-family: sans-serif;
+    color: var(--body);
+    line-height: 1.7;
+}
+
+h1,h2,h3,h4,h5,h6,
+.display-1,.display-2,.display-3,.display-4 {
+    font-weight: 700;
+    color: var(--dark);
+}
+
+.bg-cover {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    color: var(--dark);
+    transition: all 0.4s ease;
+    font-weight: 500;
+}
+
+a:hover {
+    color: var(--brand);
+}
+
+section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.text-brand {
+    color: var(--brand) !important;
+}
+
+
+.hero-slider .owl-prev,
+.hero-slider .owl-next{
+    background-color: rgba(255, 255, 255, 0.3) !important;
+    width: 60px !important;
+    height: 60px !important;
+    display: block;
+    display: grid;
+    place-items: center;
+    color: #fff !important;
+    border-radius: 100px;
+    line-height: 0;
+    border-radius: 100px !important;
+    position: absolute;
+    top: 50%;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    transition: all 0.4s ease;
+    margin-top: -30px !important;
+}
+
+.owl-prev {
+    left: 0;
+}
+.owl-next {
+    right: 0;
+}
+
+.hero-slider .owl-prev:hover,
+.hero-slider .owl-next:hover {
+    background-color: var(--brand) !important; 
+}
+
+.owl-dot.active span{
+    background-color: var(--brand) !important;
+}
+
+/* navbar */
+.top-nav {
+    background-color: var(--brand);
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.top-nav p {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+.top-nav span,
+.top-nav i {
+    vertical-align: middle;
+}
+
+.navbar {
+    box-shadow: var(--shadow);
+    background-color: #000E27;
+}
+
+
+.title-history{
+    font-family: 'Bw Aleta No 20';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 90.5%;
+    color: #007078;
+}
+
+.desc-history{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 200%;
+
+    /* or 44px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #323232;
+}
+
+@media (min-width: 1200px){
+
+}
+
+.title-services{
+    font-family: 'Bw Aleta No 20';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 115%;
+
+    /* or 69px */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+
+    /* Orgcas/Baja Beach */
+    color: #007078;
+}
+
+.desc-services{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 200%;
+    align-items: center;
+
+    color: #323232;
+}
+
+.desc-services-2{
+    font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 200%;
+
+        /* or 44px */
+        display: flex;
+        align-items: center;
+
+        /* Text */
+        color: #323232;
+}
+
+.desc-services-3{
+    /* Ultra light gray */
+    background: #F7F7F7;
+    border-radius: 70px;
+}
+
+.desc-txt-services-3{
+
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 136.5%;
+    color: #003B4D;
+}
+
+.desc-txt-services-4{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 150%;
+    /* Text */
+    color: #323232;
+}
+
+.title-orgcas{
+
+    font-family: 'Bw Aleta No 20';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 100.5%;
+    align-items: center;
+    letter-spacing: -0.01em;
+
+    /* Orgcas/Baja Beach */
+    color: #007078;
+}
+
+.name-item-orgcas{
+    font-family: 'Bw Aleta No 20';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    /* Orgcas/Baja Blue */
+    color: #003B4D;
+}
+
+.title-item-orgcas{
+    ont-family: 'Bw Aleta No 20';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    /* Orgcas/Baja Beach */
+    color: #007078;
+}
+
+
+.desc-item-orgcas p {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 157.5%;
+    letter-spacing: -0.01em;
+    /* Text */
+    color: #323232;
+}
+
+
+.social-icons a {
+    width: 28px;
+    height: 28px;
+    display: inline-flex;
+    color: #fff;
+/*    background-color: rgba(255, 255, 255, 0.25);*/
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+}
+
+.conditions-section{
+    margin: 20px 0;
+}
+.conditions-section a{
+   color: #fff;
+   margin: 0 10px;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #fff;
+    display: block ruby;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: var(--brand);
+}
+
+.navbar .navbar-nav .nav-link.active {
+    color: var(--brand);
+}
+
+.nav-item{
+    margin-right: 62px;
+}
+
+.navbar-brand {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.dot {
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    color: transparent;
+    background: url('../images/figure_menu.png');
+      background-repeat: repeat;
+    background-repeat: no-repeat;
+    width: 13px;
+    height: 10px;
+    display: block;
+}
+
+.btn {
+    padding: 8px 26px;
+}
+
+.btn-brand {
+    border-color: var(--brand);
+    background-color: var(--brand);
+    color: #fff;
+}
+
+.btn-brand:hover {
+    background-color: #d64022;
+    border-color: #d64022;
+    color: #fff;
+}
+
+.intro {margin-bottom: 36px;
+text-align: center;}
+
+.intro p {
+    max-width: 500px;
+}
+.intro h6{
+    color: var(--brand);
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.intro h1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.info-box {
+    align-items: center;
+    display: flex;
+}
+
+.info-box img {
+    width: 90px;
+}
+
+.service {
+    padding: 32px;
+    background-color: #fff;
+    box-shadow: var(--shadow);
+}
+
+.service h5 {
+    margin-top: 24px;
+    margin-bottom: 14px;
+}
+
+.service img {
+    width: 90px;
+}
+
+
+.project {
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.project h6 {
+    font-weight: 400;
+}
+
+.project h6::before {
+    content: "";
+    height: 2px;
+    width: 30px;
+    display: inline-block;
+    background: var(--brand);
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+
+.project .overlay {
+    width: 100%;
+    height: 220px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(255, 76, 41, 0) 0%, var(--dark) 100%);
+}
+
+.project .content {
+    position: absolute;
+    left: 10%;
+    bottom: 10%
+}
+
+.project h2,
+.project h6 {
+    color: #fff;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member .image{
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.team-member .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: -10%;
+    background-color: rgba(255, 77, 41, 0.7);
+    opacity: 0;
+    transition: all 0.4s ease;
+}
+
+.team-member h5 {
+    margin-top: 16px;
+    margin-bottom: 4px;
+}
+
+.team-member .social-icons {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    opacity: 0;
+    transition: all 0.4s ease;
+}
+
+.team-member .social-icons a {
+    width: 40px;
+    height: 40px;
+}
+
+.team-member:hover .social-icons {
+    top: 50%;
+    opacity: 1;
+}
+
+.team-member:hover .overlay {
+    top: 0%;
+    opacity: 1;
+}
+
+.contact-pez{
+    border-radius: 44px;
+    max-width: 589px;
+    max-height: 632px;
+}
+
+.contanct-title-form{
+    font-family: 'Bw Aleta No 20';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 33.5%;
+    /* Orgcas/Baja Beach */
+    color: #007078;
+}
+
+.contact-submit{
+
+    width: 276px;
+    height: 58px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+        /* Orgcas/Terracota */
+    background: #CA6D4F;
+    border-radius: 40px;
+}
+
+footer {
+   background: var(--orgcas-purple, #562745);
+}
+
+footer .footer-top {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+footer .navbar-brand {
+    color: #fff;
+}
+
+footer p {
+    color: #ADB3B9;
+}
+
+footer .social-icons a {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+/*    margin-left: 4px;
+    margin-right: 4px;*/
+}
+
+.title-share{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    align-items: center;
+
+    /* White */
+    color: #FFFFFF;
+}
+
+.loader {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    z-index: 99999;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+
+input.form-control {
+    border-color: transparent;
+    height: 44px;
+}
+
+.form-control, .form-select {
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4 !important;
+    border-radius: 18px !important;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: var(--brand);
+}
+
+.init{
+    background-position: 50% !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    overflow: hidden;
+    padding: 25px 0 250px;
+    position: relative;
+}
+
+.lp-form-container {
+    justify-content: center !important;
+    position: relative;
+    text-align: center;
+}
+.hero-content {
+  -ms-flex-pack: center !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-direction: column !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  position: relative;
+  text-align: center;
+}
+.hero-content {
+  margin: 0 auto;
+  max-width: fit-content;
+  z-index: 10;
+}
+h1.mobile-title {
+  display: block;
+}
+.hero-section-background-container {
+  overflow: hidden;
+}
+.hero-section-background-container, .hero-section-overlay::after {
+  bottom: 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.section-background-container-map-desc {
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+.hero-section-jobbies-3 {
+  bottom: -80px;
+  height: auto;
+  width: 100%;
+}
+.hero-section-jobbies-3 {
+  left: 0;
+  pointer-events: none;
+  position: relative;
+  right: 0;
+  z-index: 9;
+  max-width: 65%;
+}
+
+.hero-section-jobbies-4 {
+  bottom: -80px;
+  height: auto;
+  width: 100%;
+}
+.hero-section-jobbies-4 {
+  left: 0;
+  pointer-events: none;
+  position: relative;
+  right: 0;
+  z-index: 9;
+  max-width: 80%;
+}
+
+.scene {
+    position: initial;
+    width: 100%;
+    transform: translateY(var(--translateY));
+    will-change: transform;
+}
+
+.text-map-desc{
+    color: var(--text, #323232);
+    font-family: Proxima Nova;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%; 
+    float: inline-end;
+}
+.title-where-work{
+    color: var(--orgcas-baja-beach, #007078);
+    font-family: Bw Aleta No 20;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 115%;
+    letter-spacing: -0.6px; 
+}
+
+.text-where-work{
+    color: #323232;
+    font-family: Proxima Nova;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    padding: 0px 80px;
+}
+
+.text-palpito{
+    color: var(--text, #323232);
+    font-family: Proxima Nova;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+}
+
+.text-see-delfin{
+    border-radius: 70px;
+    background: var(--ultra-light-gray, #F6F6F6);
+    margin: 0px 80px;
+}
+
+.text-asks{
+    color: #003B4D;
+    font-family: Proxima Nova;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 136.5%;
+    padding: 40px 80px;
+}
+
+.card-item{
+    max-width: 570px;
+}
+.the-orgcas{
+    padding-top: 100px;
+    background-image: url('../images/background-theorgcas.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title-orgcas{
+    color: var(--orgcas-baja-beach, #007078);
+    font-family: Bw Aleta No 20;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33.5%;/* 20.1px */
+    letter-spacing: -0.6px;
+}
+.card-item .card{
+    border-radius: 69px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.qb-title {
+    color: var(--orgcas-deep-blue, #000E27);
+    text-align: center;
+    font-family: Bw Aleta No 20;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33.5%;
+    letter-spacing: -0.6px;
+}
+
+.qb-card{
+    border-radius: 50px;
+    background: var(--ultra-light-gray, #F6F6F6);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+    max-width: 396px;
+}
+
+.qb-card-img{
+    max-width: 236px; border-radius: 50%;
+}
+
+.qb-card-dec{
+    color: #323232;
+    font-family: Proxima Nova;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+}
+
+.qb-card-sec{
+    border-radius: 3.125rem;
+    background: var(--ultra-light-gray, #F6F6F6);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+    height: 100%;
+}
+.qb-card-img-sec{
+    max-width: 200px;
+}
+
+.nav-que-buscamos .qb-icon-nav{
+    max-width: 138px;
+    max-height: 138px;
+    flex-shrink: 0;
+    margin-bottom: 51px;
+}
+
+.qb-icon-nav:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: vibrate 0.5s;
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+  /*transform: scale(1.1) !important;*/
+  /*transform: rotate(45deg) !important;*/
+}
+@keyframes vibrate {
+  0% { transform: rotate(1deg); }
+  10% { transform: rotate(-2deg); }
+  20% { transform: rotate(2deg); }
+  30% { transform: rotate(1deg); }
+  40% { transform: rotate(2deg); }
+  50% { transform: rotate(-2deg); }
+  60% { transform: rotate(1deg); }
+  70% { transform: rotate(-2deg); }
+  80% { transform: rotate(2deg); }
+  90% { transform: rotate(1deg); }
+  100% { transform: rotate(-2deg); }
+}
+.nav-que-buscamos .qb-title-nav{
+    color: var(--orgcas-deep-blue, #000E27);
+    text-align: center;
+    font-family: Bw Aleta No 20;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33.5%; /* 9.38px */
+    letter-spacing: -0.28px;
+}
+
+.nav-que-buscamos .content-science{
+    border-radius: 70px;
+    background: var(--orgcas-deep-blue, #000E27);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.title-science{
+    color: #FFF;
+    font-family: Proxima Nova;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 136.5%; /* 68.25px */
+}
+.text-science{
+    color: #FFF;
+    font-family: Proxima Nova;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%; /* 44px */
+    letter-spacing: -0.33px;
+}
+
+.subtext-science{
+    color: #CA6D4F;
+    font-family: Proxima Nova;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 151%;
+    letter-spacing: -0.48px;
+}
+
+.title-science-2 {
+    color: #FFF;
+    font-family: Proxima Nova;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 171%; /* 54.72px */
+    letter-spacing: -0.48px;
+}
+
+.text-science-2{
+    color: #FFF;
+    font-family: Proxima Nova;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200%; /* 44px */
+}
+
+#carouselScience .carousel-item img{
+    width: 437px;
+    height: 655px; 
+}
+
+.content-education{
+    border-radius: 70px;
+    background: var(--orgcas-baja-blue, #003B4D);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.title-education{
+    color: #FFF;
+    font-family: Proxima Nova;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 136.5%; /* 68.25px */
+}
+.text-education{
+    color: #FFF;
+    font-family: Proxima Nova;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%; /* 44px */
+    letter-spacing: -0.33px;
+}
+.subtext-education{
+    color: var(--orgcas-sand, #F2DAB2);
+    font-family: Proxima Nova;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 151%;
+    letter-spacing: -0.48px;
+}
+.title-education-2{
+    color: #FFF;
+    font-family: Proxima Nova;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 171%; /* 54.72px */
+    letter-spacing: -0.48px;
+}
+.text-education-2{
+    color: #FFF;
+    font-family: Proxima Nova;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%; /* 44px */
+}
+
+
+.content-tourism{
+    border-radius: 70px;
+    background: var(--orgcas-baja-beach, #007078);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);}
+
+.title-tourism{
+    color: #FFF;
+    font-family: Proxima Nova;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 136.5%; /* 68.25px */
+}
+.text-tourism{
+    color: #FFF;
+    font-family: Proxima Nova;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%; /* 44px */
+    letter-spacing: -0.33px;
+}
+.subtext-tourism{
+    color: var(--orgcas-sand, #F2DAB2);
+    font-family: Proxima Nova;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 151%;
+    letter-spacing: -0.48px;
+}
+.title-tourism-2{
+    color: #FFF;
+    font-family: Proxima Nova;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 171%; /* 54.72px */
+    letter-spacing: -0.48px;
+}
+.text-tourism-2{
+    color: #FFF;
+    font-family: Proxima Nova;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%; /* 44px */
+}
+
+.content-comunication{
+    border-radius: 70px;
+    background: #789CA2;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.title-comunication{
+    color: #FFF;
+    font-family: Proxima Nova;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 136.5%; /* 68.25px */
+}
+.text-comunication{
+    color: #FFF;
+    font-family: Proxima Nova;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%; /* 44px */
+    letter-spacing: -0.33px;
+}
+.subtext-comunication{
+    color: var(--orgcas-deep-blue, #000E27);
+    font-family: Proxima Nova;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 151.5%;
+    letter-spacing: -0.16px;
+}
+.title-comunication-2{
+    color: #FFF;
+    font-family: Proxima Nova;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 171%; /* 54.72px */
+    letter-spacing: -0.48px;
+}
+.text-comunication-2{
+    color: #FFF;
+    font-family: Proxima Nova;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%; /* 44px */
+}
+
+.title-ours-projects{
+    color: var(--orgcas-baja-beach, #007078);
+    font-family: Bw Aleta No 20;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 114%; /* 68.4px */
+    letter-spacing: -0.6px;
+    margin-left: 20px;
+}
+
+.text-ours-projects{
+    color: #323232;
+    font-family: Proxima Nova;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    letter-spacing: -0.33px;
+    margin-left: 20px;
+    max-width: 504px;
+}
+
+.title-our-focus{
+    color: var(--orgcas-baja-beach, #007078);
+    font-family: Bw Aleta No 20;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.6px;
+}
+.text-our-focus{
+    color: #323232;
+    font-family: Proxima Nova;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 45px */
+}
+
+.text-our-focus-color{
+    color: var(--orgcas-terracota, #CA6D4F);
+    font-family: Proxima Nova;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.text-our-focus-2{
+    color: #323232;
+    font-family: Proxima Nova;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+}
+
+.text-our-focus-bold{
+    color: #323232;
+    font-family: Proxima Nova;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 200%;
+}
+
+.container-image-shark{
+    background:linear-gradient(to top, #003B4DDE, #003B4DDE), url('../images/proyecto_tiburon.png') no-repeat top center;
+    max-width: 483px;
+    height: 688px; 
+    overflow: hidden;
+    color: #FFFFFF;
+    background-size: auto;
+    border-radius: 60px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    transform: translate3d(0px, 22px, 0px);
+}
+.title-project-shark{
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: Proxima Nova;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 136.5%;
+}
+
+.btn-project-shark{
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background-color: #7ca7ad;
+    border-radius: 60px;
+
+}
+.container-image-cerralvo{
+    background:linear-gradient(to top, #003B4DDE, #003B4DDE), url('../images/proyecto_cerralvo.png') no-repeat top center;
+    max-width: 431px;
+    height: 611px; 
+    overflow: hidden;
+    color: #FFFFFF;
+    background-size: auto;
+    border-radius: 70px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    transform: translate3d(0px, 22px, 0px);
+}
+.title-project-cerralvo{
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: Proxima Nova;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 136.5%;
+}
+
+.btn-project-cerralvo{
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background-color: #a58ea2;
+    border-radius: 60px;
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .img-map{
+        top: 10px !important;       
+    }
+
+    .container-figure-lr {
+        top: 220px !important;
+    }
+
+    .figure-our-focus-l, .figure-our-focus-r{
+        width: 40px;
+    }
+
+    #container-our-focus {
+      padding: 0px !important;
+    }
+
+    .container-text-our-focus{
+        padding: 0px 48px;
+    }
+
+    .title-our-focus, .qb-title {
+      font-size: 32px;
+      text-align: center;
+    }
+
+    .text-our-focus, .text-our-focus-color,.text-our-focus-2 {
+      font-size: 15px;
+    }
+
+    #qb-nav{
+        margin: 25px;
+    }
+
+    #qb-nav .nav-item{
+        margin-right: 5px !important;
+    }
+
+    .qb-title-nav{
+        font-size: 22px;
+    }
+
+    .nav-que-buscamos .qb-icon-nav{
+        max-width: 108px !important;
+        max-height: 108px !important;
+    }
+
+    .title-science, .title-science-2, .title-education, .title-education-2, .title-tourism, .title-tourism-2, .title-comunication, .title-comunication-2{
+        font-size: 32px !important;
+        text-align: center;
+    }
+
+    .text-science, .text-education, .text-tourism, .text-comunication{
+        font-size: 16px !important; 
+    }
+
+    .subtext-science, .subtext-education, .subtext-tourism, .subtext-comunication{
+        font-size: 22px !important;
+    }
+
+    .text-science-2, .text-education-2, .text-tourism-2, .text-comunication-2{
+        font-size: 16px; 
+    }
+
+    .title-ours-projects{
+        font-size: 32px !important;
+        text-align: center;
+    }
+
+    .text-ours-projects{
+        font-size: 16px; 
+    }
+
+    .container-img-isla img{
+        width: 306.839px;
+        height: 390.936px; 
+    }
+
+    .container-image-shark, .container-image-cerralvo{
+        max-width: 326px !important;
+        height: 464px !important;
+    }
+
+    .container-image-shark {
+        margin-bottom: 20px;
+    }
+
+    .title-project-shark, .title-project-cerralvo{
+        font-size: 32px !important; 
+    }
+
+    .container-cards-wl{
+        display: none !important;
+    }
+
+    .container-carousel-wl{
+        display: block !important;
+    }
+
+    #carouselExampleIndicators .carousel-indicators [data-bs-target]{
+        background-color: #595959 !important;
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .img-map{
+        top: -15px !important;       
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+.container-carousel-wl{
+    display: none;
+}
+
+
+.modal-title-shark{
+    color: var(--orgcas-terracota, #CA6D4F);
+    text-align: center;
+    font-family: Proxima Nova;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.container-text-shark, .container-text-cerralvo{
+    color: var(--text, #323232);
+    text-align: center;
+    font-family: Proxima Nova;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200%; /* 44px */
+    letter-spacing: -0.33px;
+}
+
+.text-shark-color, .text-cerralvo-color{
+    color: var(--orgcas-terracota, #CA6D4F);
+    font-family: Proxima Nova;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 200%;
+    letter-spacing: -0.33px; 
+}
+
+.container-text-shark, .container-text-cerralvo{
+    padding: 50px 160px;
+}
+
+.contact-submit:hover{
+    background: #CA6D4F;
+    color: #fff;
+    border-color: #fff;
+    border: solid 1px;
+}

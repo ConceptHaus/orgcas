@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Bw Aleta No 20';
+    src: local('Bw Aleta No 20 Regular'), local('Bw-Aleta-No-20-Regular'),
+        url('BwAletaNo20-Regular.woff2') format('woff2'),
+        url('BwAletaNo20-Regular.woff') format('woff'),
+        url('BwAletaNo20-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
