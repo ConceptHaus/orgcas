@@ -13,6 +13,11 @@
   src: url("../fonts/Proxima-Nova-Font/Proxima-Nova-Font.otf") format("opentype");
 }*/
 
+@font-face {
+  font-family: Proxima Nova;
+  src: url(fonts/Proxima-Nova-Font/Proxima-Nova-Font.otf);
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
 @import url('http://fonts.googleapis.com/css?family=Proxima+Nova');
 
@@ -26,7 +31,7 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: Proxima Nova;
     color: var(--body);
     line-height: 1.7;
 }
@@ -321,7 +326,7 @@ section {
     background-repeat: no-repeat;
     width: 13px;
     height: 10px;
-    display: block;
+    display: inline-block;
 }
 
 .btn {
@@ -504,8 +509,8 @@ text-align: center;}
 
     color: #FFFFFF;
         /* Orgcas/Terracota */
-    background: #CA6D4F;
     border-radius: 40px;
+    background: var(--dark-violet, #A58EA2);
 }
 
 footer {
@@ -705,7 +710,6 @@ h1.mobile-title {
     font-size: 30px;
     font-style: normal;
     font-weight: 500;
-    text-align: center;
 }
 
 .text-see-delfin{
@@ -720,8 +724,14 @@ h1.mobile-title {
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
-    line-height: 136.5%;
+    line-height: 135.5%;
     padding: 40px 80px;
+    width: 653px; 
+}
+
+.text-palpito{
+    padding: 0px 80px 60px;
+    width: 653px;
 }
 
 .card-item{
@@ -747,6 +757,7 @@ h1.mobile-title {
     border-radius: 69px;
     background: #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    height: 100%;
 }
 
 .qb-title {
@@ -1278,6 +1289,19 @@ h1.mobile-title {
     #carouselExampleIndicators .carousel-indicators [data-bs-target]{
         background-color: #595959 !important;
     }
+    .qh-components-title{
+        font-size: 32px !important;
+    }
+    .qh-components-desc{
+        font-size: 15px !important;
+    }
+
+    .qh_figure_l{
+        max-width: 70px !important;
+    }
+    .qh_figure_r{
+        max-width: 40px !important;
+    }
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -1337,4 +1361,33 @@ h1.mobile-title {
     color: #fff;
     border-color: #fff;
     border: solid 1px;
+}
+
+.form-control, .form-select{
+    color: #7B7B7B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 225%; /* 36px */
+}
+
+.qh-components-title{
+    color: var(--orgcas-baja-beach, #007078);
+    text-align: center;
+    font-family: "Bw Aleta No 20";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 114%; /* 68.4px */
+    letter-spacing: -0.6px; 
+}
+
+.qh-components-desc{
+    color: var(--text, #323232);
+    text-align: center;
+    font-family: Proxima Nova;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%; /* 44px */
 }

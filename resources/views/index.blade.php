@@ -31,21 +31,27 @@
             font-size: 48px;
             font-style: normal;
             font-weight: 700;
-            line-height: normal;
-            width: 506px;
+            line-height: normal; 
+            width: 425px;
             height: 251px;
+        }
+
+        .text-team-orgcas{
+            font-size: 36px;
+            padding: 20px 0;
         }
         .btn-des-orgcas{
             color: #FFF;
             text-align: center;
-            font-family: Roboto;
+            font-family: Proxima Nova;
             font-size: 20px;
             font-style: normal;
             font-weight: 600;
-            line-height: normal;
+            line-height: 40px;
             border-radius: 40px;
             border: 1px solid #FFF;
-            background: var(--dark-violet, #A58EA2); 
+            background: var(--dark-violet, #A58EA2);
+            height: 58px;
         }
 
         .btn-des-orgcas:hover{
@@ -151,7 +157,7 @@
         <div class="position-absolute start-25 wow fadeInLeft container-text-bg" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
             <div class="text-gallery">
                 <p> Recordándonos que el mar es nuestro origen</p>
-                <p>-Equipo Orgcas</p>
+                <p class="text-team-orgcas">-Equipo Orgcas</p>
                 <a href="{{route('quienes-somos')}}" class="btn btn-des-orgcas">Descubre Orgcas</a>
             </div>  
         </div>

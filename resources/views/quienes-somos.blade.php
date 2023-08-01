@@ -68,10 +68,19 @@
 .qs-img-ww-2{
     display: none;
 }
+.qs-text-title{
+    color: var(--orgcas-deep-blue, #000E27);
+    text-align: center;
+    font-family: "Bw Aleta No 20";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.6px; 
+}
 </style>
     <section class="init container-fluid text-center" style="background-attachment: fixed;">
         <div class="hero-content theme-scroll-reveal visible">
-            <h1 class="mobile-title wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;" style="color: #000;">Es importante saber que...</h1>
+            <h1 class="qs-text-title mobile-title wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;" style="color: #000;">Es importante saber que...</h1>
           </div>
           <div class="hero-section-background-container">
             <img src="{{ URL::to('/') }}/images/backgraound-map.png" alt="rocks_16" style="max-width: 100%;height: auto;position: absolute;left: 0px;">
@@ -97,7 +106,7 @@
                 </div>
                 <div class="col-10 col-sm-10 col-lg-8 p-2">
                     <p class="text-center title-history p-2">
-                        Nuestra Historia
+                        Nuestra historia
                     </p>
                     <p class="justify-content-center desc-history">Somos un grupo de mujeres de diferentes partes del mundo y con distintas profesiones: fotógrafas, biólogas, comunicadoras, abogadas, guías y más. Un día, compartiendo nuestras anécdotas marinas, nos dimos cuenta de que en medio de tanta diversidad teníamos una pasión en común: trabajar por la conservación y protección de los mares y sus costas.</p>
                     <p class="justify-content-center desc-history pt-4">
@@ -149,15 +158,15 @@
             </div>
         </div>
         <div class="row">
-            <div class="col col-12 col-md-6 d-flex justify-content-center order-2 order-md-1" style="position: relative; z-index: 100;">
+            <div class="col col-12 col-md-5 d-flex justify-content-center order-2 order-md-1" style="position: relative; z-index: 100;">
                 <img src="{{ URL::to('/') }}/images/delfines1.png" class="qs-img-delfines img-fluid img-parallax-overflow-true" alt="" style="max-width: 495px;max-height: 719px;">
             </div>
-            <div class="col col-12 col-md-6 order-1 order-md-2">
-                <div class="text-see-delfin">
+            <div class="col col-12 col-md-7 order-1 order-md-2">
+                <div class="text-see-delfin" style="max-width: 686px; justify-content: center; display: grid;">
                     <p class="text-asks">
-                       <span style="color:#003B4D;"> ¿Alguna vez has visto un delfín en su hábitat natural? </span>
-                        <span style="color: #CA6D4F;"> ¿Has nadado con miles de peces? </span>
-                        <span style="color:#007078;"> ¿Has visto a una ballena saltar desde una panga? </span>
+                       <span style="color:#003B4D;display: block;"> ¿Alguna vez has visto un delfín en su hábitat natural? </span>
+                        <span style="color: #CA6D4F;display: block;"> ¿Has nadado con miles de peces? </span>
+                        <span style="color:#007078;display: block;"> ¿Has visto a una ballena saltar desde una panga? </span>
                     </p>
                     <p class="text-palpito">
                         Cuando esto sucede hay un pálpito que se despierta por dentro: <span style="color:#CA6D4F;">el latido de la vida recordándonos su fuerza</span>.
@@ -176,12 +185,12 @@
         <div class="container-lg">
             <p class="d-block title-orgcas">Las Orgcas...</p>
             <div id="carouselTheOrgcas" class="row justify-content-center pt-5">
-                <div class="card-item col-12 col-sm-12 col-md-6 col-lg-6 wow fadeInLeft" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
+                <div class="card-item mb-4 col-12 col-sm-12 col-md-6 col-lg-6 wow fadeInLeft" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
                     <div class="card p-5 mb-4">
                         <div class="d-flex justify-content-between">
                             <div class="ms-2 c-details">
                                 <h6 class="mb-0 name-item-orgcas">Porfiria Gómez</h6>
-                                <span class="title-item-orgcas">Directora de Orgcas</span>
+                                <span class="title-item-orgcas">Directora de General</span>
                             </div>
                             <img src="{{ URL::to('/') }}/images/orgcas/Porfiria.png" alt="" style="border-radius: 50%;max-width: 157px;">
                         </div>
@@ -193,12 +202,9 @@
                             A Porfi le encantan los ctenóforos.
                             </p>
                         </div>
-                        <div class="mt-3">
-                            <div class="mt-3" style="text-align: right;"> <span class="text1"></span> </div>
-                        </div>
                     </div>
                 </div>
-                <div class="card-item col-12 col-sm-12 col-md-6 col-lg-6 wow fadeInRight" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInRight;">
+                <div class="card-item mb-4 col-12 col-sm-12 col-md-6 col-lg-6 wow fadeInRight" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInRight;">
                     <div class="card p-5 mb-4">
                         <div class="d-flex justify-content-between">
                             <div class="ms-2 c-details">
@@ -215,17 +221,14 @@
                             A Ele siente una conexión con los peces cuando van en cardumen.
                             </p>
                         </div>
-                        <div class="mt-3">
-                            <div class="mt-3" style="text-align: right;"> <span class="text1"></span> </div>
-                        </div>
                     </div>
                 </div>
-                <div class="card-item col-12 col-sm-12 col-md-6 col-lg-6  wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+                <div class="card-item mb-4 col-12 col-sm-12 col-md-6 col-lg-6  wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
                     <div class="card p-5 mb-4">
                         <div class="d-flex justify-content-between">
                             <div class="ms-2 c-details">
                                 <h6 class="mb-0 name-item-orgcas">Gabriela Gómez</h6>
-                                <span class="title-item-orgcas">Fund Raising and Public Relation</span>
+                                <span class="title-item-orgcas">Recaudación de fondos, relaciones públicas e institucionales</span>
                             </div>
                             <img src="{{ URL::to('/') }}/images/orgcas/Gabriela.png" alt="" style="border-radius: 50%;max-width: 157px;">
                         </div>
@@ -239,17 +242,14 @@
                             A Gaby le fascinan las ballenas azules, las jorobadas y los cachalotes.
                             </p>
                         </div>
-                        <div class="mt-3">
-                            <div class="mt-3" style="text-align: right;"> <span class="text1"></span> </div>
-                        </div>
                     </div>
                 </div> 
-                <div class="card-item col-12 col-sm-12 col-md-6 col-lg-6  wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+                <div class="card-item mb-4 col-12 col-sm-12 col-md-6 col-lg-6  wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
                     <div class="card p-5 mb-4">
                         <div class="d-flex justify-content-between">
                             <div class="ms-2 c-details">
                                 <h6 class="mb-0 name-item-orgcas">Sofía Martínez</h6>
-                                <span class="title-item-orgcas">Strategy</span>
+                                <span class="title-item-orgcas">Estrategia y finanzas</span>
                             </div>
                             <img src="{{ URL::to('/') }}/images/orgcas/Sofia-Martinez.png" alt="" style="border-radius: 50%;max-width: 157px;">
                         </div>
@@ -262,12 +262,9 @@
                             A Sofi le encantan las tortugas.
                             </p>
                         </div>
-                        <div class="mt-3">
-                            <div class="mt-3" style="text-align: right;"> <span class="text1"></span> </div>
-                        </div>
                     </div>
                 </div>
-                <div class="card-item col-12 col-sm-12 col-md-6 col-lg-6  wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+                <div class="card-item mb-4 col-12 col-sm-12 col-md-6 col-lg-6  wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
                     <div class="card p-5 mb-4">
                         <div class="d-flex justify-content-between">
                             <div class="ms-2 c-details">
@@ -285,12 +282,9 @@
                                 A Frida le apasionan los tiburones desde que tiene memoria.
                                 </p>
                         </div>
-                        <div class="mt-3">
-                            <div class="mt-3" style="text-align: right;"> <span class="text1"></span> </div>
-                        </div>
                     </div>
                 </div>
-                <div class="card-item col-12 col-sm-12 col-md-6 col-lg-6  wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+                <div class="card-item mb-4 col-12 col-sm-12 col-md-6 col-lg-6  wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
                     <div class="card p-5 mb-4">
                         <div class="d-flex justify-content-between">
                             <div class="ms-2 c-details">
@@ -307,17 +301,14 @@
                             A Mariana le emocionan los delfines comunes.
                             </p>
                         </div>
-                        <div class="mt-3">
-                            <div class="mt-3" style="text-align: right;"> <span class="text1"></span> </div>
-                        </div>
                     </div>
                 </div>
-                <div class="card-item col-12 col-sm-12 col-md-6 col-lg-6  wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+                <div class="card-item mb-4 col-12 col-sm-12 col-md-6 col-lg-6  wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
                     <div class="card p-5 mb-4">
                         <div class="d-flex justify-content-between">
                             <div class="ms-2 c-details">
                                 <h6 class="mb-0 name-item-orgcas">Martina Cocquio</h6>
-                                <span class="title-item-orgcas">Coordinadora comunicación</span>
+                                <span class="title-item-orgcas">Comunity manager, gestora de proyectos de turismo</span>
                             </div>
                             <img src="{{ URL::to('/') }}/images/orgcas/Martina-Cocquio.png" alt="" style="border-radius: 50%;max-width: 157px;">
                         </div>
@@ -328,12 +319,9 @@
                             Marti siente una conexión especial con las ballenas jorobadas.
                             </p>
                         </div>
-                        <div class="mt-3">
-                            <div class="mt-3" style="text-align: right;"> <span class="text1"></span> </div>
-                        </div>
                     </div>
                 </div>
-                <div class="card-item col-12 col-sm-12 col-md-6 col-lg-6  wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+                <div class="card-item mb-4 col-12 col-sm-12 col-md-6 col-lg-6  wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
                     <div class="card p-5 mb-4">
                         <div class="d-flex justify-content-between">
                             <div class="ms-2 c-details">
@@ -350,12 +338,9 @@
                             Sofi ama a los tiburones martillo.
                             </p>
                         </div>
-                        <div class="mt-3">
-                            <div class="mt-3" style="text-align: right;"> <span class="text1"></span> </div>
-                        </div>
                     </div>
                 </div>
-                <div class="card-item col-12 col-sm-12 col-md-6 col-lg-6  wow fadeInLeft" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
+                <div class="card-item mb-4 col-12 col-sm-12 col-md-6 col-lg-6  wow fadeInLeft" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
                     <div class="card p-5 mb-4">
                         <div class="d-flex justify-content-between">
                             <div class="ms-2 c-details">
@@ -372,12 +357,9 @@
                                 Lissa siente una conexión única con las mantas.
                             </p>
                         </div>
-                        <div class="mt-3">
-                            <div class="mt-3" style="text-align: right;"> <span class="text1"></span> </div>
-                        </div>
                     </div>
                 </div>
-                <div class="card-item col-12 col-sm-12 col-md-6 col-lg-6  wow fadeInRight" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInRight;">
+                <div class="card-item mb-4 col-12 col-sm-12 col-md-6 col-lg-6  wow fadeInRight" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInRight;">
                     <div class="card p-5 mb-4">
                         <div class="d-flex justify-content-between">
                             <div class="ms-2 c-details">
@@ -387,18 +369,15 @@
                             <img src="{{ URL::to('/') }}/images/orgcas/Maru-Brito.png" alt="" style="border-radius: 50%;max-width: 157px;">
                         </div>
                         <div class="mt-3 desc-item-orgcas">
-                            <p class="h6">Nació en Ciudad de México, pero creció cerca al Océano Pacífico.
+                            <p class="h6">Nació en Ciudad de México, pero creció cerca al Océano Pacífico.<br>
                             Es psicóloga e instructora de buceo. Pero en 2018 compró su primera cámara y desde entonces ejerce su pasión de ser videógrafa de vida marina. Ha colaborado con grandes compañías de documentales de naturaleza.
                             Es la mejor piloto de dron y de avionetas. Es soñadora, leal, y su sentir y filosofía está plasmado en su trabajo.
                             Maru dice que su animal espiritual es la ballena jorobada.
                             </p>
                         </div>
-                        <div class="mt-3">
-                            <div class="mt-3" style="text-align: right;"> <span class="text1"></span> </div>
-                        </div>
                     </div>
                 </div>
-                <div class="card-item col-12 col-sm-12 col-md-6 col-lg-6  wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+                <div class="card-item mb-4 col-12 col-sm-12 col-md-6 col-lg-6  wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
                     <div class="card p-5 mb-4">
                         <div class="d-flex justify-content-between">
                             <div class="ms-2 c-details">
@@ -414,9 +393,6 @@
                                 Es aventurera y divertida.
                                 A Gador le apasionan todos los tiburones.
                             </p>
-                        </div>
-                        <div class="mt-3">
-                            <div class="mt-3" style="text-align: right;"> <span class="text1"></span> </div>
                         </div>
                     </div>
                 </div>
@@ -451,10 +427,10 @@
                                   <span class="text-danger">{{ $errors->first('name') }}</span>
                                 </div>
                                 <select class="form-select mb-3" name="help" aria-label="Default select example">
-                                  <option selected>¿Cómo Podemos Ayudarte ?</option>
-                                  <option value="1">Quiero Información</option>
-                                  <option value="2">Quiero ser colaborador</option>
-                                  <option value="3">Quiero donar</option>
+                                  <option selected>¿Cómo podemos ayudar?</option>
+                                  <option value="Quiero información">Quiero información</option>
+                                  <option value="Quiero ser colaborador">Quiero ser colaborador</option>
+                                  <option value="Quiero donar">Quiero donar</option>
                                 </select>
                                 <div class="row g-3 mb-3">
                                   <div class="col-12 col-md-6">

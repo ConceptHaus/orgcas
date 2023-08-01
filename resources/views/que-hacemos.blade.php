@@ -88,49 +88,67 @@
     		</div>
     	</div>
 
-		<div id="carouselExampleIndicators" class="carousel slide container-carousel-wl" data-bs-ride="carousel">
-		  <div class="carousel-indicators">
-		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-		  </div>
-		  <div class="carousel-inner" style="height: auto;">
-		    <div class="carousel-item h-100 active">
-				<div class="card text-center p-4 qb-card h-100 mx-auto">
-					<img src="{{ URL::to('/') }}/images/qb-img1-desc.png" class="card-img-top qb-card-img mx-auto" alt="Fomentamos la participación social">
-					<div class="card-body">
-						<p class="card-text qb-card-dec"> <span style="color: var(--orgcas-terracota, #CA6D4F); ">Fomentamos la participación social</span> trabajando de la mano con comunidades locales y estableciendo alianzas con instituciones, universidades, colectivos y otras organizaciones.</p>
+			<div id="carouselExampleIndicators" class="carousel slide container-carousel-wl" data-bs-ride="carousel">
+			  <div class="carousel-indicators">
+			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			  </div>
+			  <div class="carousel-inner" style="height: auto;">
+			    <div class="carousel-item h-100 active">
+					<div class="card text-center p-4 qb-card h-100 mx-auto">
+						<img src="{{ URL::to('/') }}/images/qb-img1-desc.png" class="card-img-top qb-card-img mx-auto" alt="Fomentamos la participación social">
+						<div class="card-body">
+							<p class="card-text qb-card-dec"> <span style="color: var(--orgcas-terracota, #CA6D4F); ">Fomentamos la participación social</span> trabajando de la mano con comunidades locales y estableciendo alianzas con instituciones, universidades, colectivos y otras organizaciones.</p>
+						</div>
 					</div>
-				</div>
-		    </div>
-		    <div class="carousel-item h-100">
-				<div class="card text-center p-4 qb-card h-100 mx-auto">
-					<img src="{{ URL::to('/') }}/images/qb-img2-desc.png" class="card-img-top qb-card-img mx-auto" alt="...">
-					<div class="card-body">
-						<p class="card-text qb-card-dec"><span style="color: var(--orgcas-terracota, #CA6D4F); ">Apoyamos iniciativas y políticas de conservación </span> para preservar costas y océanos en lugares de importancia biológica.</p>
+			    </div>
+			    <div class="carousel-item h-100">
+					<div class="card text-center p-4 qb-card h-100 mx-auto">
+						<img src="{{ URL::to('/') }}/images/qb-img2-desc.png" class="card-img-top qb-card-img mx-auto" alt="...">
+						<div class="card-body">
+							<p class="card-text qb-card-dec"><span style="color: var(--orgcas-terracota, #CA6D4F); ">Apoyamos iniciativas y políticas de conservación </span> para preservar costas y océanos en lugares de importancia biológica.</p>
+						</div>
 					</div>
-				</div>
-		    </div>
-		    <div class="carousel-item h-100">
-				<div class="card text-center p-4 qb-card h-100 mx-auto">
-					<img src="{{ URL::to('/') }}/images/qb-img3-desc.png" class="card-img-top qb-card-img mx-auto" alt="...">
-					<div class="card-body">
-						<p class="card-text qb-card-dec"><span style="color: var(--orgcas-terracota, #CA6D4F); ">Desarrollamos estrategias de preservación</span> para mitigar aquello que pone en riesgo la salud de la vida en el planeta.</p>
+			    </div>
+			    <div class="carousel-item h-100">
+					<div class="card text-center p-4 qb-card h-100 mx-auto">
+						<img src="{{ URL::to('/') }}/images/qb-img3-desc.png" class="card-img-top qb-card-img mx-auto" alt="...">
+						<div class="card-body">
+							<p class="card-text qb-card-dec"><span style="color: var(--orgcas-terracota, #CA6D4F); ">Desarrollamos estrategias de preservación</span> para mitigar aquello que pone en riesgo la salud de la vida en el planeta.</p>
+						</div>
 					</div>
-				</div>
-		    </div>
-		  </div>
-		  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-		    <span class="visually-hidden">Previous</span>
-		  </button>
-		  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-		    <span class="visually-hidden">Next</span>
-		  </button>
-		</div>
+			    </div>
+			  </div>
+			  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="visually-hidden">Previous</span>
+			  </button>
+			  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="visually-hidden">Next</span>
+			  </button>
+			</div>
+    </section>
+
+    <section id="qh-our-components">
+    	<div class="position-relative">
+    		<img src="{{ URL::to('/') }}/images/qh_figure_l.png" style="max-width: 190px; max-height:272px; left: 0;" class="position-absolute qh_figure_l">
+    		<img src="{{ URL::to('/') }}/images/qh_figure_r.png" style="max-width: 116px; max-height:211px; right: 0;" class="position-absolute qh_figure_r">
+    	</div>
+    	<div class="container-lg" style="transform: translate3d(0px, 0px, 0px);">
+    		<div class="row justify-content-center text-center">
+    				<p class="qh-components-title" style="max-width:729px;">
+    					Nuestros componentes
+    				</p>
+    				<p class="qh-components-desc" style="max-width:841px;">
+    					Estos componentes son la base que dibujan las líneas de acción de nuestro trabajo. De ahí surgen nuevas ideas que nos apasionan. Son pilares donde encontramos estructura para cumplir los objetivos que nos vamos trazando en el camino. Cada uno tiene su esencia y todos están interconectados.
+    				</p>
+    		</div>
+    	</div>
 
     </section>
+
     <section class="container-lg nav-que-buscamos">
     	<div class="row">
     		<div class="col-md-12">

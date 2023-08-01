@@ -13,8 +13,7 @@
                           <li class="mb-2"><a href="mailto:orgcasmx@gmail.com" class="text-white">orgcasmx@gmail.com</a></li>
                           <li class="mb-2">Tel.:</li>
                           <li class="mb-2"><a href="tel:5566778899" class="text-white">55 6677 8899</a></li>
-                          <li class="mb-2">Consulta nuestro Aviso de Privacidad</li>
-                          <li class="mb-2"><a href="#" class="text-white">Aviso de Privacidad</a></li>
+                          <li class="mb-2">Consulta nuestro <a href="#" class="text-white">Aviso de Privacidad</a></li>
                         </ul>
                     </div>
                     <div class="col-6 col-lg-4 text-center align-items-center justify-content-center">
@@ -30,7 +29,7 @@
                             </li>
                             <li class="mb-2">
                                 <a href="https://www.linkedin.com/company/orgcas/"><img src="{{ URL::to('/') }}/images/icon_in.png" alt="" style="width:22px; height: 22px;"></a>
-                                <a href="https://youtube.com/@orgcas3736"><img src="{{ URL::to('/') }}/images/icon_youtube.png" alt="" style="width:29px; height: 28px;"></a>
+                                <a href="https://youtube.com/@orgcas3736"><img src="{{ URL::to('/') }}/images/icon_youtube.png" alt="" style="width:29px; height: 18px;"></a>
                                 <a href="https://www.tiktok.com/@orgcas?_t=8eIF9MoLc86&_r=1"><img src="{{ URL::to('/') }}/images/icon_tiktok.png" alt="" style="width:24px; height: 28px;"></a>
                             </li>
                         </ul>
