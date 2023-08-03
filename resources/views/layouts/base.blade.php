@@ -17,7 +17,6 @@
     <script src="{{asset('js/wow.min.js')}}"></script>
     <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
     <script type="text/javascript">
-        $(document).ready(function(){
             var allImagesOverflow=document.querySelectorAll(".img-parallax-overflow");
             new simpleParallax(allImagesOverflow,{delay:.8,transition:"cubic-bezier(0,0,0,0.5)",overflow:!0});
 
@@ -31,9 +30,11 @@
             new simpleParallax(imageOverflow, {
                 overflow: true
             });
+        
+       // $(document).ready(function(){
             // Initiate the wowjs
             new WOW().init();
-        })
+       // })
     </script>
 
     @if (Request::is('quienes-somos') && session('success'))

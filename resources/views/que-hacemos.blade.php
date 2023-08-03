@@ -35,7 +35,7 @@
 
 		<div class="container container-text-our-focus" style="transform: translate3d(0px, 0px, 0px);">
 			<div class="row">
-				<div class="col-12 col-sm-12 col-md-6">
+				<div class="col-12 col-sm-12 col-md-12 col-lg-6">
 					<p class="title-our-focus mb-3">
 						Nuestro enfoque
 					</p>
@@ -46,7 +46,7 @@
 						En <span class="text-our-focus-bold">ORGCAS</span> queremos mirar de frente las amenazas que afectan la salud de los mares y reconocernos en esas heridas para así crear programas de cambio que den solución a problemáticas ambientales.
 					</p>
 				</div>
-				<div class="col-12 col-sm-12 col-md-6">
+				<div class="col-12 col-sm-12 col-md-12 col-lg-6 text-center">
 					<img src="{{ URL::to('/') }}/images/ne_bote1.png" alt="Nuestro Enfoque" class="img-parallax-overflow img-fluid" style="max-width: 496px; max-height: 709px; ">
 				</div>
 			</div>

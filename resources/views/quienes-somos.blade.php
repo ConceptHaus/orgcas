@@ -61,8 +61,15 @@
     .qs-content-figures-1{
         display: none;
     }
+
+    .qs-text-title{
+        font-size: 32px !important; 
+    }
 }
 @media only screen and (max-width: 900px) {
+    .qs-text-title{
+        font-size: 32px !important; 
+    }
 }
 
 .qs-img-ww-2{
@@ -158,10 +165,10 @@
             </div>
         </div>
         <div class="row">
-            <div class="col col-12 col-md-5 d-flex justify-content-center order-2 order-md-1" style="position: relative; z-index: 100;">
+            <div class="col col-12 col-md-12 col-lg-5 d-flex justify-content-center order-2 order-md-1" style="position: relative; z-index: 100;">
                 <img src="{{ URL::to('/') }}/images/delfines1.png" class="qs-img-delfines img-fluid img-parallax-overflow-true" alt="" style="max-width: 495px;max-height: 719px;">
             </div>
-            <div class="col col-12 col-md-7 order-1 order-md-2">
+            <div class="col col-12 col-md-12 col-lg-7 order-1 order-md-2">
                 <div class="text-see-delfin" style="max-width: 686px; justify-content: center; display: grid;">
                     <p class="text-asks">
                        <span style="color:#003B4D;display: block;"> ¿Alguna vez has visto un delfín en su hábitat natural? </span>
