@@ -7,15 +7,13 @@
          url('fonts/BW_ALETA/BwAletaNo20-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
-/*@font-face {
-  font-display: block;
-  font-family: "Proxima Nova";
-  src: url("../fonts/Proxima-Nova-Font/Proxima-Nova-Font.otf") format("opentype");
-}*/
-
 @font-face {
   font-family: Proxima Nova;
   src: url(fonts/Proxima-Nova-Font/Proxima-Nova-Font.otf);
+}
+@font-face {
+  font-family: Proxima Nova Bold;
+  src: url(fonts/Proxima-Nova-Font/Proxima-Nova-bold.otf);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
@@ -253,12 +251,13 @@ section {
 }
 
 .title-item-orgcas{
-    ont-family: 'Bw Aleta No 20';
-    font-style: normal;
-    font-weight: 500;
+    color: var(--orgcas-baja-beach, #007078);
+    font-family: "Bw Aleta No 20";
     font-size: 20px;
-    /* Orgcas/Baja Beach */
-    color: #007078;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 33.5%; /* 6.7px */
+    letter-spacing: -0.2px; 
 }
 
 
@@ -567,9 +566,26 @@ footer .social-icons a {
     left: 0;
     right: 0;
 }
+input.form-control, .form-select, textarea {
+    font-family: Roboto;
+}
 
+.form-check-input {
+  width: 33px;
+  height: 28px;
+  margin-right: 10px;
+}
 
-input.form-control {
+.form-check-label.term-conditions {
+  color: #7B7B7B;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 225%;
+}
+
+input.form-control, .form-select {
     border-color: transparent;
     height: 44px;
 }
@@ -683,15 +699,19 @@ h1.mobile-title {
     font-weight: 400;
     line-height: 200%; 
     float: inline-end;
+    max-width: 585px;
+    text-align: initial;
 }
 .title-where-work{
     color: var(--orgcas-baja-beach, #007078);
-    font-family: Bw Aleta No 20;
+    font-family: "Bw Aleta No 20";
     font-size: 60px;
     font-style: normal;
     font-weight: 700;
     line-height: 115%;
-    letter-spacing: -0.6px; 
+    letter-spacing: -0.6px;
+    text-align: initial;
+    max-width: 663px; 
 }
 
 .text-where-work{
@@ -701,7 +721,8 @@ h1.mobile-title {
     font-style: normal;
     font-weight: 400;
     line-height: 200%;
-    padding: 0px 80px;
+    padding: 0px 245px 0px 0px;
+    text-align: initial;
 }
 
 .text-palpito{
@@ -746,7 +767,7 @@ h1.mobile-title {
 }
 .title-orgcas{
     color: var(--orgcas-baja-beach, #007078);
-    font-family: Bw Aleta No 20;
+    font-family: "Bw Aleta No 20";
     font-size: 60px;
     font-style: normal;
     font-weight: 700;
@@ -763,7 +784,7 @@ h1.mobile-title {
 .qb-title {
     color: var(--orgcas-deep-blue, #000E27);
     text-align: center;
-    font-family: Bw Aleta No 20;
+    font-family: "Bw Aleta No 20";
     font-size: 60px;
     font-style: normal;
     font-weight: 700;
@@ -789,6 +810,16 @@ h1.mobile-title {
     font-style: normal;
     font-weight: 400;
     line-height: 200%;
+}
+
+.qb-card-dec span{
+    color: var(--orgcas-terracota, #CA6D4F);
+    text-align: center;
+    font-family: Proxima Nova;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 200%; /* 44px */
 }
 
 .qb-card-sec{
@@ -832,7 +863,7 @@ h1.mobile-title {
 .nav-que-buscamos .qb-title-nav{
     color: var(--orgcas-deep-blue, #000E27);
     text-align: center;
-    font-family: Bw Aleta No 20;
+    font-family: "Bw Aleta No 20";
     font-size: 28px;
     font-style: normal;
     font-weight: 700;
@@ -1050,7 +1081,7 @@ h1.mobile-title {
 
 .title-ours-projects{
     color: var(--orgcas-baja-beach, #007078);
-    font-family: Bw Aleta No 20;
+    font-family: "Bw Aleta No 20";
     font-size: 60px;
     font-style: normal;
     font-weight: 700;
@@ -1073,10 +1104,10 @@ h1.mobile-title {
 
 .title-our-focus{
     color: var(--orgcas-baja-beach, #007078);
-    font-family: Bw Aleta No 20;
+    font-family: "Bw Aleta No 20";
     font-size: 60px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: normal;
     letter-spacing: -0.6px;
 }
 .text-our-focus{
@@ -1136,6 +1167,7 @@ h1.mobile-title {
     font-style: normal;
     font-weight: 800;
     line-height: 136.5%;
+    margin-bottom: 27px;
 }
 
 .btn-project-shark{

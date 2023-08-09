@@ -140,14 +140,14 @@
         </div>
     </section>
 
-    <section class="where-work init">
+    <section class="where-work init mt-5">
         <svg class="section-background-container-map-desc" width="635" height="1169" viewBox="0 0 635 1169" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M559.826 37.9729C410.225 -77.9566 17.7125 84.1107 -116.567 370.934C-277.714 713.131 -41.1282 1165.55 169.532 1168.05C380.191 1170.55 594.921 728.208 626.607 389.426C637.138 276.933 652.964 110.156 559.826 37.9729Z" fill="#F0F5F5"/>
         </svg>
         <div class="row lp-form-container" style="z-index:10 ;">
             <div class="col-12 col-sm-12 col-md-6 order-2 order-md-1 order-lg-1">
                 <img src="{{ URL::to('/') }}/images/map-desc.png" class="img-parallax-overflow" alt="" style="max-height: 638px; max-width: 604px;">
-                <p class="p-5 text-map-desc">
+                <p class="pt-5 text-map-desc">
                     Queremos compartir con otras personas el amor que sentimos por el mar y así crear colectivamente un estilo de vida que nos dé herramientas para salvaguardar la biodiversidad tanto aquí como en otros lugares del planeta.
                 </p>
                 <img src="{{ URL::to('/') }}/images/labaja1.png" alt="" class="qs-img-ww-2 img-fluid img-parallax-overflow-true" style="max-width:493px; max-height:481px;">
@@ -445,17 +445,17 @@
                                     <span class="text-danger">{{ $errors->first('email') }}</span>
                                   </div>
                                   <div class="col-12 col-md-6">
-                                    <input type="text" name="phone" class="form-control" placeholder="Telefono:" aria-label="Telefono:">
+                                    <input type="text" name="phone" class="form-control" placeholder="Teléfono:" aria-label="Teléfono:">
                                     <span class="text-danger">{{ $errors->first('phone') }}</span>
                                   </div>
                                 </div>
                                 <div class="mb-3">
-                                  <textarea class="form-control" name="comment" id="exampleFormControlTextarea1" rows="5" placeholder="Escribe un Mensaje"></textarea>
+                                  <textarea class="form-control" name="comment" id="exampleFormControlTextarea1" rows="5" placeholder="Escribe un mensaje:"></textarea>
                                     <span class="text-danger">{{ $errors->first('message') }}</span>
                                 </div>
                                 <div class="form-check">
                                   <input class="form-check-input" type="checkbox" value="1" id="flexCheckDefault" name="check-tc">
-                                  <label class="form-check-label" for="flexCheckDefault">
+                                  <label class="form-check-label term-conditions" for="flexCheckDefault">
                                     Acepto los términos y condiciones
                                   </label>
                                   <span class="text-danger">{{ $errors->first('check-tc') }}</span>

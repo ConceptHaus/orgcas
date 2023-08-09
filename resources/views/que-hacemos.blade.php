@@ -192,7 +192,7 @@
 				        					<div class="col-12 col-sm-12 col-md-6">
 				        						<h3 class="title-science">Ciencia</h3>
 				        						<p class="text-science">
-				        							La ciencia nos ayuda a través de datos a conocer mejor el mar, sus necesidades y amenazas. Ayuda a crear evidencia a través de la investigación para proveer soluciones para la conservación de sus ecosistemas.
+				        							La ciencia nos ayuda a través de datos a conocer mejor el mar, sus necesidades y amenazas. Ayuda a crear evidencia a través de la investigación para proveer soluciones para la conservación de sus ecosistemas.<br>
 				        							<span class="subtext-science">Buscamos que la ciencia sea de todos y para todos.</span>
 				        						</p>
 				        						<h3 class="title-science-2">
@@ -263,7 +263,7 @@
 				        					<div class="col-12 col-sm-12 col-md-6">
 				        						<h3 class="title-education">Educación</h3>
 				        						<p class="text-education">
-				        							Reconocemos el poder del intercambio del conocimiento, y a la educación ambiental como herramientas para la recuperación de saberes y un proceso continuo de aprendizaje para transformar los modos en los que habitamos el mundo. 
+				        							Reconocemos el poder del intercambio del conocimiento, y a la educación ambiental como herramientas para la recuperación de saberes y un proceso continuo de aprendizaje para transformar los modos en los que habitamos el mundo. <br>
 				        							<span class="subtext-education">El mar necesita gente capacitada para combatir sus amenazas de la manera más eficaz.</span>
 				        						</p>
 				        						<h3 class="title-education-2">
@@ -334,7 +334,7 @@
 					        					<div class="col-12 col-sm-12 col-md-6">
 					        						<h3 class="title-tourism">Turismo</h3>
 					        						<p class="text-tourism">
-					        							Promovemos el turismo como herramienta para acercar a más gente a la naturaleza, y así poder replantear nuestra relación y fomentar una sana coexistencia con ella. Diseñamos experiencias en la naturaleza que enseñan a cuidar el ambiente, respetando la cultura y biodiversidad del área.
+					        							Promovemos el turismo como herramienta para acercar a más gente a la naturaleza, y así poder replantear nuestra relación y fomentar una sana coexistencia con ella. Diseñamos experiencias en la naturaleza que enseñan a cuidar el ambiente, respetando la cultura y biodiversidad del área.<br>
 					        							<span class="subtext-tourism">Impulsamos el turismo como una actividad económica alterna a la pesca de especies colapsadas.</span>
 					        						</p>
 					        						<h3 class="title-tourism-2">
@@ -486,7 +486,7 @@
     </section>
     <style type="text/css">
     	#qh-bottom .container-lg{
-    		padding-top: 100px;
+    		padding-top: 50px;
     		padding-bottom: 100px;
     	}
     </style>
@@ -496,19 +496,24 @@
 	    	<div class="row">
 	    		<div class="col-12 col-sm-12 col-md-6 justify-content-center">
 	    			<div class="container-image-shark img-parallax-overflow img-fluid mx-auto wow fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;" style="z-index: 9;">
-	    				<p class="title-project-shark">
-	    					Proyecto Tiburón
-	    				</p>
-	    				<a href="#" class="btn btn-project-shark" data-bs-toggle="modal" data-bs-target="#modalShark">Conoce más</a>
+	    				<div class="wrap-project-shark text-center">
+		    				<p class="title-project-shark">
+		    					Proyecto Tiburón
+		    				</p>
+		    				<a href="#" class="btn btn-project-shark" data-bs-toggle="modal" data-bs-target="#modalShark">Conoce más</a>
+	    				</div>
 	    			</div>
 	    			<!-- <img src="{{ URL::to('/') }}/images/proyecto_tiburon.png" alt="Proyecto Tiburón" class="img-parallax-overflow img-fluid" style="max-width: 483px; z-index:10;"> -->
 	    		</div>
 	    		<div class="col-12 col-sm-12 col-md-6 text-center">
 	    			<div class="container-image-cerralvo img-parallax-overflow img-fluid mx-auto wow fadeInRight" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInRight;" style="z-index: 9;">
-	    				<p class="title-project-cerralvo">
-	    					Proyecto Cerralvo
-	    				</p>
-	    				<a href="#" class="btn btn-project-cerralvo" data-bs-toggle="modal" data-bs-target="#modalCerralvo">Conoce más</a>
+	    				<div class="wrap-project-shark text-center">
+	    					
+		    				<p class="title-project-cerralvo">
+		    					Proyecto Cerralvo
+		    				</p>
+		    				<a href="#" class="btn btn-project-cerralvo" data-bs-toggle="modal" data-bs-target="#modalCerralvo">Conoce más</a>
+	    				</div>
 	    			</div>
 	    			<!-- <img src="{{ URL::to('/') }}/images/proyecto_cerralvo.png" alt="Proyecto Cerralvo" class="img-parallax-overflow img-fluid" style="max-width: 431px; z-index:10;"> -->
 	    		</div>

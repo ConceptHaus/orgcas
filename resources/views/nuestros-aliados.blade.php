@@ -1,6 +1,29 @@
 @extends('layouts.base')
 
 @section('content')
+
+<style type="text/css">
+	#carouselAliados{
+		max-width: 819px;
+		max-height: 496px; 
+	}
+
+	.carousel-item .card{
+		border-radius: 50px;
+		background: var(--ultra-light-gray, #F6F6F6);
+		box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+	}
+	.al-card-dec{
+		color: var(--orgcas-baja-blue, #003B4D);
+		text-align: center;
+		font-family: Proxima Nova;
+		font-size: 30px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: 150%; /* 45px */ 
+		}
+</style>
+
     <section class="container-fluid text-center" style="padding-top: 0;">
       <div class="row">
         <div class="col p-12 container-top" style="padding: 0;">
@@ -30,7 +53,7 @@
 			</div>
 			<div class="col-12 row cont-carousel">
 				<div class="col-xs-0 col-sm-1 col-lg-2 p-0"></div>
-				<div class="col-xs-12 col-sm-10 col-lg-8 p-2">
+				<div class="col-xs-12 col-sm-10 col-lg-8 p-2 d-flex justify-content-center">
 					<!-- Carousel -->
 					<div id="carouselAliados" class="carousel" data-bs-ride="carousel">
 						<div class="carousel-indicators">
@@ -45,10 +68,10 @@
 						<div class="carousel-inner">
 							<!-- blue -->
 							<div class="carousel-item active">
-								<div class="card text-center p-4 qb-card-sec align-items-center w-100 h-100">
+								<div class="card text-center p-4 align-items-center w-100 h-100">
 									<img src="images/aliados-blueMarine.png" class="qb-card-img-sec" alt="Aliados">
 									<div class="card-body">
-										<p class="card-text qb-card-dec">
+										<p class="card-text al-card-dec">
 											Blue Marine Foundation: Nos dio la patadita de inicio y continua apoyándonos hasta ahora
 										</p>
 										<a href="https://www.bluemarinefoundation.com/" target="_blank" class="card-btn">Conocer más</a>
@@ -57,10 +80,10 @@
 							</div>
 							<!-- Jafra -->
 							<div class="carousel-item">
-								<div class="card text-center p-4 qb-card-sec align-items-center w-100 h-100">
-									<img src="images/aliados-jafra.png" class="qb-card-img-sec" alt="Aliados">
+								<div class="card text-center p-4 align-items-center w-100 h-100">
+									<img src="images/aliados-jafra.png" class="qb-card-img-sec" alt="Aliados" style="max-height: 126px; max-width: 143px; ">
 									<div class="card-body">
-										<p class="card-text qb-card-dec">
+										<p class="card-text al-card-dec">
 											Jafra: Nos donará parte de sus ganancias para operaciones vitales para ORGCAS
 										</p>
 										<a href="https://www.jafra.com.mx/" class="card-btn">Conocer más</a>
@@ -69,10 +92,10 @@
 							</div>
 							<!-- NEXXUS -->
 							<div class="carousel-item">
-								<div class="card text-center p-4 qb-card-sec align-items-center w-100 h-100">
+								<div class="card text-center p-4 align-items-center w-100 h-100">
 									<img src="images/aliados-nexxus.png" class="qb-card-img-sec" alt="Aliados">
 									<div class="card-body">
-										<p class="card-text qb-card-dec">
+										<p class="card-text al-card-dec">
 											Nexxus: Nos apoyó con un motor para la segunda embarcación de nuestro proyecto
 										</p>
 										<a href="https://www.nexxuscapital.com/es/" class="card-btn">Conocer más</a>
@@ -81,10 +104,10 @@
 							</div>
 							<!-- Bonassi -->
 							<div class="carousel-item">
-								<div class="card text-center p-4 qb-card-sec align-items-center w-100 h-100">
+								<div class="card text-center p-4 align-items-center w-100 h-100">
 									<img src="images/aliados-bonassi.png" class="qb-card-img-sec" alt="Aliados">
 									<div class="card-body">
-										<p class="card-text qb-card-dec">
+										<p class="card-text al-card-dec">
 											Bonassi: Nos donaron mucho de su increíble equipo para poder avanzar en el proyecto
 										</p>
 										<a href="https://bonassi.mx/" class="card-btn">Conocer más</a>
@@ -93,10 +116,10 @@
 							</div>
 							<!-- Intercam -->
 							<div class="carousel-item">
-								<div class="card text-center p-4 qb-card-sec align-items-center w-100 h-100">
+								<div class="card text-center p-4 align-items-center w-100 h-100">
 									<img src="images/aliados-intercam.png" class="qb-card-img-sec" alt="Aliados">
 									<div class="card-body">
-										<p class="card-text qb-card-dec">
+										<p class="card-text al-card-dec">
 											Intercam: Creyeron en nuestro proyecto y nos donaron nuestra primera panga la "Tintorera"
 										</p>
 										<a href="https://www.intercam.com.mx/" class="card-btn">Conocer más</a>
@@ -105,10 +128,10 @@
 							</div>
 							<!-- Beta -->
 							<div class="carousel-item h-100">
-								<div class="card text-center p-4 qb-card-sec align-items-center w-100 h-100">
+								<div class="card text-center p-4 align-items-center w-100 h-100">
 									<img src="images/aliados-beta.png" class="qb-card-img-sec" alt="Aliados">
 									<div class="card-body">
-										<p class="card-text qb-card-dec">
+										<p class="card-text al-card-dec">
 											Beta Diversidad: Nuestra ONG hermana con la que trabajamos mano a mano
 										</p>
 										<a href="https://betadiversidad.org/" class="card-btn">Conocer más</a>
@@ -117,10 +140,10 @@
 							</div>
 							<!-- New-->
 							<div class="carousel-item">
-								<div class="card text-center p-4 qb-card-sec align-items-center w-100 h-100">
+								<div class="card text-center p-4 align-items-center w-100 h-100">
 									<img src="images/aliados-newAtlantis.png" class="qb-card-img-sec" alt="Aliados">
 									<div class="card-body">
-										<p class="card-text qb-card-dec">
+										<p class="card-text al-card-dec">
 											New Atlantis: Nos ayuda con partes vitales de la operación del día a día de ORGCAS
 										</p>
 										<a href="https://newatlantis.io/" class="card-btn">Conocer más</a>
@@ -145,13 +168,10 @@
 	</section>
 
     <style type="text/css">
-		.qb-icon-aliados{
-			max-width: 138px;
-			max-height: 138px;
-		}
+
 		.qb-title{
 			text-align: center;
-			font-family: Bw Aleta No 20;
+			font-family: "Bw Aleta No 20";
 			font-size: 3.75rem;
 			font-style: normal;
 			font-weight: 700;
@@ -213,7 +233,7 @@
 			.qb-title{
 				color: var(--orgcas-terracota, #CA6D4F);
 				text-align: center;
-				font-family: Bw Aleta No 20;
+				font-family: "Bw Aleta No 20";
 				font-size: 2rem;
 				font-style: normal;
 				font-weight: 700;
@@ -266,63 +286,63 @@
 				font-weight: 600;
 				line-height: 150%; /* 1.6875rem */
 			}
-			.qb-icon-aliados {
-				max-width: 200px;
-				padding: 0 30px;
-				max-height: 250px;
-			}
+
 		}
     </style>
     <section class="container-lg nav-aliados">
-		  <div class="row justify-content-center">
+		  <div class="row justify-content-center mb-4">
         <div class="col-6 col-sm-6 col-md-3 text-center">
         	<a href="https://betadiversidad.org/" target="_blank">
-            	<img src="images/aliados-beta.png" class="img-parallax-overflow qb-icon-aliados ">
+            	<img src="images/aliados-beta.png" class="img-parallax-overflow qb-icon-aliados" style="width: 311px; height:90px;">
         	</a>
         </div>
 				<div class="col-6 col-sm-6 col-md-3 text-center">
 					<a href="https://www.bluemarinefoundation.com/" target="_blank">
-						<img src="images/aliados-blueMarine.png" class="img-fluid img-parallax-overflow qb-icon-aliados">
+						<img src="images/aliados-blueMarine.png" class="img-fluid img-parallax-overflow qb-icon-aliados" style="width: 348px; height:196px;">
 					</a>
 		    </div>
 				<div class="col-6 col-sm-6 col-md-3 text-center">
 					<a href="#" target="_blank">
-						<img src="images/aliados-seaLegacy.png" class="img-fluid img-parallax-overflow qb-icon-aliados">
+						<img src="images/aliados-seaLegacy.png" class="img-fluid img-parallax-overflow qb-icon-aliados" style="width: 314px; height:118px;">
 					</a>
 		    </div>
 				<div class="col-6 col-sm-6 col-md-3 text-center">
 					<a href="https://www.jafra.com.mx/" target="_blank">
-						<img src="images/aliados-jafra.png" class="img-fluid img-parallax-overflow qb-icon-aliados">
+						<img src="images/aliados-jafra.png" class="img-fluid img-parallax-overflow qb-icon-aliados" style="width: 161px; height:142px;">
 					</a>
 		    </div>
+		  </div>
+		  <div class="row justify-content-center mt-2 mb-4">
 				<div class="col-6 col-sm-6 col-md-3 text-center">
 					<a href="https://www.nexxuscapital.com/es/" target="_blank">
-						<img src="images/aliados-nexxus.png" class="img-fluid img-parallax-overflow qb-icon-aliados">
+						<img src="images/aliados-nexxus.png" class="img-fluid img-parallax-overflow qb-icon-aliados" style="width: 216px; height:71px;">
 					</a>
 		    </div>
 				<div class="col-6 col-sm-6 col-md-3 text-center">
 					<a href="https://www.intercam.com.mx/" target="_blank">
-						<img src="images/aliados-intercam.png" class="img-fluid img-parallax-overflow qb-icon-aliados">
+						<img src="images/aliados-intercam.png" class="img-fluid img-parallax-overflow qb-icon-aliados" style="width: 303px; height:57px;">
 					</a>
 		    </div>
 				<div class="col-6 col-sm-6 col-md-3 text-center">
 					<a href="https://bonassi.mx/" target="_blank">
-						<img src="images/aliados-bonassi.png" class="img-fluid img-parallax-overflow qb-icon-aliados">
+						<img src="images/aliados-bonassi.png" class="img-fluid img-parallax-overflow qb-icon-aliados" style="width: 287px; height:73px;">
+					</a>
+		    </div>
+		  </div>
+		  <div class="row justify-content-center mt-2 mb-4">
+				<div class="col-6 col-sm-6 col-md-3 text-center">
+					<a href="#" target="_blank">
+						<img src="images/aliados-deep.png" class="img-fluid img-parallax-overflow qb-icon-aliados" style="width: 178px; height:126px;">
 					</a>
 		    </div>
 				<div class="col-6 col-sm-6 col-md-3 text-center">
 					<a href="#" target="_blank">
-						<img src="images/aliados-deep.png" class="img-fluid img-parallax-overflow qb-icon-aliados">
-					</a>
-		    </div>
-				<div class="col-6 col-sm-6 col-md-3 text-center">
-					<a href="#" target="_blank">
-						<img src="images/aliados-shark.png" class="img-fluid img-parallax-overflow qb-icon-aliados">
+						<img src="images/aliados-shark.png" class="img-fluid img-parallax-overflow qb-icon-aliados" style="width: 267px; height:129px;">
 					</a>
 		    </div>
 				<div class="col-6 col-sm-6 col-md-3 text-center">
 					<a href="https://newatlantis.io/" target="_blank">
-						<img src="images/aliados-newAtlantis.png" class="img-fluid img-parallax-overflow qb-icon-aliados">
+						<img src="images/aliados-newAtlantis.png" class="img-fluid img-parallax-overflow qb-icon-aliados" style="width: 324px; height:102px;">
 					</a>
 		    </div>
 		  </div>
