@@ -11,9 +11,10 @@
   font-family: Proxima Nova;
   src: url(fonts/Proxima-Nova-Font/Proxima-Nova-Font.otf);
 }
+
 @font-face {
-  font-family: Proxima Nova Bold;
-  src: url(fonts/Proxima-Nova-Font/Proxima-Nova-bold.otf);
+  font-family: "Proxima Nova Bold";
+  src: url(fonts/Proxima-Nova-Font/Proxima-Nova-Bold.otf);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
@@ -879,7 +880,7 @@ h1.mobile-title {
 
 .title-science{
     color: #FFF;
-    font-family: Proxima Nova;
+    font-family: Proxima Nova Bold;
     font-size: 50px;
     font-style: normal;
     font-weight: 800;
@@ -937,7 +938,7 @@ h1.mobile-title {
 
 .title-education{
     color: #FFF;
-    font-family: Proxima Nova;
+    font-family: Proxima Nova Bold;
     font-size: 50px;
     font-style: normal;
     font-weight: 800;
@@ -987,7 +988,7 @@ h1.mobile-title {
 
 .title-tourism{
     color: #FFF;
-    font-family: Proxima Nova;
+    font-family: Proxima Nova Bold;
     font-size: 50px;
     font-style: normal;
     font-weight: 800;
@@ -1037,7 +1038,7 @@ h1.mobile-title {
 
 .title-comunication{
     color: #FFF;
-    font-family: Proxima Nova;
+    font-family: Proxima Nova Bold;
     font-size: 50px;
     font-style: normal;
     font-weight: 800;
