@@ -85,8 +85,8 @@
                 }
 
                 .item-gallery img {
-                    max-width: calc(100% / 5); /*7, 5*/
-                    max-height: calc(100% / 5);
+                    max-width: calc(100% / 3); /*7, 5*/
+                    max-height: calc(100% / 3);
                 }
 
                  .start-25{
@@ -111,8 +111,8 @@
                 }
 
                 .item-gallery img {
-                    max-width: calc(100% / 5); /*7, 5*/
-                    max-height: calc(100% / 5);
+                    max-width: calc(100% / 3); /*7, 5*/
+                    max-height: calc(100% / 3);
                 }
             }        
     </style>

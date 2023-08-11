@@ -73,6 +73,12 @@
 		width: 30px !important;
 		height: 30px !important;
 	}
+
+	.carousel-item img {
+	  max-width: 180px;
+	  max-height: 149px;
+	}
+
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 900px) {

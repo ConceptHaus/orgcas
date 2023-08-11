@@ -1,6 +1,45 @@
 @extends('layouts.base')
 
 @section('content')
+<style type="text/css">
+
+
+@media only screen and (max-width: 600px) {
+	#qb-nav{
+		padding: 0px !important;
+		margin: 0 !important;
+	}
+
+  #qb-nav .nav-item{
+      margin-right: 5px !important;
+  }
+
+  .nav-que-buscamos .qb-title-nav{
+  	font-size: 24px !important;
+  }
+
+  .container-text-shark, .container-text-cerralvo{
+  	padding: 0 !important;
+  }
+
+  .content-img-1 img {
+  	max-width: 50px !important;
+		top: -95px !important;
+  }
+
+
+}
+
+@media only screen and (max-width: 950px) {
+	.img-bote1{
+		max-width: 310px !important;
+	}
+	.modal-dialog{
+		max-width: 100%;
+	}
+
+}
+</style>
     <section id="qh-container-map" class="init container-fluid text-center" style="padding: 0 !important;">
       <div class="hero-section-background-container">
         <img src="{{ URL::to('/') }}/images/backgraound-map.png" alt="rocks_16" style="max-width: 100%;height: auto;position: absolute;left: 0px;">
@@ -47,7 +86,7 @@
 					</p>
 				</div>
 				<div class="col-12 col-sm-12 col-md-12 col-lg-6 text-center">
-					<img src="{{ URL::to('/') }}/images/ne_bote1.png" alt="Nuestro Enfoque" class="img-parallax-overflow img-fluid" style="max-width: 496px; max-height: 709px; ">
+					<img src="{{ URL::to('/') }}/images/ne_bote1.png" alt="Nuestro Enfoque" class="img-bote1 img-parallax-overflow img-fluid" style="max-width: 496px; max-height: 709px; ">
 				</div>
 			</div>
 		</div>
@@ -187,7 +226,7 @@
 				        <div class="tab-pane fade show active" id="ciencia">
 				        	<div class="row">
 				        		<div class="col p-0">
-				        			<div class="content-science p-5">
+				        			<div class="content-science p-4 p-sm-5">
 				        				<div class="row">
 				        					<div class="col-12 col-sm-12 col-md-6">
 				        						<h3 class="title-science">Ciencia</h3>

@@ -22,6 +22,18 @@
 		font-weight: 600;
 		line-height: 150%; /* 45px */ 
 		}
+@media only screen and (max-width: 600px) {
+
+}
+
+@media only screen and (max-width: 950px) {
+
+	.container-lg.nav-aliados img {
+	  max-width: 100% !important;
+	  height: auto !important;
+	}
+}
+
 </style>
 
     <section class="container-fluid text-center" style="padding-top: 0;">

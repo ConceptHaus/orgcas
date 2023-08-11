@@ -9,6 +9,24 @@
 
 @media only screen and (max-width: 600px) {
 
+    .img-ramitas{
+        max-width: 138px !important;
+        max-height: 216px !important;
+        position: absolute !important;
+        right: 0px !important;
+        top: 44px !important;
+    }
+
+    .text-see-delfin{
+        max-width: 100% !important;
+        justify-content: normal !important;
+        display: contents !important;
+    }
+
+    .text-where-work{
+        padding: 0px;
+    }
+
     .qs-map {
       top: 15px;
     }
@@ -46,6 +64,7 @@
     .text-asks{
         font-size: 24px; 
         padding: 35px 34px;
+        width: 100% !important;
     }
 
     .text-palpito{
@@ -66,9 +85,17 @@
         font-size: 32px !important; 
     }
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 950px) {
     .qs-text-title{
         font-size: 32px !important; 
+    }
+
+    .text-where-work{
+        padding: 0px !important;
+    }
+
+    .qs-img-ww-1{
+        display: none !important;
     }
 }
 
@@ -145,7 +172,7 @@
           <path d="M559.826 37.9729C410.225 -77.9566 17.7125 84.1107 -116.567 370.934C-277.714 713.131 -41.1282 1165.55 169.532 1168.05C380.191 1170.55 594.921 728.208 626.607 389.426C637.138 276.933 652.964 110.156 559.826 37.9729Z" fill="#F0F5F5"/>
         </svg>
         <div class="row lp-form-container" style="z-index:10 ;">
-            <div class="col-12 col-sm-12 col-md-6 order-2 order-md-1 order-lg-1">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 order-2 order-md-1 order-lg-1">
                 <img src="{{ URL::to('/') }}/images/map-desc.png" class="img-parallax-overflow" alt="" style="max-height: 638px; max-width: 604px;">
                 <p class="pt-5 text-map-desc">
                     Queremos compartir con otras personas el amor que sentimos por el mar y así crear colectivamente un estilo de vida que nos dé herramientas para salvaguardar la biodiversidad tanto aquí como en otros lugares del planeta.
@@ -153,7 +180,7 @@
                 <img src="{{ URL::to('/') }}/images/labaja1.png" alt="" class="qs-img-ww-2 img-fluid img-parallax-overflow-true" style="max-width:493px; max-height:481px;">
 
             </div>
-            <div class="col-12 col-sm-12 col-md-6 order-1 order-md-2 order-lg-2">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 order-1 order-md-2 order-lg-2">
                 <p class="title-where-work">
                     ¿Dónde trabajamos?
                 </p>
@@ -165,10 +192,10 @@
             </div>
         </div>
         <div class="row">
-            <div class="col col-12 col-md-12 col-lg-5 d-flex justify-content-center order-2 order-md-1" style="position: relative; z-index: 100;">
+            <div class="col col-12 col-md-5 col-lg-5 d-flex justify-content-center order-2 order-md-1" style="position: relative; z-index: 100;">
                 <img src="{{ URL::to('/') }}/images/delfines1.png" class="qs-img-delfines img-fluid img-parallax-overflow-true" alt="" style="max-width: 495px;max-height: 719px;">
             </div>
-            <div class="col col-12 col-md-12 col-lg-7 order-1 order-md-2">
+            <div class="col col-12 col-md-7 col-lg-7 order-1 order-md-2">
                 <div class="text-see-delfin" style="max-width: 686px; justify-content: center; display: grid;">
                     <p class="text-asks">
                        <span style="color:#003B4D;display: block;"> ¿Alguna vez has visto un delfín en su hábitat natural? </span>
@@ -185,7 +212,7 @@
 
     <div class="" style="position: relative; top: -160px;">
         <div class="">
-            <img src="{{ URL::to('/') }}/images/ramitas.png" class="img-fluid img-parallax-overflow-true" alt="" style="max-width:203px; max-height:350px; position: absolute; right: 0px;">
+            <img src="{{ URL::to('/') }}/images/ramitas.png" class="img-fluid img-parallax-overflow-true img-ramitas" alt="" style="max-width:203px; max-height:350px; position: absolute; right: 0px;">
         </div>
     </div>
     <section class="the-orgcas">
