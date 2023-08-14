@@ -3,6 +3,9 @@
 @section('content')
 <style type="text/css">
 
+#qb-nav .nav-item{
+	margin: 0 !important;
+}
 
 @media only screen and (max-width: 600px) {
 	#qb-nav{
@@ -192,36 +195,36 @@
     	<div class="row">
     		<div class="col-md-12">
 				<div class="m-0 m-md-4">
-				    <ul class="nav justify-content-between justify-content-md-center" id="qb-nav">
-				        <li class="nav-item text-center">
+				    <div class="justify-content-between row mb-5" id="qb-nav">
+				        <div class="col-6 col-md-6 col-lg-3 text-center">
 				            <a href="#ciencia" class="nav-link qb-link-nav active" data-bs-toggle="tab">
 				            	<img src="{{ URL::to('/') }}/images/ciencia.png" class="img-parallax-overflow qb-icon-nav">
 				            	<br>
 				            	<span class="qb-title-nav">Ciencia</span>
 				            </a>
-				        </li>
-				        <li class="nav-item text-center">
+				        </div>
+				        <div class="col-6 col-md-6 col-lg-3 text-center">
 				            <a href="#educacion" class="nav-link qb-link-nav" data-bs-toggle="tab">
 				            	<img src="{{ URL::to('/') }}/images/educacion.png" class="img-parallax-overflow qb-icon-nav">
 				            	<br>
 				            	<span class="qb-title-nav">Educación</span>
 				            </a>
-				        </li>
-				        <li class="nav-item text-center">
+				        </div>
+				        <div class="col-6 col-md-6 col-lg-3 text-center">
 				            <a href="#turismo" class="nav-link qb-link-nav" data-bs-toggle="tab">
 				            	<img src="{{ URL::to('/') }}/images/turismo.png" class="img-parallax-overflow qb-icon-nav">
 				            	<br>
 				            	<span class="qb-title-nav">Turismo</span>
 				            </a>
-				        </li>
-				        <li class="nav-item text-center">
+				        </div>
+				        <div class="col-6 col-md-6 col-lg-3 text-center">
 				            <a href="#comunicacion" class="nav-link qb-link-nav justify-content-center" data-bs-toggle="tab">
 				            	<img src="{{ URL::to('/') }}/images/comunicacion.png" class="img-parallax-overflow qb-icon-nav">
 				            	<br>
 				            	<span class="qb-title-nav">Comunicación</span>
 				            </a>
-				        </li>
-				    </ul>
+				        </div>
+				    </div>
 				    <div class="tab-content">
 				        <div class="tab-pane fade show active" id="ciencia">
 				        	<div class="row">
@@ -525,8 +528,7 @@
     </section>
     <style type="text/css">
     	#qh-bottom .container-lg{
-    		padding-top: 50px;
-    		padding-bottom: 100px;
+    		padding-top: 10px;
     	}
     </style>
     <section id="qh-bottom">
@@ -600,7 +602,7 @@
 		  			<img src="{{ URL::to('/') }}/images/ps_figure1.png" class="position-absolute" style="max-width: 90px;">
 		      		<img src="{{ URL::to('/') }}/images/ps_figure2.png" class="position-absolute" style="max-width: 90px; right: 0px;">
 		  		</div>
-		      	<div class="container-lg container-text-shark mt-4">
+		      	<div class="container-lg container-text-shark mt-2">
 		      		<p>
 		      			La comunidad de Agua Amarga está localizada a 50 km al sur de La Paz entre la bahía de la Ventana y de Ensenada de Muertos. <span class="text-shark-color"> Los locales han aprendido de generación en generación la pesca artesanal de escama y de tiburón, siendo su principal fuente de sustento económico por años. </span> Conocen estas aguas como la palma de su mano y sus ojos han visto la infinidad de especies que habitan aquí, incluso algunas que ni la ciencia ha registrado.
 		      		</p>

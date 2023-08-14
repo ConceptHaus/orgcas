@@ -174,17 +174,17 @@
         <div class="row lp-form-container" style="z-index:10 ;">
             <div class="col-12 col-sm-12 col-md-12 col-lg-6 order-2 order-md-1 order-lg-1">
                 <img src="{{ URL::to('/') }}/images/map-desc.png" class="img-parallax-overflow" alt="" style="max-height: 638px; max-width: 604px;">
-                <p class="pt-5 text-map-desc">
+                <p class="pt-5 text-map-desc mx-4">
                     Queremos compartir con otras personas el amor que sentimos por el mar y así crear colectivamente un estilo de vida que nos dé herramientas para salvaguardar la biodiversidad tanto aquí como en otros lugares del planeta.
                 </p>
                 <img src="{{ URL::to('/') }}/images/labaja1.png" alt="" class="qs-img-ww-2 img-fluid img-parallax-overflow-true" style="max-width:493px; max-height:481px;">
 
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-6 order-1 order-md-2 order-lg-2">
-                <p class="title-where-work">
+                <p class="title-where-work mx-4">
                     ¿Dónde trabajamos?
                 </p>
-                <p class="text-where-work">
+                <p class="text-where-work mx-4">
                     Baja California Sur, México, es donde habitamos y sin duda nuestra gran fuente de inspiración. Este lugar tiene una importancia biológica y ecosistémica por la abundancia de vida que coexiste: Aquí llega desde el animal más grande del mundo como la ballena azul, hasta millones de organismos invisibles en el agua que alimentan a muchas otras especies. La magia de este paisaje es única y nos recuerda cada día que una sana coexistencia es posible.
                 </p>
 
@@ -196,7 +196,7 @@
                 <img src="{{ URL::to('/') }}/images/delfines1.png" class="qs-img-delfines img-fluid img-parallax-overflow-true" alt="" style="max-width: 495px;max-height: 719px;">
             </div>
             <div class="col col-12 col-md-7 col-lg-7 order-1 order-md-2">
-                <div class="text-see-delfin" style="max-width: 686px; justify-content: center; display: grid;">
+                <div class="text-see-delfin mt-5" style="max-width: 686px; justify-content: center; display: grid;">
                     <p class="text-asks">
                        <span style="color:#003B4D;display: block;"> ¿Alguna vez has visto un delfín en su hábitat natural? </span>
                         <span style="color: #CA6D4F;display: block;"> ¿Has nadado con miles de peces? </span>
