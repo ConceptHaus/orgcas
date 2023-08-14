@@ -25,7 +25,12 @@
 				<img src="images/galeria/right-arrow-icon.png" style="width: 58px; height:58px;">
 			</button>
 		  </div>
-		  <div class="carousel-inner text-center">
+		  <style>
+		  	#galeria img{
+		  		margin: 4px 2px;
+		  	}
+		  </style>
+		  <div id="galeria" class="carousel-inner text-center">
 		    <div class="carousel-item active">
 				<img src="images/galeria/galeria_1.png" alt="" class="img-fluid">
 				<img src="images/galeria/galeria_2.png" alt="" class="img-fluid">
