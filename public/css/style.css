@@ -606,7 +606,7 @@ input.form-control, .form-select {
     background-position: 50% !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
-    overflow: hidden;
+/*    overflow: hidden;*/
     padding: 25px 0 250px;
     position: relative;
 }
@@ -634,9 +634,9 @@ input.form-control, .form-select {
 h1.mobile-title {
   display: block;
 }
-.hero-section-background-container {
+/*.hero-section-background-container {
   overflow: hidden;
-}
+}*/
 .hero-section-background-container, .hero-section-overlay::after {
   bottom: 0;
   content: "";

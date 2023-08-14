@@ -117,7 +117,7 @@
             <h1 class="qs-text-title mobile-title wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;" style="color: #000;">Es importante saber que...</h1>
           </div>
           <div class="hero-section-background-container">
-            <img src="{{ URL::to('/') }}/images/backgraound-map.png" alt="rocks_16" style="max-width: 100%;height: auto;position: absolute;left: 0px;">
+            <img src="{{ URL::to('/') }}/images/backgraound-map.png" alt="rocks_16" style="max-width: 100%;height: auto;position: absolute;left: 0px;max-height: 980px;">
           </div>
           <div class="row text-center">
             <div class="col p-0">
@@ -138,7 +138,7 @@
                 <div class="col-1 col-sm-1 col-lg-2 p-0">
                     <img src="{{ URL::to('/') }}/images/figure-l.png" class="img-parallax-overflow-info" alt="" style="max-height: 277px;max-width: 150px;">
                 </div>
-                <div class="col-10 col-sm-10 col-lg-8 p-2">
+                <div class="col-10 col-sm-10 col-lg-8 p-2" style="position: relative; z-index: 100;">
                     <p class="text-center title-history p-2">
                         Nuestra historia
                     </p>
