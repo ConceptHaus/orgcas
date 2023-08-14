@@ -13,10 +13,6 @@
 		margin: 0 !important;
 	}
 
-  #qb-nav .nav-item{
-      margin-right: 5px !important;
-  }
-
   .nav-que-buscamos .qb-title-nav{
   	font-size: 24px !important;
   }
@@ -30,6 +26,9 @@
 		top: -95px !important;
   }
 
+  .container-text-shark p, .container-text-cerralvo p {
+  	margin: 30px;
+  }
 
 }
 
@@ -195,29 +194,29 @@
     	<div class="row">
     		<div class="col-md-12">
 				<div class="m-0 m-md-4">
-				    <div class="justify-content-between row mb-5" id="qb-nav">
-				        <div class="col-6 col-md-6 col-lg-3 text-center">
+				    <div class="nav justify-content-between row mb-5" id="qb-nav">
+				        <div class="col-6 col-md-6 col-lg-3 text-center nav-item">
 				            <a href="#ciencia" class="nav-link qb-link-nav active" data-bs-toggle="tab">
 				            	<img src="{{ URL::to('/') }}/images/ciencia.png" class="img-parallax-overflow qb-icon-nav">
 				            	<br>
 				            	<span class="qb-title-nav">Ciencia</span>
 				            </a>
 				        </div>
-				        <div class="col-6 col-md-6 col-lg-3 text-center">
+				        <div class="col-6 col-md-6 col-lg-3 text-center nav-item">
 				            <a href="#educacion" class="nav-link qb-link-nav" data-bs-toggle="tab">
 				            	<img src="{{ URL::to('/') }}/images/educacion.png" class="img-parallax-overflow qb-icon-nav">
 				            	<br>
 				            	<span class="qb-title-nav">Educación</span>
 				            </a>
 				        </div>
-				        <div class="col-6 col-md-6 col-lg-3 text-center">
+				        <div class="col-6 col-md-6 col-lg-3 text-center nav-item">
 				            <a href="#turismo" class="nav-link qb-link-nav" data-bs-toggle="tab">
 				            	<img src="{{ URL::to('/') }}/images/turismo.png" class="img-parallax-overflow qb-icon-nav">
 				            	<br>
 				            	<span class="qb-title-nav">Turismo</span>
 				            </a>
 				        </div>
-				        <div class="col-6 col-md-6 col-lg-3 text-center">
+				        <div class="col-6 col-md-6 col-lg-3 text-center nav-item">
 				            <a href="#comunicacion" class="nav-link qb-link-nav justify-content-center" data-bs-toggle="tab">
 				            	<img src="{{ URL::to('/') }}/images/comunicacion.png" class="img-parallax-overflow qb-icon-nav">
 				            	<br>
@@ -228,7 +227,7 @@
 				    <div class="tab-content">
 				        <div class="tab-pane fade show active" id="ciencia">
 				        	<div class="row">
-				        		<div class="col p-0">
+				        		<div class="col">
 				        			<div class="content-science p-4 p-sm-5">
 				        				<div class="row">
 				        					<div class="col-12 col-sm-12 col-md-6">
@@ -570,31 +569,31 @@
 		      <div class="modal-body p-0">
 		      	<h2 class="modal-title text-center modal-title-shark" id="modalSharkLabel">Proyecto Tiburón</h5>
 		      	<div class="row container-lg justify-content-center mb-4" style="text-align: center;">
-					<div class="col-4 col-md-3 p-0 mb-4">
+					<div class="col-6 col-md-3 mb-4">
 						<img src="{{ URL::to('/') }}/images/pt_gallery_1.png" alt="" class="img-parallax-overflow img-fluid" style="max-width:250px;">
 					</div>
-					<div class="col-4 col-md-3 p-0 mb-4">
+					<div class="col-6 col-md-3 mb-4">
 						<img src="{{ URL::to('/') }}/images/pt_gallery_2.png" alt="" class="img-parallax-overflow img-fluid" style="max-width:250px;">
 					</div>
-					<div class="col-4 col-md-3 p-0 mb-4">
+					<div class="col-6 col-md-3 mb-4">
 						<img src="{{ URL::to('/') }}/images/pt_gallery_3.png" alt="" class="img-parallax-overflow img-fluid" style="max-width:250px;">
 					</div>
-					<div class="col-4 col-md-3 p-0 mb-4">
+					<div class="col-6 col-md-3 mb-4">
 						<img src="{{ URL::to('/') }}/images/pt_gallery_4.png" alt="" class="img-parallax-overflow img-fluid" style="max-width:250px;">
 					</div>
-					<div class="col-4 col-md-3 p-0 mb-4">
+					<div class="col-6 col-md-3 mb-4">
 						<img src="{{ URL::to('/') }}/images/pt_gallery_5.png" alt="" class="img-parallax-overflow img-fluid" style="max-width:250px;">
 					</div>
-					<div class="col-4 col-md-3 p-0 mb-4">
+					<div class="col-6 col-md-3 mb-4">
 						<img src="{{ URL::to('/') }}/images/pt_gallery_6.png" alt="" class="img-parallax-overflow img-fluid" style="max-width:250px;">
 					</div>
-					<div class="col-4 col-md-3 p-0 mb-4">
+					<div class="col-6 col-md-3 mb-4">
 						<img src="{{ URL::to('/') }}/images/pt_gallery_7.png" alt="" class="img-parallax-overflow img-fluid" style="max-width:250px;">
 					</div>
-					<div class="col-4 col-md-3 p-0 mb-4">
+					<div class="col-6 col-md-3 mb-4">
 						<img src="{{ URL::to('/') }}/images/pt_gallery_8.png" alt="" class="img-parallax-overflow img-fluid" style="max-width:250px;">
 					</div>
-					<div class="col-4 col-md-3 p-0 mb-4">
+					<div class="col-6 col-md-3 mb-4">
 						<img src="{{ URL::to('/') }}/images/pt_gallery_9.png" alt="" class="img-parallax-overflow img-fluid" style="max-width:250px;">
 					</div>
 		      	</div>
@@ -630,52 +629,52 @@
 		      <div class="modal-body p-0">
 		      	<h2 class="modal-title text-center modal-title-shark" id="modalSharkLabel">Proyecto Cerralvo</h5>
 		      	<div class="row container-lg justify-content-center mb-4" style="text-align: center;">
-					<div class="col-3 col-md-3 p-0 mb-4">
+					<div class="col-6 col-md-3 mb-4">
 						<img src="{{ URL::to('/') }}/images/pc_gallery_1.png" alt="" class="img-parallax-overflow img-fluid" style="max-width:250px;">
 					</div>
-					<div class="col-3 col-md-3 p-0 mb-4">
+					<div class="col-6 col-md-3 mb-4">
 						<img src="{{ URL::to('/') }}/images/pc_gallery_2.png" alt="" class="img-parallax-overflow img-fluid" style="max-width:250px;">
 					</div>
-					<div class="col-3 col-md-3 p-0 mb-4">
+					<div class="col-6 col-md-3 mb-4">
 						<img src="{{ URL::to('/') }}/images/pc_gallery_3.png" alt="" class="img-parallax-overflow img-fluid" style="max-width:250px;">
 					</div>
-					<div class="col-3 col-md-3 p-0 mb-4">
+					<div class="col-6 col-md-3 mb-4">
 						<img src="{{ URL::to('/') }}/images/pc_gallery_4.png" alt="" class="img-parallax-overflow img-fluid" style="max-width:250px;">
 					</div>
-					<div class="col-3 col-md-3 p-0 mb-4">
+					<div class="col-6 col-md-3 mb-4">
 						<img src="{{ URL::to('/') }}/images/pc_gallery_5.png" alt="" class="img-parallax-overflow img-fluid" style="max-width:250px;">
 					</div>
-					<div class="col-3 col-md-3 p-0 mb-4">
+					<div class="col-6 col-md-3 mb-4">
 						<img src="{{ URL::to('/') }}/images/pc_gallery_6.png" alt="" class="img-parallax-overflow img-fluid" style="max-width:250px;">
 					</div>
-					<div class="col-3 col-md-3 p-0 mb-4">
+					<div class="col-6 col-md-3 mb-4">
 						<img src="{{ URL::to('/') }}/images/pc_gallery_7.png" alt="" class="img-parallax-overflow img-fluid" style="max-width:250px;">
 					</div>
-					<div class="col-3 col-md-3 p-0 mb-4">
+					<div class="col-6 col-md-3 mb-4">
 						<img src="{{ URL::to('/') }}/images/pc_gallery_8.png" alt="" class="img-parallax-overflow img-fluid" style="max-width:250px;">
 					</div>
-					<div class="col-3 col-md-3 p-0 mb-4">
+					<div class="col-6 col-md-3 mb-4">
 						<img src="{{ URL::to('/') }}/images/pc_gallery_9.png" alt="" class="img-parallax-overflow img-fluid" style="max-width:250px;">
 					</div>
-					<div class="col-3 col-md-3 p-0 mb-4">
+					<div class="col-6 col-md-3 mb-4">
 						<img src="{{ URL::to('/') }}/images/pc_gallery_10.png" alt="" class="img-parallax-overflow img-fluid" style="max-width:250px;">
 					</div>
-					<div class="col-3 col-md-3 p-0 mb-4">
+					<div class="col-6 col-md-3 mb-4">
 						<img src="{{ URL::to('/') }}/images/pc_gallery_11.png" alt="" class="img-parallax-overflow img-fluid" style="max-width:250px;">
 					</div>
-					<div class="col-3 col-md-3 p-0 mb-4">
+					<div class="col-6 col-md-3 mb-4">
 						<img src="{{ URL::to('/') }}/images/pc_gallery_12.png" alt="" class="img-parallax-overflow img-fluid" style="max-width:250px;">
 					</div>
-					<div class="col-3 col-md-3 p-0 mb-4">
+					<div class="col-6 col-md-3 mb-4">
 						<img src="{{ URL::to('/') }}/images/pc_gallery_13.png" alt="" class="img-parallax-overflow img-fluid" style="max-width:250px;">
 					</div>
-					<div class="col-3 col-md-3 p-0 mb-4">
+					<div class="col-6 col-md-3 mb-4">
 						<img src="{{ URL::to('/') }}/images/pc_gallery_14.png" alt="" class="img-parallax-overflow img-fluid" style="max-width:250px;">
 					</div>
-					<div class="col-3 col-md-3 p-0 mb-4">
+					<div class="col-6 col-md-3 mb-4">
 						<img src="{{ URL::to('/') }}/images/pc_gallery_15.png" alt="" class="img-parallax-overflow img-fluid" style="max-width:250px;">
 					</div>
-					<div class="col-3 col-md-3 p-0 mb-4">
+					<div class="col-6 col-md-3 mb-4">
 						<img src="{{ URL::to('/') }}/images/pc_gallery_16.png" alt="" class="img-parallax-overflow img-fluid" style="max-width:250px;">
 					</div>
 		      	</div>

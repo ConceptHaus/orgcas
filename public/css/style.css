@@ -668,11 +668,11 @@ h1.mobile-title {
   position: relative;
   right: 0;
   z-index: 9;
-  max-width: 65%;
+  max-width: 85%;
 }
 
 .hero-section-jobbies-4 {
-  bottom: -80px;
+  bottom: -30px;
   height: auto;
   width: 100%;
 }
@@ -1436,4 +1436,13 @@ h1.mobile-title {
 
 #modalShark .btn-close, #modalCerralvo .btn-close{
     margin: calc(1 * var(--bs-modal-header-padding-y)) calc(3 * var(--bs-modal-header-padding-x)) calc(0 * var(--bs-modal-header-padding-y)) auto !important;
+}
+
+.carousel-control-next-icon{
+    background-image: url("../images/right-arrow-icon.png");
+}
+
+.carousel-control-prev-icon{
+    background-image: url("../images/left-arrow-icon.png");
+
 }

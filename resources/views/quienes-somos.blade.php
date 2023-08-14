@@ -32,7 +32,7 @@
     }
 
     .init{
-        padding: 25px 0 110px;
+        padding: 25px 0 50px;
     }
 
     .title-history, .title-where-work, .title-orgcas{
@@ -83,6 +83,22 @@
 
     .qs-text-title{
         font-size: 32px !important; 
+    }
+
+    .desc-item-orgcas{
+        text-align: center;
+    }
+
+    .form-check{
+        text-align: center;
+    }
+
+    .form-check .form-check-input {
+        float: initial !important;
+    }
+
+    .contact-submit-center{
+        text-align: center;
     }
 }
 @media only screen and (max-width: 950px) {
@@ -487,7 +503,12 @@
                                   </label>
                                   <span class="text-danger">{{ $errors->first('check-tc') }}</span>
                                 </div>
-                                <button type="submit" class="btn btn-lg contact-submit mt-4">Enviar</button>
+                                <div class="row contact-submit-center">
+                                    <div class="col">
+                                        <button type="submit" class="btn btn-lg contact-submit mt-4">Enviar</button>
+                                        
+                                    </div>
+                                </div>
                             </form>
                         </div>
                     </div>
