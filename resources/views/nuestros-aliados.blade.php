@@ -314,7 +314,7 @@
 					</a>
 		    </div>
 				<div class="col-6 col-sm-6 col-md-3 text-center">
-					<a href="#" target="_blank">
+					<a href="https://www.sealegacy.org/" target="_blank">
 						<img src="images/aliados-seaLegacy.png" class="img-fluid img-parallax-overflow qb-icon-aliados" style="width: 314px; height:118px;">
 					</a>
 		    </div>
@@ -343,12 +343,12 @@
 		  </div>
 		  <div class="row justify-content-center mt-2 mb-4">
 				<div class="col-6 col-sm-6 col-md-3 text-center">
-					<a href="#" target="_blank">
+					<a href="https://www.deepseaguardians.org/" target="_blank">
 						<img src="images/aliados-deep.png" class="img-fluid img-parallax-overflow qb-icon-aliados" style="width: 178px; height:126px;">
 					</a>
 		    </div>
 				<div class="col-6 col-sm-6 col-md-3 text-center">
-					<a href="#" target="_blank">
+					<a href="https://www.sharkresearchmexico.com/" target="_blank">
 						<img src="images/aliados-shark.png" class="img-fluid img-parallax-overflow qb-icon-aliados" style="width: 267px; height:129px;">
 					</a>
 		    </div>
