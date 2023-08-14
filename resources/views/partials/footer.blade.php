@@ -1,13 +1,13 @@
     <footer>
         <div class="footer-top text-center">
             <div class="container-fluid">
-            	<div class="row justify-content-center">
+<!--             	<div class="row justify-content-center">
             		<div class="col-lg-4 d-flex align-items-center justify-content-center mb-4">
                         <img src="{{ URL::to('/') }}/images/logo_footer.png" alt="" style="width:149px; height: 85px;">
                     </div>
-            	</div>
+            	</div> -->
                 <div class="row justify-content-between">
-                    <div class="col-6 col-lg-4 d-flex align-items-center justify-content-center">
+                    <div class="col-6 col-md-6 col-lg-3 d-flex align-items-center justify-content-center order-2 order-sm-2 order-md-2 order-lg-1">
                         <ul class="list-unstyled small text-muted" style="text-align: left;color: #fff !important;">
                           <li class="mb-2">Escríbenos a: </li>
                           <li class="mb-2"><a href="mailto:orgcasmx@gmail.com" class="text-white">orgcasmx@gmail.com</a></li>
@@ -16,7 +16,10 @@
                           <li class="mb-2">Consulta nuestro <a href="#" class="text-white">Aviso de Privacidad</a></li>
                         </ul>
                     </div>
-                    <div class="col-6 col-lg-3" style="text-align: left !important;">
+                    <div class="col-12 col-md-12 col-lg-4 d-flex align-items-center justify-content-center mb-4 order-1 order-sm-1 order-md-1 order-lg-2">
+                        <img src="{{ URL::to('/') }}/images/logo_footer.png" alt="" style="width:149px; height: 85px;">
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-3 order-3 order-sm-3 order-md-3 order-lg-3" style="text-align: left !important;">
                         <div class="row">
                             <div class="col-12 col-sm-12 col-md-9 m-0 p-0" style="max-width: 185px !important">
                                 <div class="col-auto social-icons">
@@ -53,6 +56,6 @@
                 </div>
             </div>
         </div>
-        <div class="footer-bottom text-center">
-        </div>
+<!--         <div class="footer-bottom text-center">
+        </div> -->
     </footer>
