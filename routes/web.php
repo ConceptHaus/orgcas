@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 #use app\Http\Controllers\ContactController;
 use App\Http\Controllers\ContactController;
+use Jenssegers\Agent\Agent;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,7 +20,8 @@ Route::get('/', function () {
 })->name('index');
 
 Route::get('/quienes-somos', function () {
-    return view('quienes-somos');
+    $agent = new Agent();
+    return view('quienes-somos', compact('agent'));
 })->name('quienes-somos');
 
 Route::get('/que-hacemos', function () {

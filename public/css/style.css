@@ -737,7 +737,6 @@ h1.mobile-title {
 .text-see-delfin{
     border-radius: 70px;
     background: var(--ultra-light-gray, #F6F6F6);
-    margin: 0px 80px;
 }
 
 .text-asks{
@@ -748,12 +747,11 @@ h1.mobile-title {
     font-weight: 800;
     line-height: 135.5%;
     padding: 40px 80px;
-    width: 653px; 
+ 
 }
 
 .text-palpito{
     padding: 0px 80px 60px;
-    width: 653px;
 }
 
 .card-item{
@@ -1349,8 +1347,18 @@ h1.mobile-title {
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 900px) {
+    .text-asks{
+        padding: 35px !important;
+    }
 
+    .text-palpito {
+        padding: 0 35px !important;
+    }
+
+    .qs-img-delfines{
+        max-height: 555px !important;
+    }
 }
 
 .container-carousel-wl{
