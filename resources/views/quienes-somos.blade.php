@@ -263,8 +263,13 @@
                                   <input type="name" name="name" class="form-control" id="inputName" placeholder="Nombre completo:">
                                   <span class="text-danger">{{ $errors->first('name') }}</span>
                                 </div>
-                                <select class="form-select mb-3" name="help" aria-label="Default select example">
-                                  <option selected>¿Cómo podemos ayudar?</option>
+                                <style type="text/css">
+                                    select option[disabled]:first-child {
+                                        display: none;
+                                    }
+                                </style>
+                                <select class="form-select mb-3" name="help" aria-label="¿Cómo podemos ayudar?" >
+                                  <option value="" selected disabled >¿Cómo podemos ayudar?</option>
                                   <option value="Quiero información">Quiero información</option>
                                   <option value="Quiero ser colaborador">Quiero ser colaborador</option>
                                   <option value="Quiero donar">Quiero donar</option>
