@@ -35,7 +35,7 @@
                             Estudió comunicación y se especializa en la construcción de equipos, procesos de flujo de trabajo y logística.
                             Después de hacer su primer curso de buceo en 2017, supo que tenía que ser parte de la preservación de todas las maravillas que encontró debajo de la superficie. Por eso hace unos años decidió mudarse a La Paz, BCS.
                             Es organizada, conciliadora, determinada y le encanta trabajar en equipo.
-                            A Ele siente una conexión con los peces cuando van en cardumen.
+                            Ele siente una conexión con los peces cuando van en cardumen.
                             </p>
                         </div>
                     </div>
@@ -131,8 +131,8 @@
                         </div>
                         <div class="mt-3 desc-item-orgcas">
                             <p class="h6">Nació en Como, Italia, y viajar siempre fue su amor más grande.
-                            Estudió Gestión Empresarial por la Universidad de Greenwich y se especializó en Gestión de Riesgos por la misma universidad. Ha vivido lugares remotos, explorado selvas y ha tenido todo tipo de aventuras. Hace cinco años recibió una oferta de trabajo en un centro de buceo en el Caribe mexicano y desde entonces, todas sus decisiones se han centrado en lograr vivir una vida sostenible junto al océano.
-                            Es carismática y tiene un espíritu aventurero indiscutible. 
+                            Estudió Gestión Empresarial por la Universidad de Greenwich y se especializó en Gestión de Riesgos por la misma universidad. Ha vivido en lugares remotos, explorando selvas y ha tenido todo tipo de aventuras. Hace cinco años recibió una oferta de trabajo en un centro de buceo en el Caribe mexicano y desde entonces, todas sus decisiones se han centrado en lograr vivir una vida sostenible junto al océano.
+                            Es carismática y tiene un espíritu aventurero indiscutible.
                             Marti siente una conexión especial con las ballenas jorobadas.
                             </p>
                         </div>
@@ -186,8 +186,7 @@
                             <img src="{{ URL::to('/') }}/images/orgcas/Maru-Brito.png" alt="" style="border-radius: 50%;max-width: 157px;">
                         </div>
                         <div class="mt-3 desc-item-orgcas">
-                            <p class="h6">Nació en Ciudad de México, pero creció cerca al Océano Pacífico.<br>
-                            Es psicóloga e instructora de buceo. Pero en 2018 compró su primera cámara y desde entonces ejerce su pasión de ser videógrafa de vida marina. Ha colaborado con grandes compañías de documentales de naturaleza.
+                            <p class="h6">Nació en Ciudad de México, pero creció cerca al Océano Pacífico. Es psicóloga e instructora de buceo. Pero en 2018 compró su primera cámara y desde entonces ejerce su pasión de ser videógrafa de vida marina. Ha colaborado con grandes compañías de documentales de naturaleza.
                             Es la mejor piloto de dron y de avionetas. Es soñadora, leal, y su sentir y filosofía está plasmado en su trabajo.
                             Maru dice que su animal espiritual es la ballena jorobada.
                             </p>
@@ -206,7 +205,7 @@
                         <div class="mt-3 desc-item-orgcas">
                                 <p class="h6">Nació en España, la primera vez que se puso un equipo de snorkel tenía 3 años y desde entonces no ha salido del agua.
                                 Es oceanógrafa graduada en la Universidad de Las Palmas de Gran Canaria con una licenciatura en Ciencias del Mar. Se mudó a México para cursar un Máster en Manejo de Recursos marinos.
-                                Viaja alrededor del mundo con muchísima gente que la acompañan en sus inmersiones, todo el tiempo trata de compartir su amor por el mar y concientizar que los recursos que nos ofrece son limitados.
+                                Viaja alrededor del mundo con muchísima gente que la acompaña en sus inmersiones, todo el tiempo trata de compartir su amor por el mar y concientizar que los recursos que nos ofrece son limitados.
                                 Es aventurera y divertida.
                                 A Gador le apasionan todos los tiburones.
                             </p>
