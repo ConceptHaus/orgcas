@@ -3,9 +3,14 @@
 @section('content')
 
 <style type="text/css">
-	#carouselAliados{
-		max-width: 819px;
-		max-height: 496px; 
+	.carousel-item{
+		width: 819px;
+		height: 496px; 
+	}
+
+	#carouselAliados .al-card-dec{
+		max-width: 439px;
+		max-height: 215px; 
 	}
 
 	.carousel-item .card{
@@ -21,12 +26,32 @@
 		font-style: normal;
 		font-weight: 600;
 		line-height: 150%; /* 45px */ 
-		}
-@media only screen and (max-width: 600px) {
+	}
 
+	.carousel-inner{
+		overflow: initial !important;
+	}
+.carousel-indicators .carousel-control-prev, .carousel-indicators .carousel-control-next {
+  height: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+	.carousel-item{
+		width: 323px !important;
+		height: 434px !important; 
+	}
+
+	.carousel-indicators [data-bs-target]{
+		background: #FFF0 !important;
+	}
 }
 
 @media only screen and (max-width: 950px) {
+
+	.carousel-item{
+		width: 100%;
+		height: 496px; 
+	}
 
 	.container-lg.nav-aliados img {
 	  max-width: 100% !important;
@@ -67,7 +92,7 @@
 				<div class="col-xs-0 col-sm-1 col-lg-2 p-0"></div>
 				<div class="col-xs-12 col-sm-10 col-lg-8 p-2 d-flex justify-content-center">
 					<!-- Carousel -->
-					<div id="carouselAliados" class="carousel" data-bs-ride="carousel">
+					<div id="carouselAliados" class="carousel" data-bs-ride="false">
 						<div class="carousel-indicators">
 							<button type="button" data-bs-target="#carouselAliados" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
 							<button type="button" data-bs-target="#carouselAliados" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -76,12 +101,22 @@
 							<button type="button" data-bs-target="#carouselAliados" data-bs-slide-to="4" aria-label="Slide 5"></button>
 							<button type="button" data-bs-target="#carouselAliados" data-bs-slide-to="5" aria-label="Slide 6"></button>
 							<button type="button" data-bs-target="#carouselAliados" data-bs-slide-to="6" aria-label="Slide 7"></button>
+
+
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselAliados" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselAliados" data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
 						</div>
 						<div class="carousel-inner">
 							<!-- blue -->
 							<div class="carousel-item active">
 								<div class="card text-center p-4 align-items-center w-100 h-100">
-									<img src="images/aliados-blueMarine.png" class="qb-card-img-sec" alt="Aliados">
+									<img src="images/aliados-blueMarine.png" class="qb-card-img-sec my-3" alt="Aliados">
 									<div class="card-body">
 										<p class="card-text al-card-dec">
 											Blue Marine Foundation: Nos dio la patadita de inicio y continua apoyándonos hasta ahora
@@ -93,7 +128,7 @@
 							<!-- Jafra -->
 							<div class="carousel-item">
 								<div class="card text-center p-4 align-items-center w-100 h-100">
-									<img src="images/aliados-jafra.png" class="qb-card-img-sec" alt="Aliados" style="max-height: 126px; max-width: 143px; ">
+									<img src="images/aliados-jafra.png" class="qb-card-img-sec my-3" alt="Aliados" style="max-height: 126px; max-width: 143px; ">
 									<div class="card-body">
 										<p class="card-text al-card-dec">
 											Jafra: Nos donará parte de sus ganancias para operaciones vitales para ORGCAS
@@ -105,7 +140,7 @@
 							<!-- NEXXUS -->
 							<div class="carousel-item">
 								<div class="card text-center p-4 align-items-center w-100 h-100">
-									<img src="images/aliados-nexxus.png" class="qb-card-img-sec" alt="Aliados">
+									<img src="images/aliados-nexxus.png" class="qb-card-img-sec my-5" alt="Aliados">
 									<div class="card-body">
 										<p class="card-text al-card-dec">
 											Nexxus: Nos apoyó con un motor para la segunda embarcación de nuestro proyecto
@@ -117,7 +152,7 @@
 							<!-- Bonassi -->
 							<div class="carousel-item">
 								<div class="card text-center p-4 align-items-center w-100 h-100">
-									<img src="images/aliados-bonassi.png" class="qb-card-img-sec" alt="Aliados">
+									<img src="images/aliados-bonassi.png" class="qb-card-img-sec my-5" alt="Aliados">
 									<div class="card-body">
 										<p class="card-text al-card-dec">
 											Bonassi: Nos donaron mucho de su increíble equipo para poder avanzar en el proyecto
@@ -129,7 +164,7 @@
 							<!-- Intercam -->
 							<div class="carousel-item">
 								<div class="card text-center p-4 align-items-center w-100 h-100">
-									<img src="images/aliados-intercam.png" class="qb-card-img-sec" alt="Aliados">
+									<img src="images/aliados-intercam.png" class="qb-card-img-sec my-5" alt="Aliados">
 									<div class="card-body">
 										<p class="card-text al-card-dec">
 											Intercam: Creyeron en nuestro proyecto y nos donaron nuestra primera panga la "Tintorera"
@@ -141,7 +176,7 @@
 							<!-- Beta -->
 							<div class="carousel-item h-100">
 								<div class="card text-center p-4 align-items-center w-100 h-100">
-									<img src="images/aliados-beta.png" class="qb-card-img-sec" alt="Aliados">
+									<img src="images/aliados-beta.png" class="qb-card-img-sec my-5" alt="Aliados">
 									<div class="card-body">
 										<p class="card-text al-card-dec">
 											Beta Diversidad: Nuestra ONG hermana con la que trabajamos mano a mano
@@ -153,7 +188,7 @@
 							<!-- New-->
 							<div class="carousel-item">
 								<div class="card text-center p-4 align-items-center w-100 h-100">
-									<img src="images/aliados-newAtlantis.png" class="qb-card-img-sec" alt="Aliados">
+									<img src="images/aliados-newAtlantis.png" class="qb-card-img-sec my-5" alt="Aliados">
 									<div class="card-body">
 										<p class="card-text al-card-dec">
 											New Atlantis: Nos ayuda con partes vitales de la operación del día a día de ORGCAS
@@ -163,14 +198,7 @@
 								</div>
 							</div>
 						</div>
-						<button class="carousel-control-prev" type="button" data-bs-target="#carouselAliados" data-bs-slide="prev">
-							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-							<span class="visually-hidden">Previous</span>
-						</button>
-						<button class="carousel-control-next" type="button" data-bs-target="#carouselAliados" data-bs-slide="next">
-							<span class="carousel-control-next-icon" aria-hidden="true"></span>
-							<span class="visually-hidden">Next</span>
-						</button>
+
 					</div>
 				</div>
 				<div class="col-xs-0 col-sm-1 col-lg-2 p-0">
