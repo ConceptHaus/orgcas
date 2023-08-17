@@ -48,7 +48,7 @@
       </div>
       <div class="row text-center">
         <div class="col p-0">
-            <img src="{{ URL::to('/') }}/images/que-hacemos-map.png" alt="orgcas" class="img-map section-img hero-section-jobbies-3 img-parallax-overflow wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp; top: -60px;">
+            <img src="{{ URL::to('/') }}/images/que-hacemos-map.png" alt="orgcas" class="img-map section-img hero-section-jobbies-3 img-parallax-overflow wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp; top: -60px; max-width: 914px; max-height: 914px">
         </div>
       </div>
       <div class="hero-section-divider-angle-2"></div>
@@ -74,13 +74,13 @@
 			</div>
 		</div>
 
-		<div class="container container-text-our-focus" style="transform: translate3d(0px, 0px, 0px);">
+		<div class="container container-text-our-focus p-4" style="transform: translate3d(0px, 0px, 0px);">
 			<div class="row">
 				<div class="col-12 col-sm-12 col-md-12 col-lg-6">
 					<p class="title-our-focus mb-3">
 						Nuestro enfoque
 					</p>
-					<p class="text-our-focus">
+					<p class="text-our-focus p-4">
 						Dicen que el mar lo cura todo y seguramente cualquier persona que haya estado en sus aguas lo puede garantizar.<span class="text-our-focus-color"> Pero un océano sobreexplotado afecta el bienestar de todo ser vivo en la Tierra.</span> No es un secreto que hoy los océanos están en riesgo y con él nuestra existencia también.
 					</p>
 					<p class="text-our-focus-2">
@@ -93,10 +93,8 @@
 			</div>
 		</div>
 	</section>
-
-
     <section id="what-looking" class="container-lg">
-    	<div class="row pb-5" style="transform: translate3d(0px, 0px, 0px);">
+    	<div class="row" style="transform: translate3d(0px, 0px, 0px); padding: 85px 0;">
     		<div class="col-md-12 text-center wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInRight;">
     			<h1 class="qb-title">¿Qué buscamos?</h1>
     		</div>
@@ -247,7 +245,12 @@
 				        							</ul>
 				        						</p>
 				        					</div>
-				        					<div class="col-12 col-sm-12 col-md-6">
+				        					<div class="col-12 col-sm-12 col-md-6 d-flex justify-content-center">
+													  <style type="text/css">
+													  	#carouselScience{
+													  		max-width: 437px;
+													  	}
+													  </style>
 				        						<div id="carouselScience" class="carousel slide" data-bs-ride="carousel">
 													  <div class="carousel-indicators">
 													    <button type="button" data-bs-target="#carouselScience" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>

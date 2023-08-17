@@ -646,7 +646,7 @@ h1.mobile-title {
   right: 0;
   top: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 0;
 }
 .section-background-container-map-desc {
   bottom: 0;
@@ -896,7 +896,7 @@ h1.mobile-title {
 
 .subtext-science{
     color: #CA6D4F;
-    font-family: Proxima Nova;
+    font-family: Proxima Nova Bold;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -953,7 +953,7 @@ h1.mobile-title {
 }
 .subtext-education{
     color: var(--orgcas-sand, #F2DAB2);
-    font-family: Proxima Nova;
+    font-family: Proxima Nova Bold;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -1003,7 +1003,7 @@ h1.mobile-title {
 }
 .subtext-tourism{
     color: var(--orgcas-sand, #F2DAB2);
-    font-family: Proxima Nova;
+    font-family: Proxima Nova Bold;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -1053,7 +1053,7 @@ h1.mobile-title {
 }
 .subtext-comunication{
     color: var(--orgcas-deep-blue, #000E27);
-    font-family: Proxima Nova;
+    font-family: Proxima Nova Bold;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -1152,11 +1152,12 @@ h1.mobile-title {
     overflow: hidden;
     color: #FFFFFF;
     background-size: auto;
-    border-radius: 60px;
+    border-radius: 72px;
     display: grid;
     justify-content: center;
     align-items: center;
-    transform: translate3d(0px, 22px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+    
 }
 .title-project-shark{
     color: var(--white, #FFF);
@@ -1181,6 +1182,13 @@ h1.mobile-title {
     border-radius: 60px;
 
 }
+
+.btn-project-shark:hover, .btn-project-cerralvo:hover{
+    background: #CA6D4F;
+    color: #fff;
+    border-color: #fff;
+    border: solid 1px;
+}
 .container-image-cerralvo{
     background:linear-gradient(to top, #003B4DDE, #003B4DDE), url('../images/proyecto_cerralvo.png') no-repeat top center;
     max-width: 431px;
@@ -1188,11 +1196,11 @@ h1.mobile-title {
     overflow: hidden;
     color: #FFFFFF;
     background-size: auto;
-    border-radius: 70px;
+    border-radius: 72px;
     display: grid;
     justify-content: center;
     align-items: center;
-    transform: translate3d(0px, 22px, 0px);
+    transform: translate3d(0px, 0px, 0px);
 }
 
 .container-image-cerralvo:hover, .container-image-shark:hover{
