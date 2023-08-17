@@ -174,7 +174,7 @@
 								</div>
 							</div>
 							<!-- Beta -->
-							<div class="carousel-item h-100">
+							<div class="carousel-item">
 								<div class="card text-center p-4 align-items-center w-100 h-100">
 									<img src="images/aliados-beta.png" class="qb-card-img-sec my-5" alt="Aliados">
 									<div class="card-body">
