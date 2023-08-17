@@ -215,7 +215,7 @@
             </div>
         </div>
     </section>
-    <section class="qs-content-figures-1" style="position: relative; top: -650px;">
+    <section class="qs-content-figures-1 p-0" style="position: relative; top: -650px;">
         <div class="col-md-12">
             <img src="{{ URL::to('/') }}/images/ramitas-l.png" alt="" class="img-fluid img-parallax-overflow" style="max-width:353px; max-height:608px; position: absolute; left: 0px;">
             <img src="{{ URL::to('/') }}/images/figure-r2.png" alt="" class="img-fluid img-parallax-overflow" style="max-width:203px; max-height:350px; position: absolute; right: 0px;">

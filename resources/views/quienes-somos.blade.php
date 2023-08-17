@@ -141,7 +141,7 @@
           </div>
           <div class="row text-center">
             <div class="col p-0">
-                <img src="{{ URL::to('/') }}/images/map.png" alt="orgcas" class="qs-map section-img hero-section-jobbies-3 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+                <img src="{{ URL::to('/') }}/images/mapa.svg" alt="orgcas" class="qs-map section-img hero-section-jobbies-3 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
             </div>
           </div>
           <div class="row">
@@ -204,7 +204,7 @@
                 <p class="title-where-work mx-4">
                     ¿Dónde trabajamos?
                 </p>
-                <p class="text-where-work mx-4">
+                <p class="text-where-work m-5">
                     Baja California Sur, México, es donde habitamos y sin duda nuestra gran fuente de inspiración. Este lugar tiene una importancia biológica y ecosistémica por la abundancia de vida que coexiste: Aquí llega desde el animal más grande del mundo como la ballena azul, hasta millones de organismos invisibles en el agua que alimentan a muchas otras especies. La magia de este paisaje es única y nos recuerda cada día que una sana coexistencia es posible.
                 </p>
 
