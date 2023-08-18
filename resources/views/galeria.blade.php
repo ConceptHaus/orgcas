@@ -4,8 +4,8 @@
 	<link rel="stylesheet" href="{{asset('css/galeria.css')}}">
 
     <section class="galeria-portada p-0 m-0">
-    	<img src="images/galeria_portada.png" alt="" class="img-fluid wow fadeInDown" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInDown;">
-    	<p class="text-center align-middle text-portada wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">El salto / Por: Johanna Doe Spencer / 2023</p>
+    	<img id="main-banner" src="images/galeria_portada.png" alt="" class="img-fluid wow fadeInDown" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInDown;">
+    	<p id="main-copyright" class="text-center align-middle text-portada wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">El salto / Por: Johanna Doe Spencer / 2023</p>
     </section>
     <section class="press">
     	<p class="title-press wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">Press</p>
@@ -32,40 +32,40 @@
 		  </style>
 		  <div id="galeria" class="carousel-inner text-center">
 		    <div class="carousel-item active">
-				<img src="images/galeria/galeria_1.png" alt="" class="img-fluid">
-				<img src="images/galeria/galeria_2.png" alt="" class="img-fluid">
-				<img src="images/galeria/galeria_3.png" alt="" class="img-fluid">
-				<img src="images/galeria/galeria_4.png" alt="" class="img-fluid">
-				<img src="images/galeria/galeria_5.png" alt="" class="img-fluid">
-				<img src="images/galeria/galeria_6.png" alt="" class="img-fluid">
-				<img src="images/galeria/galeria_7.png" alt="" class="img-fluid">
-				<img src="images/galeria/galeria_8.png" alt="" class="img-fluid">
-				<img src="images/galeria/galeria_9.png" alt="" class="img-fluid">
-				<img src="images/galeria/galeria_10.png" alt="" class="img-fluid">
+				<img src="images/galeria/galeria_1.png" alt="" class="img-fluid change-banner" data-copyright="">
+				<img src="images/galeria/galeria_2.png" alt="" class="img-fluid change-banner" data-copyright="">
+				<img src="images/galeria/galeria_3.png" alt="" class="img-fluid change-banner" data-copyright="">
+				<img src="images/galeria/galeria_4.png" alt="" class="img-fluid change-banner" data-copyright="">
+				<img src="images/galeria/galeria_5.png" alt="" class="img-fluid change-banner" data-copyright="">
+				<img src="images/galeria/galeria_6.png" alt="" class="img-fluid change-banner" data-copyright="">
+				<img src="images/galeria/galeria_7.png" alt="" class="img-fluid change-banner" data-copyright="">
+				<img src="images/galeria/galeria_8.png" alt="" class="img-fluid change-banner" data-copyright="">
+				<img src="images/galeria/galeria_9.png" alt="" class="img-fluid change-banner" data-copyright="">
+				<img src="images/galeria/galeria_10.png" alt="" class="img-fluid change-banner" data-copyright="">
 		    </div>
 		    <div class="carousel-item">
-				<img src="images/galeria/galeria_11.png" alt="" class="img-fluid">
-				<img src="images/galeria/galeria_12.png" alt="" class="img-fluid">
-				<img src="images/galeria/galeria_13.png" alt="" class="img-fluid">
-				<img src="images/galeria/galeria_14.png" alt="" class="img-fluid">
-				<img src="images/galeria/galeria_15.png" alt="" class="img-fluid">
-				<img src="images/galeria/galeria_16.png" alt="" class="img-fluid">
-				<img src="images/galeria/galeria_17.png" alt="" class="img-fluid">
-				<img src="images/galeria/galeria_18.png" alt="" class="img-fluid">
-				<img src="images/galeria/galeria_19.png" alt="" class="img-fluid">
-				<img src="images/galeria/galeria_20.png" alt="" class="img-fluid">
+				<img src="images/galeria/galeria_11.png" alt="" class="img-fluid change-banner" data-copyright="">
+				<img src="images/galeria/galeria_12.png" alt="" class="img-fluid change-banner" data-copyright="">
+				<img src="images/galeria/galeria_13.png" alt="" class="img-fluid change-banner" data-copyright="">
+				<img src="images/galeria/galeria_14.png" alt="" class="img-fluid change-banner" data-copyright="">
+				<img src="images/galeria/galeria_15.png" alt="" class="img-fluid change-banner" data-copyright="">
+				<img src="images/galeria/galeria_16.png" alt="" class="img-fluid change-banner" data-copyright="">
+				<img src="images/galeria/galeria_17.png" alt="" class="img-fluid change-banner" data-copyright="">
+				<img src="images/galeria/galeria_18.png" alt="" class="img-fluid change-banner" data-copyright="">
+				<img src="images/galeria/galeria_19.png" alt="" class="img-fluid change-banner" data-copyright="">
+				<img src="images/galeria/galeria_20.png" alt="" class="img-fluid change-banner" data-copyright="">
 		    </div>
 		    <div class="carousel-item">
-				<img src="images/galeria/galeria_21.png" alt="" class="img-fluid">
-				<img src="images/galeria/galeria_22.png" alt="" class="img-fluid">
-				<img src="images/galeria/galeria_23.png" alt="" class="img-fluid">
-				<img src="images/galeria/galeria_24.png" alt="" class="img-fluid">
-				<img src="images/galeria/galeria_25.png" alt="" class="img-fluid">
-				<img src="images/galeria/galeria_26.png" alt="" class="img-fluid">
-				<img src="images/galeria/galeria_27.png" alt="" class="img-fluid">
-				<img src="images/galeria/galeria_28.png" alt="" class="img-fluid">
-				<img src="images/galeria/galeria_29.png" alt="" class="img-fluid">
-				<img src="images/galeria/galeria_30.png" alt="" class="img-fluid">
+				<img src="images/galeria/galeria_21.png" alt="" class="img-fluid change-banner" data-copyright="">
+				<img src="images/galeria/galeria_22.png" alt="" class="img-fluid change-banner" data-copyright="">
+				<img src="images/galeria/galeria_23.png" alt="" class="img-fluid change-banner" data-copyright="">
+				<img src="images/galeria/galeria_24.png" alt="" class="img-fluid change-banner" data-copyright="">
+				<img src="images/galeria/galeria_25.png" alt="" class="img-fluid change-banner" data-copyright="">
+				<img src="images/galeria/galeria_26.png" alt="" class="img-fluid change-banner" data-copyright="">
+				<img src="images/galeria/galeria_27.png" alt="" class="img-fluid change-banner" data-copyright="">
+				<img src="images/galeria/galeria_28.png" alt="" class="img-fluid change-banner" data-copyright="">
+				<img src="images/galeria/galeria_29.png" alt="" class="img-fluid change-banner" data-copyright="">
+				<img src="images/galeria/galeria_30.png" alt="" class="img-fluid change-banner" data-copyright="">
 		    </div>
 		  </div>
 
@@ -76,5 +76,24 @@
 			</p>
 		</div>
     </section>
+    <script type="text/javascript">
+    	$(document).ready(function(){
+    		$(".change-banner").on('click', function(){
+    			//main-banner
+				//main-desc
+				var currentImg = $( this );
+    			let banner_src =  currentImg.attr("src").replace('/galeria/', '/galeria/banner/');
+    			var copyright = currentImg.attr("data-copyright")
+
+    			$("#main-banner").attr("src", banner_src);
+    			if (copyright !== "") {
+    				$("#main-copyright").text(copyright)
+    			}else{
+    				let default_copyright = "El salto / Por: Johanna Doe Spencer / 2023";
+    				$("#main-copyright").text(default_copyright)
+    			}
+    		});
+    	});
+    </script>
 
 @endsection
