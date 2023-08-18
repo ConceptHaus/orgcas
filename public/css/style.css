@@ -1344,7 +1344,77 @@ h1.mobile-title {
     .qh_figure_r{
         max-width: 40px !important;
     }
+
+    .nav-item{
+        margin-right: 0 !important;
+    }
+
+    .text-where-work, .text-map-desc, .text-asks, .text-palpito, .contanct-title-form, .text-our-focus, .text-our-focus-2{
+        text-align: center;
+    }
+
+    .contanct-title-form{
+        font-size: 32px !important;
+    }
+
+    .form-control, .form-select{
+        border-radius: 10px !important;
+        border: 1px solid #C4C4C4 !important;
+        background: #FFF !important; 
+    }
+
+    footer .footer-top{
+        padding-top: 40px !important;
+    }
+
+    footer .list-unstyled.small.text-muted {
+      font-size: 13px !important;
+    }
+
+    .qb-card-img{
+        max-width: 121px !important;
+    }
+
+    .qb-card-dec, .qb-card-dec span{
+        font-size: 15px !important; 
+    }
+
+    #carouselExampleIndicators .carousel-inner {
+      width: 317px !important;
+      height: 375px !important;
+      margin: auto;
+    }
+
+    .carousel-item{
+        height: 100%;
+    }
+
+    #what-looking .qb-content-title{
+        padding: 40px 0 !important;
+    }
+
+    .nav-que-buscamos .content-science, .content-education, .content-tourism, .content-comunication{
+        border-radius: 0px !important;
+    }
+
+    .content-objetivo-1{
+        display: none !important;
+    }
+    .content-objetivo-2{
+        display: initial !important;
+    }
+
+    .card-text.al-card-dec {
+      margin-bottom: 35px;
+    }
 } 
+
+.content-objetivo-1{
+    display: initial;
+}
+.content-objetivo-2{
+    display: none;
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
@@ -1366,6 +1436,10 @@ h1.mobile-title {
 
     .qs-img-delfines{
         max-height: 555px !important;
+    }
+
+    .li-display-grid{
+        display: grid;
     }
 }
 

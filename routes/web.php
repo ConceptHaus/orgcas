@@ -29,7 +29,8 @@ Route::get('/que-hacemos', function () {
 })->name('que-hacemos');
 
 Route::get('/nuestro-aliados', function () {
-    return view('nuestros-aliados');
+    $agent = new Agent();
+    return view('nuestros-aliados', compact('agent'));
 })->name('nuestro-aliados');
 
 Route::get('/galeria', function () {

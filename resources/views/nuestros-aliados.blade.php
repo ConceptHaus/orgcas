@@ -329,62 +329,135 @@
 
 		}
     </style>
-    <section class="container-lg nav-aliados">
-		  <div class="row justify-content-center mb-4">
-        <div class="col-6 col-sm-6 col-md-3 text-center">
-        	<a href="https://betadiversidad.org/" target="_blank">
-            	<img src="images/aliados-beta.png" class="img-parallax-overflow qb-icon-aliados" style="width: 311px; height:90px;">
-        	</a>
-        </div>
-				<div class="col-6 col-sm-6 col-md-3 text-center">
-					<a href="https://www.bluemarinefoundation.com/" target="_blank">
-						<img src="images/aliados-blueMarine.png" class="img-fluid img-parallax-overflow qb-icon-aliados" style="width: 348px; height:196px;">
-					</a>
-		    </div>
-				<div class="col-6 col-sm-6 col-md-3 text-center">
-					<a href="https://www.sealegacy.org/" target="_blank">
-						<img src="images/aliados-seaLegacy.png" class="img-fluid img-parallax-overflow qb-icon-aliados" style="width: 314px; height:118px;">
-					</a>
-		    </div>
-				<div class="col-6 col-sm-6 col-md-3 text-center">
-					<a href="https://www.jafra.com.mx/" target="_blank">
-						<img src="images/aliados-jafra.png" class="img-fluid img-parallax-overflow qb-icon-aliados" style="width: 161px; height:142px;">
-					</a>
-		    </div>
-		  </div>
-		  <div class="row justify-content-center mt-2 mb-4">
-				<div class="col-6 col-sm-6 col-md-3 text-center">
-					<a href="https://www.nexxuscapital.com/es/" target="_blank">
-						<img src="images/aliados-nexxus.png" class="img-fluid img-parallax-overflow qb-icon-aliados" style="width: 216px; height:71px;">
-					</a>
-		    </div>
-				<div class="col-6 col-sm-6 col-md-3 text-center">
-					<a href="https://www.intercam.com.mx/" target="_blank">
-						<img src="images/aliados-intercam.png" class="img-fluid img-parallax-overflow qb-icon-aliados" style="width: 303px; height:57px;">
-					</a>
-		    </div>
-				<div class="col-6 col-sm-6 col-md-3 text-center">
-					<a href="https://bonassi.mx/" target="_blank">
-						<img src="images/aliados-bonassi.png" class="img-fluid img-parallax-overflow qb-icon-aliados" style="width: 287px; height:73px;">
-					</a>
-		    </div>
-		  </div>
-		  <div class="row justify-content-center mt-2 mb-4">
-				<div class="col-6 col-sm-6 col-md-3 text-center">
-					<a href="https://www.deepseaguardians.org/" target="_blank">
-						<img src="images/aliados-deep.png" class="img-fluid img-parallax-overflow qb-icon-aliados" style="width: 178px; height:126px;">
-					</a>
-		    </div>
-				<div class="col-6 col-sm-6 col-md-3 text-center">
-					<a href="https://www.sharkresearchmexico.com/" target="_blank">
-						<img src="images/aliados-shark.png" class="img-fluid img-parallax-overflow qb-icon-aliados" style="width: 267px; height:129px;">
-					</a>
-		    </div>
-				<div class="col-6 col-sm-6 col-md-3 text-center">
-					<a href="https://newatlantis.io/" target="_blank">
-						<img src="images/aliados-newAtlantis.png" class="img-fluid img-parallax-overflow qb-icon-aliados" style="width: 324px; height:102px;">
-					</a>
-		    </div>
-		  </div>
-    </section>	
+
+    @if($agent->isMobile())
+
+    <style type="text/css">
+
+    	.nav-aliados .aliado-item {
+    		margin-top: auto;
+				margin-bottom: auto;
+				padding-bottom: 15px;
+    	}
+    	.img-v-center{
+    	}
+    </style>
+
+	    <section class="container-lg nav-aliados">
+			  <div class="row justify-content-center mb-4">
+	        <div class="col-6 col-sm-6 col-md-3 text-center aliado-item">
+	        	<a href="https://betadiversidad.org/" target="_blank" class="img-v-center">
+	            	<img src="images/aliados-beta.png" class="img-parallax-overflow qb-icon-aliados" style="width: 163px; height:47px;">
+	        	</a>
+	        </div>
+					<div class="col-6 col-sm-6 col-md-3 text-center aliado-item">
+						<a href="https://www.bluemarinefoundation.com/" target="_blank" class="img-v-center">
+							<img src="images/aliados-blueMarine.png" class="img-fluid img-parallax-overflow qb-icon-aliados" style="width: 183px; height:183px;">
+						</a>
+			    </div>
+					<div class="col-6 col-sm-6 col-md-3 text-center aliado-item">
+						<a href="https://www.sealegacy.org/" target="_blank" class="img-v-center">
+							<img src="images/aliados-seaLegacy.png" class="img-fluid img-parallax-overflow qb-icon-aliados" style="width: 175px; height:66px;">
+						</a>
+			    </div>
+					<div class="col-6 col-sm-6 col-md-3 text-center aliado-item">
+						<a href="https://www.jafra.com.mx/" target="_blank" class="img-v-center">
+							<img src="images/aliados-jafra.png" class="img-fluid img-parallax-overflow qb-icon-aliados" style="width: 66px; height:57px;">
+						</a>
+			    </div>
+					<div class="col-6 col-sm-6 col-md-3 text-center aliado-item">
+						<a href="https://www.nexxuscapital.com/es/" target="_blank" class="img-v-center">
+							<img src="images/aliados-nexxus.png" class="img-fluid img-parallax-overflow qb-icon-aliados" style="width: 117px; height:32px;">
+						</a>
+			    </div>
+					<div class="col-6 col-sm-6 col-md-3 text-center aliado-item">
+						<a href="https://bonassi.mx/" target="_blank" class="img-v-center">
+							<img src="images/aliados-bonassi.png" class="img-fluid img-parallax-overflow qb-icon-aliados" style="width: 141px; height:36px;">
+						</a>
+			    </div>
+					<div class="col-6 col-sm-6 col-md-3 text-center aliado-item">
+						<a href="https://www.intercam.com.mx/" target="_blank" class="img-v-center">
+							<img src="images/aliados-intercam.png" class="img-fluid img-parallax-overflow qb-icon-aliados" style="width: 155px; height:29px;">
+						</a>
+			    </div>
+					<div class="col-6 col-sm-6 col-md-3 text-center aliado-item">
+						<a href="https://www.sharkresearchmexico.com/" target="_blank" class="img-v-center">
+							<img src="images/aliados-shark.png" class="img-fluid img-parallax-overflow qb-icon-aliados" style="width: 106px; height:73px;">
+						</a>
+			    </div>
+					<div class="col-6 col-sm-6 col-md-3 text-center aliado-item">
+						<a href="https://www.deepseaguardians.org/" target="_blank" class="img-v-center">
+							<img src="images/aliados-deep.png" class="img-fluid img-parallax-overflow qb-icon-aliados" style="width: 178px; height:126px;">
+						</a>
+			    </div>
+
+					<div class="col-6 col-sm-6 col-md-3 text-center aliado-item">
+						<a href="https://newatlantis.io/" target="_blank" class="img-v-center">
+							<img src="images/aliados-newAtlantis.png" class="img-fluid img-parallax-overflow qb-icon-aliados" style="width: 130px; height:41px;">
+						</a>
+			    </div>
+			  </div>
+	    </section>
+
+	  @else
+	    <section class="container-lg nav-aliados">
+			  <div class="row justify-content-center mb-4">
+	        <div class="col-6 col-sm-6 col-md-3 text-center">
+	        	<a href="https://betadiversidad.org/" target="_blank">
+	            	<img src="images/aliados-beta.png" class="img-parallax-overflow qb-icon-aliados" style="width: 230px; height:100px;">
+	        	</a>
+	        </div>
+					<div class="col-6 col-sm-6 col-md-3 text-center">
+						<a href="https://www.bluemarinefoundation.com/" target="_blank">
+							<img src="images/aliados-blueMarine.png" class="img-fluid img-parallax-overflow qb-icon-aliados" style="width: 348px; height:196px;">
+						</a>
+			    </div>
+					<div class="col-6 col-sm-6 col-md-3 text-center">
+						<a href="https://www.sealegacy.org/" target="_blank">
+							<img src="images/aliados-seaLegacy.png" class="img-fluid img-parallax-overflow qb-icon-aliados" style="width: 314px; height:118px;">
+						</a>
+			    </div>
+					<div class="col-6 col-sm-6 col-md-3 text-center">
+						<a href="https://www.jafra.com.mx/" target="_blank">
+							<img src="images/aliados-jafra.png" class="img-fluid img-parallax-overflow qb-icon-aliados" style="width: 161px; height:142px;">
+						</a>
+			    </div>
+			  </div>
+			  <div class="row justify-content-center mt-2 mb-4">
+					<div class="col-6 col-sm-6 col-md-3 text-center">
+						<a href="https://www.nexxuscapital.com/es/" target="_blank">
+							<img src="images/aliados-nexxus.png" class="img-fluid img-parallax-overflow qb-icon-aliados" style="width: 216px; height:71px;">
+						</a>
+			    </div>
+					<div class="col-6 col-sm-6 col-md-3 text-center">
+						<a href="https://www.intercam.com.mx/" target="_blank">
+							<img src="images/aliados-intercam.png" class="img-fluid img-parallax-overflow qb-icon-aliados" style="width: 303px; height:57px;">
+						</a>
+			    </div>
+					<div class="col-6 col-sm-6 col-md-3 text-center">
+						<a href="https://bonassi.mx/" target="_blank">
+							<img src="images/aliados-bonassi.png" class="img-fluid img-parallax-overflow qb-icon-aliados" style="width: 287px; height:73px;">
+						</a>
+			    </div>
+			  </div>
+			  <div class="row justify-content-center mt-2 mb-4">
+					<div class="col-6 col-sm-6 col-md-3 text-center">
+						<a href="https://www.deepseaguardians.org/" target="_blank">
+							<img src="images/aliados-deep.png" class="img-fluid img-parallax-overflow qb-icon-aliados" style="width: 178px; height:126px;">
+						</a>
+			    </div>
+					<div class="col-6 col-sm-6 col-md-3 text-center">
+						<a href="https://www.sharkresearchmexico.com/" target="_blank">
+							<img src="images/aliados-shark.png" class="img-fluid img-parallax-overflow qb-icon-aliados" style="width: 267px; height:129px;">
+						</a>
+			    </div>
+					<div class="col-6 col-sm-6 col-md-3 text-center">
+						<a href="https://newatlantis.io/" target="_blank">
+							<img src="images/aliados-newAtlantis.png" class="img-fluid img-parallax-overflow qb-icon-aliados" style="width: 324px; height:102px;">
+						</a>
+			    </div>
+			  </div>
+	    </section>
+    @endif
+    	
 @endsection

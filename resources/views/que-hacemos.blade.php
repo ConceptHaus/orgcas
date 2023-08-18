@@ -14,7 +14,7 @@
 	}
 
   .nav-que-buscamos .qb-title-nav{
-  	font-size: 24px !important;
+  	font-size: 22px !important;
   }
 
   .container-text-shark, .container-text-cerralvo{
@@ -46,8 +46,8 @@
       <div class="hero-section-background-container">
         <img src="{{ URL::to('/') }}/images/backgraound-map.png" alt="rocks_16" style="max-width: 100%;height: auto;position: absolute;left: 0px;">
       </div>
-      <div class="row text-center">
-        <div class="col p-0">
+      <div class="row text-center" style="margin-right: 0px;">
+        <div class="col">
             <img src="{{ URL::to('/') }}/images/que-hacemos-map.png" alt="orgcas" class="img-map section-img hero-section-jobbies-3 img-parallax-overflow wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp; top: -60px; max-width: 914px; max-height: 914px">
         </div>
       </div>
@@ -83,7 +83,7 @@
 					<p class="text-our-focus p-4">
 						Dicen que el mar lo cura todo y seguramente cualquier persona que haya estado en sus aguas lo puede garantizar.<span class="text-our-focus-color"> Pero un océano sobreexplotado afecta el bienestar de todo ser vivo en la Tierra.</span> No es un secreto que hoy los océanos están en riesgo y con él nuestra existencia también.
 					</p>
-					<p class="text-our-focus-2">
+					<p class="text-our-focus-2 px-4">
 						En <span class="text-our-focus-bold">ORGCAS</span> queremos mirar de frente las amenazas que afectan la salud de los mares y reconocernos en esas heridas para así crear programas de cambio que den solución a problemáticas ambientales.
 					</p>
 				</div>
@@ -94,7 +94,7 @@
 		</div>
 	</section>
     <section id="what-looking" class="container-lg">
-    	<div class="row" style="transform: translate3d(0px, 0px, 0px); padding: 85px 0;">
+    	<div class="row qb-content-title" style="transform: translate3d(0px, 0px, 0px); padding: 85px 0;">
     		<div class="col-md-12 text-center wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInRight;">
     			<h1 class="qb-title">¿Qué buscamos?</h1>
     		</div>
@@ -133,8 +133,8 @@
 			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
 			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
 			  </div>
-			  <div class="carousel-inner" style="height: auto;">
-			    <div class="carousel-item h-100 active">
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
 					<div class="card text-center p-4 qb-card h-100 mx-auto">
 						<img src="{{ URL::to('/') }}/images/qb-img1-desc.png" class="card-img-top qb-card-img mx-auto" alt="Fomentamos la participación social">
 						<div class="card-body">
@@ -142,7 +142,7 @@
 						</div>
 					</div>
 			    </div>
-			    <div class="carousel-item h-100">
+			    <div class="carousel-item">
 					<div class="card text-center p-4 qb-card h-100 mx-auto">
 						<img src="{{ URL::to('/') }}/images/qb-img2-desc.png" class="card-img-top qb-card-img mx-auto" alt="...">
 						<div class="card-body">
@@ -150,7 +150,7 @@
 						</div>
 					</div>
 			    </div>
-			    <div class="carousel-item h-100">
+			    <div class="carousel-item">
 					<div class="card text-center p-4 qb-card h-100 mx-auto">
 						<img src="{{ URL::to('/') }}/images/qb-img3-desc.png" class="card-img-top qb-card-img mx-auto" alt="...">
 						<div class="card-body">
@@ -234,6 +234,73 @@
 				        							La ciencia nos ayuda a través de datos a conocer mejor el mar, sus necesidades y amenazas. Ayuda a crear evidencia a través de la investigación para proveer soluciones para la conservación de sus ecosistemas.<br>
 				        							<span class="subtext-science">Buscamos que la ciencia sea de todos y para todos.</span>
 				        						</p>
+
+														<div class="content-objetivo-1">
+															<h3 class="title-science-2">
+																Objetivos
+															</h3>
+															<p class="text-science-2">
+																<ul class="text-science-2">
+																	<li>Elaborar programas de monitoreo que contengan indicadores ambientales y biológicos que permitan evaluar las acciones de manejo.</li>
+																	<li>Fomentar la elaboración de programas de investigación científica a partir de la colaboración con instituciones académicas, centros de investigación y ciudadanos.</li>
+																	<li>Promover la ciencia ciudadana.</li>
+																</ul>
+															</p>
+														</div>
+
+				        					</div>
+
+				        					<div class="col-12 col-sm-12 col-md-6 d-flex justify-content-center">
+													  <style type="text/css">
+													  	#carouselScience{
+													  		max-width: 437px;
+													  	}
+													  </style>
+				        						<div id="carouselScience" class="carousel slide" data-bs-ride="carousel">
+														  <div class="carousel-indicators">
+														    <button type="button" data-bs-target="#carouselScience" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+														    <button type="button" data-bs-target="#carouselScience" data-bs-slide-to="1" aria-label="Slide 2"></button>
+														    <button type="button" data-bs-target="#carouselScience" data-bs-slide-to="2" aria-label="Slide 3"></button>
+														    <button type="button" data-bs-target="#carouselScience" data-bs-slide-to="3" aria-label="Slide 4"></button>
+														    <button type="button" data-bs-target="#carouselScience" data-bs-slide-to="4" aria-label="Slide 5"></button>
+														    <button type="button" data-bs-target="#carouselScience" data-bs-slide-to="5" aria-label="Slide 6"></button>
+														    <button type="button" data-bs-target="#carouselScience" data-bs-slide-to="6" aria-label="Slide 7"></button>
+														  </div>
+														  <div class="carousel-inner">
+														    <div class="carousel-item active">
+														      <img src="{{ URL::to('/') }}/images/slide-science-1.png" class="d-block w-100" alt="...">
+														    </div>
+														    <div class="carousel-item">
+														      <img src="{{ URL::to('/') }}/images/slide-science-2.png" class="d-block w-100" alt="...">
+														    </div>
+														    <div class="carousel-item">
+														      <img src="{{ URL::to('/') }}/images/slide-science-3.png" class="d-block w-100" alt="...">
+														    </div>
+														    <div class="carousel-item">
+														      <img src="{{ URL::to('/') }}/images/slide-science-4.png" class="d-block w-100" alt="...">
+														    </div>
+														    <div class="carousel-item">
+														      <img src="{{ URL::to('/') }}/images/slide-science-5.png" class="d-block w-100" alt="...">
+														    </div>
+														    <div class="carousel-item">
+														      <img src="{{ URL::to('/') }}/images/slide-science-6.png" class="d-block w-100" alt="...">
+														    </div>
+														    <div class="carousel-item">
+														      <img src="{{ URL::to('/') }}/images/slide-science-7.png" class="d-block w-100" alt="...">
+														    </div>
+														  </div>
+														  <button class="carousel-control-prev" type="button" data-bs-target="#carouselScience" data-bs-slide="prev">
+														    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+														    <span class="visually-hidden">Previous</span>
+														  </button>
+														  <button class="carousel-control-next" type="button" data-bs-target="#carouselScience" data-bs-slide="next">
+														    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+														    <span class="visually-hidden">Next</span>
+														  </button>
+														</div>
+				        					</div>
+
+				        					<div class="col-12 col-sm-12 col-md-6 content-objetivo-2">
 				        						<h3 class="title-science-2">
 				        							Objetivos
 				        						</h3>
@@ -245,55 +312,7 @@
 				        							</ul>
 				        						</p>
 				        					</div>
-				        					<div class="col-12 col-sm-12 col-md-6 d-flex justify-content-center">
-													  <style type="text/css">
-													  	#carouselScience{
-													  		max-width: 437px;
-													  	}
-													  </style>
-				        						<div id="carouselScience" class="carousel slide" data-bs-ride="carousel">
-													  <div class="carousel-indicators">
-													    <button type="button" data-bs-target="#carouselScience" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-													    <button type="button" data-bs-target="#carouselScience" data-bs-slide-to="1" aria-label="Slide 2"></button>
-													    <button type="button" data-bs-target="#carouselScience" data-bs-slide-to="2" aria-label="Slide 3"></button>
-													    <button type="button" data-bs-target="#carouselScience" data-bs-slide-to="3" aria-label="Slide 4"></button>
-													    <button type="button" data-bs-target="#carouselScience" data-bs-slide-to="4" aria-label="Slide 5"></button>
-													    <button type="button" data-bs-target="#carouselScience" data-bs-slide-to="5" aria-label="Slide 6"></button>
-													    <button type="button" data-bs-target="#carouselScience" data-bs-slide-to="6" aria-label="Slide 7"></button>
-													  </div>
-													  <div class="carousel-inner">
-													    <div class="carousel-item active">
-													      <img src="{{ URL::to('/') }}/images/slide-science-1.png" class="d-block w-100" alt="...">
-													    </div>
-													    <div class="carousel-item">
-													      <img src="{{ URL::to('/') }}/images/slide-science-2.png" class="d-block w-100" alt="...">
-													    </div>
-													    <div class="carousel-item">
-													      <img src="{{ URL::to('/') }}/images/slide-science-3.png" class="d-block w-100" alt="...">
-													    </div>
-													    <div class="carousel-item">
-													      <img src="{{ URL::to('/') }}/images/slide-science-4.png" class="d-block w-100" alt="...">
-													    </div>
-													    <div class="carousel-item">
-													      <img src="{{ URL::to('/') }}/images/slide-science-5.png" class="d-block w-100" alt="...">
-													    </div>
-													    <div class="carousel-item">
-													      <img src="{{ URL::to('/') }}/images/slide-science-6.png" class="d-block w-100" alt="...">
-													    </div>
-													    <div class="carousel-item">
-													      <img src="{{ URL::to('/') }}/images/slide-science-7.png" class="d-block w-100" alt="...">
-													    </div>
-													  </div>
-													  <button class="carousel-control-prev" type="button" data-bs-target="#carouselScience" data-bs-slide="prev">
-													    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-													    <span class="visually-hidden">Previous</span>
-													  </button>
-													  <button class="carousel-control-next" type="button" data-bs-target="#carouselScience" data-bs-slide="next">
-													    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-													    <span class="visually-hidden">Next</span>
-													  </button>
-													</div>
-				        					</div>
+
 				        				</div>
 				        			</div>
 				        		</div>
@@ -310,6 +329,65 @@
 				        							Reconocemos el poder del intercambio del conocimiento, y a la educación ambiental como herramientas para la recuperación de saberes y un proceso continuo de aprendizaje para transformar los modos en los que habitamos el mundo. <br>
 				        							<span class="subtext-education">El mar necesita gente capacitada para combatir sus amenazas de la manera más eficaz.</span>
 				        						</p>
+														<div class="content-objetivo-1">
+					        						<h3 class="title-education-2">
+					        							Objetivos
+					        						</h3>
+					        						<p class="text-education-2">
+					        							<ul class="text-education-2">
+					        								<li>Establecer una relación, entre la sensibilización por el ambiente y la adquisición de conocimientos a través del método activo, dialogal y participante.</li>
+					        								<li>Promover la valoración de la organización social en pro del ambiente, el rescate de valores socio ambientales y la autoestima social.</li>
+					        								<li>Construir a través de la experiencia y otros saberes la complejidad de los problemas ambientales, desarrollando el sentido crítico y las aptitudes de las personas para resolver estos problemas.</li>
+					        							</ul>
+					        						</p>
+					        					</div>
+				        					</div>
+				        					<div class="col-12 col-sm-12 col-md-6">
+				        						<div id="carouselEducation" class="carousel slide" data-bs-ride="carousel">
+														  <div class="carousel-indicators">
+														    <button type="button" data-bs-target="#carouselEducation" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+														    <button type="button" data-bs-target="#carouselEducation" data-bs-slide-to="1" aria-label="Slide 2"></button>
+														    <button type="button" data-bs-target="#carouselEducation" data-bs-slide-to="2" aria-label="Slide 3"></button>
+														    <button type="button" data-bs-target="#carouselEducation" data-bs-slide-to="3" aria-label="Slide 4"></button>
+														    <button type="button" data-bs-target="#carouselEducation" data-bs-slide-to="4" aria-label="Slide 5"></button>
+														    <button type="button" data-bs-target="#carouselEducation" data-bs-slide-to="5" aria-label="Slide 6"></button>
+														    <button type="button" data-bs-target="#carouselEducation" data-bs-slide-to="6" aria-label="Slide 7"></button>
+														  </div>
+														  <div class="carousel-inner">
+														    <div class="carousel-item active">
+														      <img src="{{ URL::to('/') }}/images/slide-education-1.png" class="d-block w-100" alt="...">
+														    </div>
+														    <div class="carousel-item">
+														      <img src="{{ URL::to('/') }}/images/slide-education-2.png" class="d-block w-100" alt="...">
+														    </div>
+														    <div class="carousel-item">
+														      <img src="{{ URL::to('/') }}/images/slide-education-3.png" class="d-block w-100" alt="...">
+														    </div>
+														    <div class="carousel-item">
+														      <img src="{{ URL::to('/') }}/images/slide-education-4.png" class="d-block w-100" alt="...">
+														    </div>
+														    <div class="carousel-item">
+														      <img src="{{ URL::to('/') }}/images/slide-education-5.png" class="d-block w-100" alt="...">
+														    </div>
+														    <div class="carousel-item">
+														      <img src="{{ URL::to('/') }}/images/slide-education-6.png" class="d-block w-100" alt="...">
+														    </div>
+														    <div class="carousel-item">
+														      <img src="{{ URL::to('/') }}/images/slide-education-7.png" class="d-block w-100" alt="...">
+														    </div>
+														  </div>
+															  <button class="carousel-control-prev" type="button" data-bs-target="#carouselEducation" data-bs-slide="prev">
+															    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+															    <span class="visually-hidden">Previous</span>
+															  </button>
+															  <button class="carousel-control-next" type="button" data-bs-target="#carouselEducation" data-bs-slide="next">
+															    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+															    <span class="visually-hidden">Next</span>
+															  </button>
+															</div>
+					        					</div>
+					        				</div>
+				        					<div class="col-12 col-sm-12 col-md-6 content-objetivo-2">
 				        						<h3 class="title-education-2">
 				        							Objetivos
 				        						</h3>
@@ -321,51 +399,6 @@
 				        							</ul>
 				        						</p>
 				        					</div>
-				        					<div class="col-12 col-sm-12 col-md-6">
-				        						<div id="carouselEducation" class="carousel slide" data-bs-ride="carousel">
-													  <div class="carousel-indicators">
-													    <button type="button" data-bs-target="#carouselEducation" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-													    <button type="button" data-bs-target="#carouselEducation" data-bs-slide-to="1" aria-label="Slide 2"></button>
-													    <button type="button" data-bs-target="#carouselEducation" data-bs-slide-to="2" aria-label="Slide 3"></button>
-													    <button type="button" data-bs-target="#carouselEducation" data-bs-slide-to="3" aria-label="Slide 4"></button>
-													    <button type="button" data-bs-target="#carouselEducation" data-bs-slide-to="4" aria-label="Slide 5"></button>
-													    <button type="button" data-bs-target="#carouselEducation" data-bs-slide-to="5" aria-label="Slide 6"></button>
-													    <button type="button" data-bs-target="#carouselEducation" data-bs-slide-to="6" aria-label="Slide 7"></button>
-													  </div>
-													  <div class="carousel-inner">
-													    <div class="carousel-item active">
-													      <img src="{{ URL::to('/') }}/images/slide-education-1.png" class="d-block w-100" alt="...">
-													    </div>
-													    <div class="carousel-item">
-													      <img src="{{ URL::to('/') }}/images/slide-education-2.png" class="d-block w-100" alt="...">
-													    </div>
-													    <div class="carousel-item">
-													      <img src="{{ URL::to('/') }}/images/slide-education-3.png" class="d-block w-100" alt="...">
-													    </div>
-													    <div class="carousel-item">
-													      <img src="{{ URL::to('/') }}/images/slide-education-4.png" class="d-block w-100" alt="...">
-													    </div>
-													    <div class="carousel-item">
-													      <img src="{{ URL::to('/') }}/images/slide-education-5.png" class="d-block w-100" alt="...">
-													    </div>
-													    <div class="carousel-item">
-													      <img src="{{ URL::to('/') }}/images/slide-education-6.png" class="d-block w-100" alt="...">
-													    </div>
-													    <div class="carousel-item">
-													      <img src="{{ URL::to('/') }}/images/slide-education-7.png" class="d-block w-100" alt="...">
-													    </div>
-													  </div>
-													  <button class="carousel-control-prev" type="button" data-bs-target="#carouselEducation" data-bs-slide="prev">
-													    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-													    <span class="visually-hidden">Previous</span>
-													  </button>
-													  <button class="carousel-control-next" type="button" data-bs-target="#carouselEducation" data-bs-slide="next">
-													    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-													    <span class="visually-hidden">Next</span>
-													  </button>
-													</div>
-					        					</div>
-					        				</div>
 					        			</div>
 					        		</div>
 					        	</div>
@@ -381,66 +414,82 @@
 					        							Promovemos el turismo como herramienta para acercar a más gente a la naturaleza, y así poder replantear nuestra relación y fomentar una sana coexistencia con ella. Diseñamos experiencias en la naturaleza que enseñan a cuidar el ambiente, respetando la cultura y biodiversidad del área.<br>
 					        							<span class="subtext-tourism">Impulsamos el turismo como una actividad económica alterna a la pesca de especies colapsadas.</span>
 					        						</p>
-					        						<h3 class="title-tourism-2">
-					        							Objetivos
-					        						</h3>
-					        						<p class="text-tourism-2">
-					        							<ul class="text-tourism-2">
-					        								<li>Construir un turismo con propósito que acerque a más personas a valorar y cuidar los ecosistemas de los que hacemos parte y restaurar la relación con la naturaleza.</li>
-					        								<li>Aportar a la regularización de las áreas naturales protegidas, junto a las comunidades locales, para mitigar el impacto del turismo masivo.</li>
-					        								<li>Incentivar procesos de cambio en las comunidades para que fortalezcan su autonomía económica y territorial.</li>
-					        								<li>Implementar un modelo de turismo que incluya  procesos pedagógicos y científicos para impulsar la participación ciudadana.</li>
-					        							</ul>
-					        						</p>
+															<div class="content-objetivo-1">
+						        						<h3 class="title-tourism-2">
+						        							Objetivos
+						        						</h3>
+						        						<p class="text-tourism-2">
+						        							<ul class="text-tourism-2">
+						        								<li>Construir un turismo con propósito que acerque a más personas a valorar y cuidar los ecosistemas de los que hacemos parte y restaurar la relación con la naturaleza.</li>
+						        								<li>Aportar a la regularización de las áreas naturales protegidas, junto a las comunidades locales, para mitigar el impacto del turismo masivo.</li>
+						        								<li>Incentivar procesos de cambio en las comunidades para que fortalezcan su autonomía económica y territorial.</li>
+						        								<li>Implementar un modelo de turismo que incluya  procesos pedagógicos y científicos para impulsar la participación ciudadana.</li>
+						        							</ul>
+						        						</p>
+						        					</div>
 					        					</div>
-					        					<div class="col-12 col-sm-12 col-md-6">
-					        						<div id="carouselTourism" class="carousel slide" data-bs-ride="carousel">
-														  <div class="carousel-indicators">
-														    <button type="button" data-bs-target="#carouselTourism" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-														    <button type="button" data-bs-target="#carouselTourism" data-bs-slide-to="1" aria-label="Slide 2"></button>
-														    <button type="button" data-bs-target="#carouselTourism" data-bs-slide-to="2" aria-label="Slide 3"></button>
-														    <button type="button" data-bs-target="#carouselTourism" data-bs-slide-to="3" aria-label="Slide 4"></button>
-														    <button type="button" data-bs-target="#carouselTourism" data-bs-slide-to="4" aria-label="Slide 5"></button>
-														    <button type="button" data-bs-target="#carouselTourism" data-bs-slide-to="5" aria-label="Slide 6"></button>
-														    <button type="button" data-bs-target="#carouselTourism" data-bs-slide-to="6" aria-label="Slide 7"></button>
-														    <button type="button" data-bs-target="#carouselTourism" data-bs-slide-to="7" aria-label="Slide 8"></button>
-														  </div>
-														  <div class="carousel-inner">
-														    <div class="carousel-item active">
-														      <img src="{{ URL::to('/') }}/images/slide_tourism_1.png" class="d-block w-100" alt="...">
-														    </div>
-														    <div class="carousel-item">
-														      <img src="{{ URL::to('/') }}/images/slide_tourism_2.png" class="d-block w-100" alt="...">
-														    </div>
-														    <div class="carousel-item">
-														      <img src="{{ URL::to('/') }}/images/slide_tourism_3.png" class="d-block w-100" alt="...">
-														    </div>
-														    <div class="carousel-item">
-														      <img src="{{ URL::to('/') }}/images/slide_tourism_4.png" class="d-block w-100" alt="...">
-														    </div>
-														    <div class="carousel-item">
-														      <img src="{{ URL::to('/') }}/images/slide_tourism_5.png" class="d-block w-100" alt="...">
-														    </div>
-														    <div class="carousel-item">
-														      <img src="{{ URL::to('/') }}/images/slide_tourism_6.png" class="d-block w-100" alt="...">
-														    </div>
-														    <div class="carousel-item">
-														      <img src="{{ URL::to('/') }}/images/slide_tourism_7.png" class="d-block w-100" alt="...">
-														    </div>
-														    <div class="carousel-item">
-														      <img src="{{ URL::to('/') }}/images/slide_tourism_8.png" class="d-block w-100" alt="...">
-														    </div>
-														  </div>
-														  <button class="carousel-control-prev" type="button" data-bs-target="#carouselTourism" data-bs-slide="prev">
-														    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-														    <span class="visually-hidden">Previous</span>
-														  </button>
-														  <button class="carousel-control-next" type="button" data-bs-target="#carouselTourism" data-bs-slide="next">
-														    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-														    <span class="visually-hidden">Next</span>
-														  </button>
-														</div>
-					        					</div>
+					        											        					<div class="col-12 col-sm-12 col-md-6">
+						        						<div id="carouselTourism" class="carousel slide" data-bs-ride="carousel">
+																  <div class="carousel-indicators">
+																    <button type="button" data-bs-target="#carouselTourism" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+																    <button type="button" data-bs-target="#carouselTourism" data-bs-slide-to="1" aria-label="Slide 2"></button>
+																    <button type="button" data-bs-target="#carouselTourism" data-bs-slide-to="2" aria-label="Slide 3"></button>
+																    <button type="button" data-bs-target="#carouselTourism" data-bs-slide-to="3" aria-label="Slide 4"></button>
+																    <button type="button" data-bs-target="#carouselTourism" data-bs-slide-to="4" aria-label="Slide 5"></button>
+																    <button type="button" data-bs-target="#carouselTourism" data-bs-slide-to="5" aria-label="Slide 6"></button>
+																    <button type="button" data-bs-target="#carouselTourism" data-bs-slide-to="6" aria-label="Slide 7"></button>
+																    <button type="button" data-bs-target="#carouselTourism" data-bs-slide-to="7" aria-label="Slide 8"></button>
+																  </div>
+																  <div class="carousel-inner">
+																    <div class="carousel-item active">
+																      <img src="{{ URL::to('/') }}/images/slide_tourism_1.png" class="d-block w-100" alt="...">
+																    </div>
+																    <div class="carousel-item">
+																      <img src="{{ URL::to('/') }}/images/slide_tourism_2.png" class="d-block w-100" alt="...">
+																    </div>
+																    <div class="carousel-item">
+																      <img src="{{ URL::to('/') }}/images/slide_tourism_3.png" class="d-block w-100" alt="...">
+																    </div>
+																    <div class="carousel-item">
+																      <img src="{{ URL::to('/') }}/images/slide_tourism_4.png" class="d-block w-100" alt="...">
+																    </div>
+																    <div class="carousel-item">
+																      <img src="{{ URL::to('/') }}/images/slide_tourism_5.png" class="d-block w-100" alt="...">
+																    </div>
+																    <div class="carousel-item">
+																      <img src="{{ URL::to('/') }}/images/slide_tourism_6.png" class="d-block w-100" alt="...">
+																    </div>
+																    <div class="carousel-item">
+																      <img src="{{ URL::to('/') }}/images/slide_tourism_7.png" class="d-block w-100" alt="...">
+																    </div>
+																    <div class="carousel-item">
+																      <img src="{{ URL::to('/') }}/images/slide_tourism_8.png" class="d-block w-100" alt="...">
+																    </div>
+																  </div>
+																  <button class="carousel-control-prev" type="button" data-bs-target="#carouselTourism" data-bs-slide="prev">
+																    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+																    <span class="visually-hidden">Previous</span>
+																  </button>
+																  <button class="carousel-control-next" type="button" data-bs-target="#carouselTourism" data-bs-slide="next">
+																    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+																    <span class="visually-hidden">Next</span>
+																  </button>
+																</div>
+						        					</div>
+															<div class="col-12 col-sm-12 col-md-6 content-objetivo-2">
+						        						<h3 class="title-tourism-2">
+						        							Objetivos
+						        						</h3>
+						        						<p class="text-tourism-2">
+						        							<ul class="text-tourism-2">
+						        								<li>Construir un turismo con propósito que acerque a más personas a valorar y cuidar los ecosistemas de los que hacemos parte y restaurar la relación con la naturaleza.</li>
+						        								<li>Aportar a la regularización de las áreas naturales protegidas, junto a las comunidades locales, para mitigar el impacto del turismo masivo.</li>
+						        								<li>Incentivar procesos de cambio en las comunidades para que fortalezcan su autonomía económica y territorial.</li>
+						        								<li>Implementar un modelo de turismo que incluya  procesos pedagógicos y científicos para impulsar la participación ciudadana.</li>
+						        							</ul>
+						        						</p>
+						        					</div>
+
 					        				</div>
 					        			</div>
 					        		</div>
@@ -457,45 +506,59 @@
 					        							La comunicación es transversal a todos nuestros componentes. Con ella compartimos, promovemos y transmitimos la importancia de nuestros mares y que su cuidado 
 					        							<span class="subtext-comunication">es un estilo de vida al alcance de todos, fundamental para la subsistencia de todos los seres del planeta, humanos y no humanos.</span>
 					        						</p>
-					        						<h3 class="title-comunication-2">
-					        							Objetivos
-					        						</h3>
-					        						<p class="text-comunication-2">
-					        							<ul class="text-comunication-2">
-					        								<li>Crear y compartir contenido de escritura, audio, video y fotografía  para resaltar la belleza natural y promover su protección y respeto.</li>
-					        								<li>Construir colectivamente nuevas narrativas del cuidado del planeta que incluya saberes locales, experiencias personales e investigación científica.</li>
-					        								<li>Acercar a más personas a entender las necesidades y los beneficios de hacer cambios estructurales en el estilo de vida para fomentar la preservación de los mares.</li>
-					        							</ul>
-					        						</p>
+					        						<div class="content-objetivo-1">
+						        						<h3 class="title-comunication-2">
+						        							Objetivos
+						        						</h3>
+						        						<p class="text-comunication-2">
+						        							<ul class="text-comunication-2">
+						        								<li>Crear y compartir contenido de escritura, audio, video y fotografía  para resaltar la belleza natural y promover su protección y respeto.</li>
+						        								<li>Construir colectivamente nuevas narrativas del cuidado del planeta que incluya saberes locales, experiencias personales e investigación científica.</li>
+						        								<li>Acercar a más personas a entender las necesidades y los beneficios de hacer cambios estructurales en el estilo de vida para fomentar la preservación de los mares.</li>
+						        							</ul>
+						        						</p>
+					        						</div>
 					        					</div>
 					        					<div class="col-12 col-sm-12 col-md-6">
 					        						<div id="carouselComunication" class="carousel slide" data-bs-ride="carousel">
-														<div class="carousel-indicators">
-														    <button type="button" data-bs-target="#carouselComunication" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-														    <button type="button" data-bs-target="#carouselComunication" data-bs-slide-to="1" aria-label="Slide 2"></button>
-														    <button type="button" data-bs-target="#carouselComunication" data-bs-slide-to="2" aria-label="Slide 3"></button>
-														</div>
-														<div class="carousel-inner">
-														    <div class="carousel-item active">
-														      <img src="{{ URL::to('/') }}/images/slide_comunication_1.png" class="d-block w-100" alt="...">
-														    </div>
-														    <div class="carousel-item">
-														      <img src="{{ URL::to('/') }}/images/slide_comunication_2.png" class="d-block w-100" alt="...">
-														    </div>
-														    <div class="carousel-item">
-														      <img src="{{ URL::to('/') }}/images/slide_comunication_3.png" class="d-block w-100" alt="...">
-														    </div>
-														</div>
-														  <button class="carousel-control-prev" type="button" data-bs-target="#carouselComunication" data-bs-slide="prev">
-														    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-														    <span class="visually-hidden">Previous</span>
-														  </button>
-														  <button class="carousel-control-next" type="button" data-bs-target="#carouselComunication" data-bs-slide="next">
-														    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-														    <span class="visually-hidden">Next</span>
-														  </button>
-													</div>
+																	<div class="carousel-indicators">
+																	    <button type="button" data-bs-target="#carouselComunication" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+																	    <button type="button" data-bs-target="#carouselComunication" data-bs-slide-to="1" aria-label="Slide 2"></button>
+																	    <button type="button" data-bs-target="#carouselComunication" data-bs-slide-to="2" aria-label="Slide 3"></button>
+																	</div>
+																	<div class="carousel-inner">
+																	    <div class="carousel-item active">
+																	      <img src="{{ URL::to('/') }}/images/slide_comunication_1.png" class="d-block w-100" alt="...">
+																	    </div>
+																	    <div class="carousel-item">
+																	      <img src="{{ URL::to('/') }}/images/slide_comunication_2.png" class="d-block w-100" alt="...">
+																	    </div>
+																	    <div class="carousel-item">
+																	      <img src="{{ URL::to('/') }}/images/slide_comunication_3.png" class="d-block w-100" alt="...">
+																	    </div>
+																	</div>
+																  <button class="carousel-control-prev" type="button" data-bs-target="#carouselComunication" data-bs-slide="prev">
+																    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+																    <span class="visually-hidden">Previous</span>
+																  </button>
+																  <button class="carousel-control-next" type="button" data-bs-target="#carouselComunication" data-bs-slide="next">
+																    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+																    <span class="visually-hidden">Next</span>
+																  </button>
+															</div>
 					        					</div>
+					        						<div class="col-12 col-sm-12 col-md-6 content-objetivo-2">
+						        						<h3 class="title-comunication-2">
+						        							Objetivos
+						        						</h3>
+						        						<p class="text-comunication-2">
+						        							<ul class="text-comunication-2">
+						        								<li>Crear y compartir contenido de escritura, audio, video y fotografía  para resaltar la belleza natural y promover su protección y respeto.</li>
+						        								<li>Construir colectivamente nuevas narrativas del cuidado del planeta que incluya saberes locales, experiencias personales e investigación científica.</li>
+						        								<li>Acercar a más personas a entender las necesidades y los beneficios de hacer cambios estructurales en el estilo de vida para fomentar la preservación de los mares.</li>
+						        							</ul>
+						        						</p>
+					        						</div>
 					        				</div>
 					        			</div>
 					        		</div>
@@ -518,12 +581,17 @@
 	    			<p class="text-ours-projects py-4">
 	    				Nuestra principal área de trabajo es la Isla Cerralvo y sus alrededores. Ahí hacemos las salidas al mar para investigar y conocer toda la biodiversidad de la zona.  Trabajamos de la mano de las comunidades locales, que con su experiencia y saberes tradicionales nos apoyan a descubrir el lugar y a entender las necesidades de todo el ecosistema.
 	    			</p>
-	    			<p class="text-ours-projects py-4">
+	    			<p class="text-ours-projects py-4 content-objetivo-1">
 	    				Buscamos que nuestros proyectos de conservación tengan metodologías de trabajo que sean replicables y puedan adaptarse a otras regiones de Baja California Sur y del mundo.
 	    			</p>
 	    		</div>
 	    		<div class="col-12 col-sm-12 col-md-6 container-img-isla text-center">
 	    			<img src="{{ URL::to('/') }}/images/isla_cerralvo.png" alt="Isla Cerralvo" class="img-parallax-overflow img-fluid" style="max-width:579px; max-height:688px;">
+	    		</div>
+	    		<div class="col-12 col-sm-12 col-md-6 content-objetivo-2">
+	    			<p class="text-ours-projects py-4">
+	    				Buscamos que nuestros proyectos de conservación tengan metodologías de trabajo que sean replicables y puedan adaptarse a otras regiones de Baja California Sur y del mundo.
+	    			</p>
 	    		</div>
 	    	</div>    		
     	</div>

@@ -13,14 +13,14 @@
                           <li class="mb-2"><a href="mailto:orgcasmx@gmail.com" class="text-white">orgcasmx@gmail.com</a></li>
                           <li class="mb-2">Tel.:</li>
                           <li class="mb-2"><a href="tel:5566778899" class="text-white">55 6677 8899</a></li>
-                          <li class="mb-2">Consulta nuestro <a href="#" class="text-white">Aviso de Privacidad</a></li>
+                          <li class="mb-2 li-display-grid">Consulta nuestro <a href="#" class="text-white">Aviso de Privacidad</a></li>
                         </ul>
                     </div>
                     <div class="col-12 col-md-12 col-lg-4 d-flex align-items-center justify-content-center mb-4 order-1 order-sm-1 order-md-1 order-lg-2">
                         <img src="{{ URL::to('/') }}/images/logo_footer.png" alt="" style="width:149px; height: 85px;">
                     </div>
                     <div class="col-6 col-md-6 col-lg-3 order-3 order-sm-3 order-md-3 order-lg-3" style="text-align: left !important;">
-                        <div class="row">
+                        <div class="row justify-content-center text-center">
                             <div class="col-12 col-sm-12 col-md-9 m-0 p-0" style="max-width: 185px !important">
                                 <div class="col-auto social-icons">
                                     <ul class="list-unstyled small text-muted" style="color: #fff !important;">
