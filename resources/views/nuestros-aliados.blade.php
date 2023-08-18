@@ -133,7 +133,7 @@
 										<p class="card-text al-card-dec">
 											Jafra: Nos donará parte de sus ganancias para operaciones vitales para ORGCAS
 										</p>
-										<a href="https://www.jafra.com.mx/" class="card-btn">Conocer más</a>
+										<a href="https://www.jafra.com.mx/" target="_blank" class="card-btn">Conocer más</a>
 									</div>
 								</div>
 							</div>
@@ -145,7 +145,7 @@
 										<p class="card-text al-card-dec">
 											Nexxus: Nos apoyó con un motor para la segunda embarcación de nuestro proyecto
 										</p>
-										<a href="https://www.nexxuscapital.com/es/" class="card-btn">Conocer más</a>
+										<a href="https://www.nexxuscapital.com/es/" target="_blank" class="card-btn">Conocer más</a>
 									</div>
 								</div>
 							</div>
@@ -157,7 +157,7 @@
 										<p class="card-text al-card-dec">
 											Bonassi: Nos donaron mucho de su increíble equipo para poder avanzar en el proyecto
 										</p>
-										<a href="https://bonassi.mx/" class="card-btn">Conocer más</a>
+										<a href="https://bonassi.mx/" target="_blank" class="card-btn">Conocer más</a>
 									</div>
 								</div>
 							</div>
@@ -169,7 +169,7 @@
 										<p class="card-text al-card-dec">
 											Intercam: Creyeron en nuestro proyecto y nos donaron nuestra primera panga la "Tintorera"
 										</p>
-										<a href="https://www.intercam.com.mx/" class="card-btn">Conocer más</a>
+										<a href="https://www.intercam.com.mx/" target="_blank" class="card-btn">Conocer más</a>
 									</div>
 								</div>
 							</div>
@@ -181,7 +181,7 @@
 										<p class="card-text al-card-dec">
 											Beta Diversidad: Nuestra ONG hermana con la que trabajamos mano a mano
 										</p>
-										<a href="https://betadiversidad.org/" class="card-btn">Conocer más</a>
+										<a href="https://betadiversidad.org/" target="_blank" class="card-btn">Conocer más</a>
 									</div>
 								</div>
 							</div>
@@ -193,7 +193,7 @@
 										<p class="card-text al-card-dec">
 											New Atlantis: Nos ayuda con partes vitales de la operación del día a día de ORGCAS
 										</p>
-										<a href="https://newatlantis.io/" class="card-btn">Conocer más</a>
+										<a href="https://newatlantis.io/" target="_blank" class="card-btn">Conocer más</a>
 									</div>
 								</div>
 							</div>
