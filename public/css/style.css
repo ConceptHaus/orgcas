@@ -1347,6 +1347,7 @@ h1.mobile-title {
 
     .nav-item{
         margin-right: 0 !important;
+        padding-bottom: 40px !important;
     }
 
     .text-where-work, .text-map-desc, .text-asks, .text-palpito, .contanct-title-form, .text-our-focus, .text-our-focus-2, .title-where-work{
@@ -1406,6 +1407,14 @@ h1.mobile-title {
 
     .card-text.al-card-dec {
       margin-bottom: 35px;
+    }
+
+    .nav-link{
+        padding: 0 !important;
+    }
+
+    .text-science, .text-education, .text-tourism, .text-comunication {
+      text-align: center;
     }
 } 
 
