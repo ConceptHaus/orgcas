@@ -197,17 +197,16 @@
                     <div class="card p-5 mb-4">
                         <div class="d-flex justify-content-between">
                             <div class="ms-2 c-details">
-                                <h6 class="mb-0 name-item-orgcas">Gador</h6>
-                                <span class="title-item-orgcas">Guía y líder de expediciones</span>
+                                <h6 class="mb-0 name-item-orgcas">Alexa Sadem</h6>
+                                <span class="title-item-orgcas">Gestora de proyectos de filmación, videografa y droner.</span>
                             </div>
                             <img src="{{ URL::to('/') }}/images/orgcas/Gador.png" alt="" style="border-radius: 50%;max-width: 157px;">
                         </div>
                         <div class="mt-3 desc-item-orgcas">
-                                <p class="h6">Nació en España, la primera vez que se puso un equipo de snorkel tenía 3 años y desde entonces no ha salido del agua.
-                                Es oceanógrafa graduada en la Universidad de Las Palmas de Gran Canaria con una licenciatura en Ciencias del Mar. Se mudó a México para cursar un Máster en Manejo de Recursos marinos.
-                                Viaja alrededor del mundo con muchísima gente que la acompaña en sus inmersiones, todo el tiempo trata de compartir su amor por el mar y concientizar que los recursos que nos ofrece son limitados.
-                                Es aventurera y divertida.
-                                A Gador le apasionan todos los tiburones.
+                                <p class="h6">Nació en Veracruz, donde sus padres le fomentaron el amor al océano y el cuidado del planeta. Desde que tiene uso de razón el mar siempre la ha acompañado en la vida, gracias a él encontró su pasión. 
+                                            Estudió Cine y televisión en Australia y en 2019 se mudó a Baja California Sur donde ha trabajado como videografa submarina en diversas compañías. Su sueño es contar historias del mar y la naturaleza y mostrar la importancia de restablecer la relación entre humanos con otros animales.
+                                            Le gusta estar con gente que la motiva, intenta ver el lado positivo de las situaciones.
+                                            Alexa siente una conexión especial con las ballenas jorobadas, especialmente cuando están con sus crías.
                             </p>
                         </div>
                     </div>
