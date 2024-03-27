@@ -200,7 +200,7 @@
                                 <h6 class="mb-0 name-item-orgcas">Alexa Sadem</h6>
                                 <span class="title-item-orgcas">Gestora de proyectos de filmación, videografa y droner.</span>
                             </div>
-                            <img src="{{ URL::to('/') }}/images/orgcas/Gador.png" alt="" style="border-radius: 50%;max-width: 157px;">
+                            <img src="{{ URL::to('/') }}/images/orgcas/Alexa-Sadem.png" alt="" style="border-radius: 50%;max-width: 157px;">
                         </div>
                         <div class="mt-3 desc-item-orgcas">
                                 <p class="h6">Nació en Veracruz, donde sus padres le fomentaron el amor al océano y el cuidado del planeta. Desde que tiene uso de razón el mar siempre la ha acompañado en la vida, gracias a él encontró su pasión. 
