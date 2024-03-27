@@ -219,7 +219,7 @@
                     <div class="card-item mb-4 carousel-item">
                         <div class="card p-5 mb-4">
                             <div class="text-center">
-                                <img src="{{ URL::to('/') }}/images/orgcas/Gador.png" alt="" style="border-radius: 50%;max-width: 137px;max-height: 137px;">
+                                <img src="{{ URL::to('/') }}/images/orgcas/Alexa-Sadem.png" alt="" style="border-radius: 50%;max-width: 137px;max-height: 137px;">
                                 <div class="ms-2 c-details">
                                     <h6 class="mb-0 name-item-orgcas">Alexa Sadem</h6>
                                     <span class="title-item-orgcas">Gestora de proyectos de filmación, videografa y droner.</span>
